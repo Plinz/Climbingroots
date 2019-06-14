@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.xmlbeans:xmlbeans</id>
+<version>3.0.2</version>
+<type>jar</type>
+<name>XmlBeans</name>
+<summary>XmlBeans main jar</summary>
+<website>https://xmlbeans.apache.org/</website>
+<authors>
+<author>
+<name>Cezar Andrei</name>
+</author>
+<author>
+<name>Radu Preotiuc</name>
+</author>
+<author>
+<name>Radu Preotiuc</name>
+</author>
+<author>
+<name>Wing Yew Poon</name>
+</author>
+<author>
+<name>Jacob Danner</name>
+</author>
+<author>
+<name>POI Team</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://svn.apache.org/repos/asf/xmlbeans/</url>
+<connection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/xmlbeans/</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://${maven.username}@svn.apache.org/repos/asf/xmlbeans/</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/secure/BrowseProject.jspa?id=10436</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.apache.xmlbeans</maven.groupid>
+<maven.artifactid>xmlbeans</maven.artifactid>
+</properties>
+</extension>

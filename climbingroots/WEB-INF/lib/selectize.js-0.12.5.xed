@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:selectize.js</id>
+<version>0.12.5</version>
+<type>jar</type>
+<name>selectize.js</name>
+<summary>WebJar for selectize.js</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>Cem Catikkas</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/selectize.js</url>
+<connection>
+<system>git</system>
+<path>https://github.com/webjars/selectize.js.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/selectize.js.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.webjars:bootstrap</id>
+<version>3.2.0-2</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>selectize.js</maven.artifactid>
+</properties>
+</extension>

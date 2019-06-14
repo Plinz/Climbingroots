@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.commons:commons-text</id>
+<version>1.6</version>
+<type>jar</type>
+<name>Apache Commons Text</name>
+<summary>Apache Commons Text is a library focused on algorithms working on strings.</summary>
+<website>http://commons.apache.org/proper/commons-text</website>
+<authors>
+<author>
+<name>Bruno P. Kinoshita</name>
+</author>
+<author>
+<name>Benedikt Ritter</name>
+</author>
+<author>
+<name>Rob Tompkins</name>
+</author>
+<author>
+<name>Gary Gregory</name>
+</author>
+<author>
+<name>Duncan Jones</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://git-wip-us.apache.org/repos/asf?p=commons-text.git</url>
+<connection>
+<system>git</system>
+<path>http://git-wip-us.apache.org/repos/asf/commons-text.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://git-wip-us.apache.org/repos/asf/commons-text.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/TEXT</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.apache.commons:commons-lang3</id>
+<version>3.8.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.junit.jupiter:junit-jupiter-api</id>
+<version>5.3.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.junit.jupiter:junit-jupiter-engine</id>
+<version>5.3.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.junit.jupiter:junit-jupiter-migrationsupport</id>
+<version>5.3.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.junit.jupiter:junit-jupiter-params</id>
+<version>5.3.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.junit.platform:junit-platform-commons</id>
+<version>1.3.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.junit.platform:junit-platform-console</id>
+<version>1.3.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.junit.platform:junit-platform-engine</id>
+<version>1.3.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.junit.platform:junit-platform-launcher</id>
+<version>1.3.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.junit.platform:junit-platform-runner</id>
+<version>1.3.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.junit.platform:junit-platform-suite-api</id>
+<version>1.3.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.junit.platform:junit-platform-surefire-provider</id>
+<version>1.3.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.junit.vintage:junit-vintage-engine</id>
+<version>5.3.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.commons</maven.groupid>
+<maven.artifactid>commons-text</maven.artifactid>
+</properties>
+</extension>

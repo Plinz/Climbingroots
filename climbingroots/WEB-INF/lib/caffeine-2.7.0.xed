@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.ben-manes.caffeine:caffeine</id>
+<version>2.7.0</version>
+<type>jar</type>
+<name>Caffeine cache</name>
+<summary>A high performance caching library for Java 8+</summary>
+<website>https://github.com/ben-manes/caffeine</website>
+<authors>
+<author>
+<name>Ben Manes</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/ben-manes/caffeine</url>
+<connection>
+<system>https</system>
+<path>//ben-manes@github.com/ben-manes/caffeine.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>//github.com/ben-manes/caffeine.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.checkerframework:checker-qual</id>
+<version>2.6.0</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.errorprone:error_prone_annotations</id>
+<version>2.3.3</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.github.ben-manes.caffeine</maven.groupid>
+<maven.artifactid>caffeine</maven.artifactid>
+</properties>
+</extension>

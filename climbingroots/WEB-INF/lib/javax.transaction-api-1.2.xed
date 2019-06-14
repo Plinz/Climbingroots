@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>javax.transaction:javax.transaction-api</id>
+<version>1.2</version>
+<type>jar</type>
+<name>javax.transaction API</name>
+<summary>Project GlassFish Java Transaction API</summary>
+<website>http://jta-spec.java.net</website>
+<authors>
+<author>
+<name>Paul Parkinson</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>CDDL + GPLv2 with classpath exception</name>
+</license>
+</licenses>
+<scm>
+<url>http://java.net/projects/glassfish/sources/svn/show/tags/javax.transaction-api-1.2</url>
+<connection>
+<system>svn</system>
+<path>https://svn.java.net/svn/glassfish~svn/tags/javax.transaction-api-1.2</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.java.net/svn/glassfish~svn/tags/javax.transaction-api-1.2</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://java.net/jira/browse/JTA_SPEC</url>
+</issuemanagement>
+<properties>
+<maven.groupid>javax.transaction</maven.groupid>
+<maven.artifactid>javax.transaction-api</maven.artifactid>
+</properties>
+</extension>

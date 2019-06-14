@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.rrd4j:rrd4j</id>
+<version>3.2</version>
+<type>jar</type>
+<name>RRD4J</name>
+<summary>A high performance data logging and graphing system for time series data.</summary>
+<website>https://github.com/rrd4j/rrd4j/</website>
+<authors>
+<author>
+<name>Sasa Markovic</name>
+</author>
+<author>
+<name>Mathias Bogaert</name>
+</author>
+<author>
+<name>Fabrice Bacchella</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License Version 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/rrd4j/rrd4j/</url>
+<connection>
+<system>git</system>
+<path>https://github.com/rrd4j/rrd4j.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/rrd4j/rrd4j.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>com.sleepycat:je</id>
+<version>5.0.73</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.mongodb:mongo-java-driver</id>
+<version>3.5.0</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.rrd4j</maven.groupid>
+<maven.artifactid>rrd4j</maven.artifactid>
+</properties>
+</extension>

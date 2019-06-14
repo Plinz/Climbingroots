@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.checkerframework:checker-qual</id>
+<version>2.6.0</version>
+<type>jar</type>
+<name>Checker Qual</name>
+<summary>Checker Qual is the set of annotations (qualifiers) and supporting classes
+        used by the Checker Framework to type check Java source code.  Please
+        see artifact:
+        org.checkerframework:checker</summary>
+<website>https://checkerframework.org</website>
+<authors>
+<author>
+<name>Michael Ernst</name>
+<url>https://homes.cs.washington.edu/~mernst/</url>
+</author>
+<author>
+<name>Werner M. Dietl</name>
+</author>
+<author>
+<name>Suzanne Millstein</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/typetools/checker-framework.git</url>
+<connection>
+<system>https</system>
+<path>//github.com/typetools/checker-framework.git</path>
+</connection>
+</scm>
+<properties>
+<maven.groupid>org.checkerframework</maven.groupid>
+<maven.artifactid>checker-qual</maven.artifactid>
+</properties>
+</extension>

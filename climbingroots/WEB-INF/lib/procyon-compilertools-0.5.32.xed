@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.bitbucket.mstrobel:procyon-compilertools</id>
+<version>0.5.32</version>
+<type>jar</type>
+<name>procyon-compilertools</name>
+<summary>Procyon</summary>
+<website>https://bitbucket.org/mstrobel/procyon</website>
+<authors>
+<author>
+<name>Mike Strobel</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://bitbucket.org/mstrobel/procyon</url>
+<connection>
+<system>hg</system>
+<path>https://hg@bitbucket.org/mstrobel/procyon</path>
+</connection>
+<developerconnection>
+<system>hg</system>
+<path>https://mstrobel@bitbucket.org/mstrobel/procyon</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>https://bitbucket.org/mstrobel/procyon/issues</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.bitbucket.mstrobel:procyon-core</id>
+<version>0.5.32</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.bitbucket.mstrobel</maven.groupid>
+<maven.artifactid>procyon-compilertools</maven.artifactid>
+</properties>
+</extension>

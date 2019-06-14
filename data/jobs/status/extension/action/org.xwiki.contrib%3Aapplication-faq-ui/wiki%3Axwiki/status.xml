@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.xwiki.job.DefaultJobStatus>
+  <progress>
+    <listenerName>org.xwiki.job.internal.DefaultJobProgress_1012209995</listenerName>
+    <rootStep>
+      <message>
+        <message>Progress with name [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>job.progress</translationKey>
+        </marker>
+        <argumentArray>
+          <null/>
+        </argumentArray>
+      </message>
+      <index>0</index>
+      <offset>1.0</offset>
+      <maximumChildren>2</maximumChildren>
+      <childSize>0.5</childSize>
+      <children>
+        <org.xwiki.job.internal.DefaultJobProgressStep>
+          <index>0</index>
+          <offset>1.0</offset>
+          <maximumChildren>1</maximumChildren>
+          <childSize>1.0</childSize>
+          <children>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>0</index>
+              <offset>1.0</offset>
+              <maximumChildren>1</maximumChildren>
+              <childSize>1.0</childSize>
+              <children>
+                <org.xwiki.job.internal.DefaultJobProgressStep>
+                  <index>0</index>
+                  <offset>1.0</offset>
+                  <maximumChildren>-1</maximumChildren>
+                  <childSize>0.0</childSize>
+                  <startTime>493439377677958</startTime>
+                  <finished>true</finished>
+                  <levelFinished>true</levelFinished>
+                  <elapsedTime>714257</elapsedTime>
+                </org.xwiki.job.internal.DefaultJobProgressStep>
+              </children>
+              <startTime>493439377677958</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>722227</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+          </children>
+          <startTime>493439377677958</startTime>
+          <finished>true</finished>
+          <levelFinished>true</levelFinished>
+          <elapsedTime>831019</elapsedTime>
+        </org.xwiki.job.internal.DefaultJobProgressStep>
+        <org.xwiki.job.internal.DefaultJobProgressStep>
+          <index>1</index>
+          <offset>1.0</offset>
+          <maximumChildren>1</maximumChildren>
+          <childSize>1.0</childSize>
+          <children>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>0</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>493439378512080</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>56823993</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+          </children>
+          <startTime>493439378512080</startTime>
+          <finished>true</finished>
+          <levelFinished>true</levelFinished>
+          <elapsedTime>56844513</elapsedTime>
+        </org.xwiki.job.internal.DefaultJobProgressStep>
+      </children>
+      <startTime>493439377677958</startTime>
+      <finished>true</finished>
+      <levelFinished>true</levelFinished>
+      <elapsedTime>13339850506</elapsedTime>
+    </rootStep>
+  </progress>
+  <logs serialization="custom">
+    <unserializable-parents/>
+    <java.util.concurrent.ConcurrentLinkedQueue>
+      <default/>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>job.log.beginWithId</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker>
+              <name>xwiki.begin</name>
+              <referenceList class="java.util.concurrent.CopyOnWriteArrayList" serialization="custom">
+                <java.util.concurrent.CopyOnWriteArrayList>
+                  <default/>
+                  <int>0</int>
+                </java.util.concurrent.CopyOnWriteArrayList>
+              </referenceList>
+            </org.slf4j.helpers.BasicMarker>
+          </references>
+          <translationKey>job.log.beginWithId</translationKey>
+        </marker>
+        <message>Starting job of type [{}] with identifier [{}]</message>
+        <argumentArray>
+          <string>uninstall</string>
+          <list>
+            <string>extension</string>
+            <string>action</string>
+            <string>org.xwiki.contrib:application-faq-ui</string>
+            <string>wiki:xwiki</string>
+          </list>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559289983690</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>job.log.begin</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.BeginLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>job.log.begin</translationKey>
+        </marker>
+        <message>Starting job of type [{}]</message>
+        <argumentArray>
+          <string>uninstallplan</string>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559289983690</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289983690</timeStamp>
+        <message>Resolving extension [{}] from namespace [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>extension.log.job.plan.resolve.namespace</translationKey>
+        </marker>
+        <argumentArray>
+          <org.xwiki.extension.ExtensionId>
+            <id>org.xwiki.contrib:application-faq-ui</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" serialization="custom">
+              <org.xwiki.extension.version.internal.DefaultVersion>
+                <string>8.2</string>
+              </org.xwiki.extension.version.internal.DefaultVersion>
+            </version>
+          </org.xwiki.extension.ExtensionId>
+          <string>wiki:xwiki</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>job.log.end</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker>
+              <name>xwiki.end</name>
+              <referenceList class="java.util.concurrent.CopyOnWriteArrayList" serialization="custom">
+                <java.util.concurrent.CopyOnWriteArrayList>
+                  <default/>
+                  <int>0</int>
+                </java.util.concurrent.CopyOnWriteArrayList>
+              </referenceList>
+            </org.slf4j.helpers.BasicMarker>
+          </references>
+          <translationKey>job.log.end</translationKey>
+        </marker>
+        <message>Finished job of type [{}]</message>
+        <argumentArray>
+          <string>uninstallplan</string>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559289983690</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>extension.log.job.uninstall.beginOnNamespace</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.BeginLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>extension.log.job.uninstall.beginOnNamespace</translationKey>
+        </marker>
+        <message>Applying [{}] for extension [{}] on namespace [{}] from previous extension(s) [{}]</message>
+        <argumentArray>
+          <org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>UNINSTALL</org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>
+          <org.xwiki.extension.ExtensionId reference="../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.extension.ExtensionId"/>
+          <string>wiki:xwiki</string>
+          <list>
+            <org.xwiki.extension.ExtensionId reference="../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.extension.ExtensionId"/>
+          </list>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559289983690</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289983697</timeStamp>
+        <message>Preparing XAR extension plan</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>extension.xar.log.extensionplan.begin</translationKey>
+        </marker>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289983697</timeStamp>
+        <message>XAR extension plan ready</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>extension.xar.log.extensionplan.end</translationKey>
+        </marker>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>extension.log.job.uninstall.success.endOnNamespace</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.EndLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>extension.log.job.uninstall.success.endOnNamespace</translationKey>
+        </marker>
+        <message>Successfully applied [{}] for extension [{}] on namespace [{}] from previous extension(s) [{}]</message>
+        <argumentArray>
+          <org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>UNINSTALL</org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>
+          <org.xwiki.extension.ExtensionId reference="../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.extension.ExtensionId"/>
+          <string>wiki:xwiki</string>
+          <list reference="../../../org.xwiki.logging.event.BeginLogEvent[3]/argumentArray/list"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559289983747</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289996424</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>extension.xar.log.delete.document</translationKey>
+        </marker>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>FAQTemplate</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>FAQCode</name>
+              <parent class="org.xwiki.model.reference.WikiReference">
+                <name>xwiki</name>
+                <type>WIKI</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale></locale>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289996490</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[4]/marker"/>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>FAQClass</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289996538</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[4]/marker"/>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>Translations</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289996608</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[4]/marker"/>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>SkinExtension</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289996639</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[4]/marker"/>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>FAQSearch</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289996710</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[4]/marker"/>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>FAQMacro</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289996738</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[4]/marker"/>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>FAQ</name>
+              <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289996771</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[4]/marker"/>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>FAQJSON</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289996787</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[4]/marker"/>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>FAQSearch</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.LogEvent[10]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289996862</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[4]/marker"/>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>ApplicationsPanelEntry</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289996911</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[4]/marker"/>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289996947</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[4]/marker"/>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>FAQHomeSheet</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289996967</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[4]/marker"/>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>FAQHomeClass</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289996983</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[4]/marker"/>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>Translations</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale>fr</locale>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559289997021</timeStamp>
+        <message>Deleted document [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[4]/marker"/>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>FAQSheet</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>job.log.endWithId</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.EndLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>job.log.endWithId</translationKey>
+        </marker>
+        <message>Finished job of type [{}] with identifier [{}]</message>
+        <argumentArray>
+          <string>uninstall</string>
+          <list reference="../../../org.xwiki.logging.event.BeginLogEvent/argumentArray/list"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559289997028</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <null/>
+    </java.util.concurrent.ConcurrentLinkedQueue>
+  </logs>
+  <jobType>uninstall</jobType>
+  <state>FINISHED</state>
+  <request class="org.xwiki.extension.job.UninstallRequest">
+    <id reference="../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.BeginLogEvent/argumentArray/list"/>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>org.xwiki.contrib:application-faq-ui</id>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.LogEvent[4]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <startDate>2019-05-31 08:06:23.690 UTC</startDate>
+  <endDate>2019-05-31 08:06:37.29 UTC</endDate>
+  <isolated>true</isolated>
+  <canceled>false</canceled>
+  <cancelable>false</cancelable>
+  <serialized>true</serialized>
+  <quesionEnd>-1</quesionEnd>
+</org.xwiki.job.DefaultJobStatus>

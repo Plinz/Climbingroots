@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>io.sf.jclf:jclf</id>
+<version>4.0.0</version>
+<type>jar</type>
+<name>JCLF</name>
+<summary>Library of general utility classes for the Java programming language</summary>
+<website>https://jclf.sourceforge.io/</website>
+<licenses>
+<license>
+<name>BSD 3-clause license</name>
+</license>
+</licenses>
+<properties>
+<maven.groupid>io.sf.jclf</maven.groupid>
+<maven.artifactid>jclf</maven.artifactid>
+</properties>
+</extension>

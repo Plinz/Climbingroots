@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>net.java.dev.jna:jna</id>
+<version>5.3.1</version>
+<type>jar</type>
+<name>Java Native Access</name>
+<summary>Java Native Access</summary>
+<website>https://github.com/java-native-access/jna</website>
+<authors>
+<author>
+<name>Timothy Wall</name>
+</author>
+<author>
+<name>Matthias Bläsing</name>
+<url>https://github.com/matthiasblaesing/</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>LGPL, version 2.1</name>
+</license>
+<license>
+<name>Apache License v2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/java-native-access/jna</url>
+<connection>
+<system>git</system>
+<path>https://github.com/java-native-access/jna</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>ssh://git@github.com/java-native-access/jna.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>net.java.dev.jna</maven.groupid>
+<maven.artifactid>jna</maven.artifactid>
+</properties>
+</extension>

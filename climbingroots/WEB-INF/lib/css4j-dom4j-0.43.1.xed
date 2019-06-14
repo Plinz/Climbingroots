@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>io.sf.carte:css4j-dom4j</id>
+<version>0.43.1</version>
+<type>jar</type>
+<summary>Implementation of W3C's CSS Object Model API in the Java(tm) programming language</summary>
+<website>https://carte.sourceforge.io/css4j/css4j-dom4j/</website>
+<licenses>
+<license>
+<name>BSD 3-clause license</name>
+</license>
+</licenses>
+<scm>
+<url>https://sourceforge.net/p/carte/css4j-dom4j/ci/master/tree/</url>
+<connection>
+<system>git</system>
+<path>git://git.code.sf.net/p/carte/css4j-dom4j</path>
+</connection>
+</scm>
+<issuemanagement>
+<url>https://sourceforge.net/p/carte/tickets/</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>io.sf.carte:css4j</id>
+<version>0.43.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.dom4j:dom4j</id>
+<version>2.1.0</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>xpp3:xpp3</id>
+<version>1.1.4c</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>io.sf.carte</maven.groupid>
+<maven.artifactid>css4j-dom4j</maven.artifactid>
+</properties>
+</extension>

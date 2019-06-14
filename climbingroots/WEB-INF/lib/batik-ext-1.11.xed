@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.xmlgraphics:batik-ext</id>
+<version>1.11</version>
+<type>jar</type>
+<name>org.apache.xmlgraphics:batik-ext</name>
+<summary>Batik external code</summary>
+<website>http://xmlgraphics.apache.org/batik/batik-ext/</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>scm:svn:https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk/batik-ext/</url>
+<connection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk/batik-ext/</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path/>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.apache.xmlgraphics</maven.groupid>
+<maven.artifactid>batik-ext</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Implementation-Title: XWiki Plarform - Search - SOLR - Server - Data
+Bundle-Description: A package containing SOLR configuration for XWiki
+Bundle-License: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+Bundle-SymbolicName: org.xwiki.platform.xwiki-platform-search-solr-ser
+ ver-data
+Implementation-Version: 11.3
+Built-By: hudsonagent
+Specification-Vendor: XWiki
+Bnd-LastModified: 1556611553848
+Bundle-ManifestVersion: 2
+Specification-Title: XWiki Plarform - Search - SOLR - Server - Data
+Implementation-Vendor-Id: org.xwiki.platform
+Bundle-DocURL: http://xwiki.org/
+Bundle-Vendor: XWiki
+Tool: Bnd-4.2.0.201903051501
+Implementation-Vendor: XWiki
+XWiki-Extension-Id: org.xwiki.platform:xwiki-platform-search-solr-serv
+ er-data
+Bundle-Name: XWiki Plarform - Search - SOLR - Server - Data
+Bundle-Version: 11.3.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_121
+Specification-Version: 11.3
+Implementation-URL: http://extensions.xwiki.org?id=org.xwiki.platform:
+ xwiki-platform-search-solr-server-data:11.3:::/xwiki-commons-pom/xwik
+ i-platform/xwiki-platform-core/xwiki-platform-search/xwiki-platform-s
+ earch-solr/xwiki-platform-search-solr-server/xwiki-platform-search-so
+ lr-server-data
+

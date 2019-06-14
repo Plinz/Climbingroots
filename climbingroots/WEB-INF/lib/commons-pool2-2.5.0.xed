@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.commons:commons-pool2</id>
+<version>2.5.0</version>
+<type>jar</type>
+<name>Apache Commons Pool</name>
+<summary>The Apache Commons Object Pooling Library.</summary>
+<website>http://commons.apache.org/proper/commons-pool/</website>
+<authors>
+<author>
+<name>Morgan Delagrange</name>
+</author>
+<author>
+<name>Geir Magnusson</name>
+</author>
+<author>
+<name>Craig McClanahan</name>
+</author>
+<author>
+<name>Rodney Waldhoff</name>
+</author>
+<author>
+<name>David Weinrich</name>
+</author>
+<author>
+<name>Dirk Verbeeck</name>
+</author>
+<author>
+<name>Robert Burrell Donkin</name>
+</author>
+<author>
+<name>Sandy McArthur</name>
+</author>
+<author>
+<name>Simone Tripodi</name>
+</author>
+<author>
+<name>Gary Gregory</name>
+</author>
+<author>
+<name>Matt Sicker</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://git-wip-us.apache.org/repos/asf?p=commons-pool.git</url>
+<connection>
+<system>git</system>
+<path>https://git-wip-us.apache.org/repos/asf/commons-pool.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://git-wip-us.apache.org/repos/asf/commons-pool.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/POOL</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>cglib:cglib</id>
+<version>3.2.5</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-util</id>
+<version>6.0</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.apache.commons</maven.groupid>
+<maven.artifactid>commons-pool2</maven.artifactid>
+</properties>
+</extension>

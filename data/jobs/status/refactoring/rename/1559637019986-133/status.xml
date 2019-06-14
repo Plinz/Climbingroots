@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.xwiki.refactoring.job.EntityJobStatus>
+  <progress>
+    <listenerName>org.xwiki.job.internal.DefaultJobProgress_2115699189</listenerName>
+    <rootStep>
+      <message>
+        <message>Progress with name [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>job.progress</translationKey>
+        </marker>
+        <argumentArray>
+          <null/>
+        </argumentArray>
+      </message>
+      <index>0</index>
+      <offset>1.0</offset>
+      <maximumChildren>3</maximumChildren>
+      <childSize>0.3333333333333333</childSize>
+      <children>
+        <org.xwiki.job.internal.DefaultJobProgressStep>
+          <index>0</index>
+          <offset>1.0</offset>
+          <maximumChildren>-1</maximumChildren>
+          <childSize>0.0</childSize>
+          <startTime>840475674140624</startTime>
+          <finished>true</finished>
+          <levelFinished>true</levelFinished>
+          <elapsedTime>738240</elapsedTime>
+        </org.xwiki.job.internal.DefaultJobProgressStep>
+        <org.xwiki.job.internal.DefaultJobProgressStep>
+          <index>1</index>
+          <offset>1.0</offset>
+          <maximumChildren>2</maximumChildren>
+          <childSize>0.5</childSize>
+          <children>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>0</index>
+              <offset>1.0</offset>
+              <maximumChildren>1</maximumChildren>
+              <childSize>1.0</childSize>
+              <children>
+                <org.xwiki.job.internal.DefaultJobProgressStep>
+                  <index>0</index>
+                  <offset>1.0</offset>
+                  <maximumChildren>-1</maximumChildren>
+                  <childSize>0.0</childSize>
+                  <startTime>840475674880917</startTime>
+                  <finished>true</finished>
+                  <levelFinished>true</levelFinished>
+                  <elapsedTime>24991</elapsedTime>
+                </org.xwiki.job.internal.DefaultJobProgressStep>
+              </children>
+              <startTime>840475674880917</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>82667</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>1</index>
+              <offset>1.0</offset>
+              <maximumChildren>4</maximumChildren>
+              <childSize>0.25</childSize>
+              <children>
+                <org.xwiki.job.internal.DefaultJobProgressStep>
+                  <index>0</index>
+                  <offset>1.0</offset>
+                  <maximumChildren>-1</maximumChildren>
+                  <childSize>0.0</childSize>
+                  <startTime>840475674963861</startTime>
+                  <finished>true</finished>
+                  <levelFinished>true</levelFinished>
+                  <elapsedTime>13936217</elapsedTime>
+                </org.xwiki.job.internal.DefaultJobProgressStep>
+                <org.xwiki.job.internal.DefaultJobProgressStep>
+                  <index>1</index>
+                  <offset>1.0</offset>
+                  <maximumChildren>3</maximumChildren>
+                  <childSize>0.3333333333333333</childSize>
+                  <children>
+                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                      <index>0</index>
+                      <offset>1.0</offset>
+                      <maximumChildren>-1</maximumChildren>
+                      <childSize>0.0</childSize>
+                      <startTime>840475688902703</startTime>
+                      <finished>true</finished>
+                      <levelFinished>true</levelFinished>
+                      <elapsedTime>16156</elapsedTime>
+                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                      <index>1</index>
+                      <offset>1.0</offset>
+                      <maximumChildren>0</maximumChildren>
+                      <childSize>0.5</childSize>
+                      <children>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <message>
+                            <message>Execute HQL query [{}]</message>
+                            <marker class="org.xwiki.logging.marker.TranslationMarker">
+                              <name>xwiki.translation</name>
+                              <translationKey>query.hql.progress.execute</translationKey>
+                            </marker>
+                            <argumentArray>
+                              <string>, BaseObject as editorObject, StringProperty as roleHint where doc.fullName = editorObject.name and editorObject.className = &apos;XWiki.EditorClass&apos; and editorObject.id = roleHint.id.id and roleHint.id.name=&apos;roleHint&apos; and (roleHint.value &lt;&gt; &apos;&apos; or (roleHint.value is not null and &apos;&apos; is null))</string>
+                            </argumentArray>
+                          </message>
+                          <index>0</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>840475688920793</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>116951454</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <message>
+                            <message>Execute HQL query [{}]</message>
+                            <marker class="org.xwiki.logging.marker.TranslationMarker">
+                              <name>xwiki.translation</name>
+                              <translationKey>query.hql.progress.execute</translationKey>
+                            </marker>
+                            <argumentArray>
+                              <string>select doc.language from XWikiDocument as doc where doc.space = :space and doc.name = :name and (doc.language &lt;&gt; &apos;&apos; or (doc.language is not null and &apos;&apos; is null))</string>
+                            </argumentArray>
+                          </message>
+                          <index>1</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>840475838238472</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>1448023</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                      </children>
+                      <startTime>840475688920793</startTime>
+                      <finished>true</finished>
+                      <levelFinished>true</levelFinished>
+                      <elapsedTime>150858984</elapsedTime>
+                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                      <index>2</index>
+                      <offset>1.0</offset>
+                      <maximumChildren>0</maximumChildren>
+                      <childSize>0.5</childSize>
+                      <children>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <message>
+                            <message>Execute HQL query [{}]</message>
+                            <marker class="org.xwiki.logging.marker.TranslationMarker">
+                              <name>xwiki.translation</name>
+                              <translationKey>query.hql.progress.execute</translationKey>
+                            </marker>
+                            <argumentArray>
+                              <string>, BaseObject as editorObject, StringProperty as roleHint where doc.fullName = editorObject.name and editorObject.className = &apos;XWiki.EditorClass&apos; and editorObject.id = roleHint.id.id and roleHint.id.name=&apos;roleHint&apos; and (roleHint.value &lt;&gt; &apos;&apos; or (roleHint.value is not null and &apos;&apos; is null))</string>
+                            </argumentArray>
+                          </message>
+                          <index>0</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>840475839783739</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>55854506</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <message>
+                            <message>Execute HQL query [{}]</message>
+                            <marker class="org.xwiki.logging.marker.TranslationMarker">
+                              <name>xwiki.translation</name>
+                              <translationKey>query.hql.progress.execute</translationKey>
+                            </marker>
+                            <argumentArray>
+                              <string>select doc.language from XWikiDocument as doc where doc.space = :space and doc.name = :name and (doc.language &lt;&gt; &apos;&apos; or (doc.language is not null and &apos;&apos; is null))</string>
+                            </argumentArray>
+                          </message>
+                          <index>1</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>840475905992273</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>1674805</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                      </children>
+                      <startTime>840475839783739</startTime>
+                      <finished>true</finished>
+                      <levelFinished>true</levelFinished>
+                      <elapsedTime>68041976</elapsedTime>
+                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                  </children>
+                  <startTime>840475688902703</startTime>
+                  <finished>true</finished>
+                  <levelFinished>true</levelFinished>
+                  <elapsedTime>218931539</elapsedTime>
+                </org.xwiki.job.internal.DefaultJobProgressStep>
+                <org.xwiki.job.internal.DefaultJobProgressStep>
+                  <index>2</index>
+                  <offset>1.0</offset>
+                  <maximumChildren>0</maximumChildren>
+                  <childSize>1.0</childSize>
+                  <children>
+                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                      <message>
+                        <message>Execute HQL query [{}]</message>
+                        <marker class="org.xwiki.logging.marker.TranslationMarker">
+                          <name>xwiki.translation</name>
+                          <translationKey>query.hql.progress.execute</translationKey>
+                        </marker>
+                        <argumentArray>
+                          <string>select doc.language from XWikiDocument as doc where doc.space = :space and doc.name = :name and (doc.language &lt;&gt; &apos;&apos; or (doc.language is not null and &apos;&apos; is null))</string>
+                        </argumentArray>
+                      </message>
+                      <index>0</index>
+                      <offset>1.0</offset>
+                      <maximumChildren>-1</maximumChildren>
+                      <childSize>0.0</childSize>
+                      <startTime>840475907838090</startTime>
+                      <finished>true</finished>
+                      <levelFinished>true</levelFinished>
+                      <elapsedTime>1647854</elapsedTime>
+                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                  </children>
+                  <startTime>840475907838090</startTime>
+                  <finished>true</finished>
+                  <levelFinished>true</levelFinished>
+                  <elapsedTime>46189427</elapsedTime>
+                </org.xwiki.job.internal.DefaultJobProgressStep>
+                <org.xwiki.job.internal.DefaultJobProgressStep>
+                  <index>3</index>
+                  <offset>1.0</offset>
+                  <maximumChildren>0</maximumChildren>
+                  <childSize>0.3333333333333333</childSize>
+                  <children>
+                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                      <message>
+                        <message>Execute HQL query [{}]</message>
+                        <marker class="org.xwiki.logging.marker.TranslationMarker">
+                          <name>xwiki.translation</name>
+                          <translationKey>query.hql.progress.execute</translationKey>
+                        </marker>
+                        <argumentArray>
+                          <string>, BaseObject as obj where doc.fullName = obj.name and obj.className = :className</string>
+                        </argumentArray>
+                      </message>
+                      <index>0</index>
+                      <offset>1.0</offset>
+                      <maximumChildren>-1</maximumChildren>
+                      <childSize>0.0</childSize>
+                      <startTime>840475954033125</startTime>
+                      <finished>true</finished>
+                      <levelFinished>true</levelFinished>
+                      <elapsedTime>2302381</elapsedTime>
+                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                      <message>
+                        <message>Execute XWQL query [{}]</message>
+                        <marker class="org.xwiki.logging.marker.TranslationMarker">
+                          <name>xwiki.translation</name>
+                          <translationKey>query.xwql.progress.execute</translationKey>
+                        </marker>
+                        <argumentArray>
+                          <string>select distinct doc.fullName from XWikiDocument doc where doc.parent=:prefixedFullName or doc.parent=:fullName or (doc.parent=:name and doc.space=:space)</string>
+                        </argumentArray>
+                      </message>
+                      <index>1</index>
+                      <offset>1.0</offset>
+                      <maximumChildren>0</maximumChildren>
+                      <childSize>1.0</childSize>
+                      <children>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <message>
+                            <message>Execute HQL query [{}]</message>
+                            <marker class="org.xwiki.logging.marker.TranslationMarker">
+                              <name>xwiki.translation</name>
+                              <translationKey>query.hql.progress.execute</translationKey>
+                            </marker>
+                            <argumentArray>
+                              <string> select distinct doc.fullName from XWikiDocument as doc where doc.parent = :prefixedFullName or doc.parent = :fullName or ( doc.parent = :name and doc.space = :space ) </string>
+                            </argumentArray>
+                          </message>
+                          <index>0</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>840475956774340</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>3164272</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                      </children>
+                      <startTime>840475956774340</startTime>
+                      <finished>true</finished>
+                      <levelFinished>true</levelFinished>
+                      <elapsedTime>3180872</elapsedTime>
+                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                      <index>2</index>
+                      <offset>1.0</offset>
+                      <maximumChildren>1</maximumChildren>
+                      <childSize>1.0</childSize>
+                      <children>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <index>0</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>0</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <children/>
+                          <startTime>840475960046594</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>2101781</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                      </children>
+                      <startTime>840475960046594</startTime>
+                      <finished>true</finished>
+                      <levelFinished>true</levelFinished>
+                      <elapsedTime>8273359</elapsedTime>
+                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                  </children>
+                  <startTime>840475954033125</startTime>
+                  <finished>true</finished>
+                  <levelFinished>true</levelFinished>
+                  <elapsedTime>14287715</elapsedTime>
+                </org.xwiki.job.internal.DefaultJobProgressStep>
+              </children>
+              <startTime>840475674963861</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>293372394</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+          </children>
+          <startTime>840475674880917</startTime>
+          <finished>true</finished>
+          <levelFinished>true</levelFinished>
+          <elapsedTime>293458266</elapsedTime>
+        </org.xwiki.job.internal.DefaultJobProgressStep>
+        <org.xwiki.job.internal.DefaultJobProgressStep>
+          <index>2</index>
+          <offset>1.0</offset>
+          <maximumChildren>-1</maximumChildren>
+          <childSize>0.0</childSize>
+          <startTime>840475968344481</startTime>
+          <finished>true</finished>
+          <levelFinished>true</levelFinished>
+          <elapsedTime>9419</elapsedTime>
+        </org.xwiki.job.internal.DefaultJobProgressStep>
+      </children>
+      <startTime>840475674140624</startTime>
+      <finished>true</finished>
+      <levelFinished>true</levelFinished>
+      <elapsedTime>294484246</elapsedTime>
+    </rootStep>
+  </progress>
+  <logs serialization="custom">
+    <unserializable-parents/>
+    <java.util.concurrent.ConcurrentLinkedQueue>
+      <default/>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>job.log.beginWithId</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker>
+              <name>xwiki.begin</name>
+              <referenceList class="java.util.concurrent.CopyOnWriteArrayList" serialization="custom">
+                <java.util.concurrent.CopyOnWriteArrayList>
+                  <default/>
+                  <int>0</int>
+                </java.util.concurrent.CopyOnWriteArrayList>
+              </referenceList>
+            </org.slf4j.helpers.BasicMarker>
+          </references>
+          <translationKey>job.log.beginWithId</translationKey>
+        </marker>
+        <message>Starting job of type [{}] with identifier [{}]</message>
+        <argumentArray>
+          <string>refactoring/rename</string>
+          <list>
+            <string>refactoring</string>
+            <string>rename</string>
+            <string>1559637019986-133</string>
+          </list>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559637019987</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>WARN</level>
+        <timeStamp>1559637019987</timeStamp>
+        <message>XClass deleting listener will not check the document in non-interactive mode.</message>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>WARN</level>
+        <timeStamp>1559637019987</timeStamp>
+        <message>XAR Extension Documents Deleting Listener will not check the document in non-interactive mode.</message>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559637020151</timeStamp>
+        <message>Document [{}] has been copied to [{}].</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>routeTemplateProvider</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>route</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+          </org.xwiki.model.reference.DocumentReference>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>$services.localization.render(&quot;route.entry.name&quot;)TemplateProvider</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>$services.localization.render(&quot;route.entry.name&quot;)</name>
+                <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../org.xwiki.model.reference.DocumentReference/parent/parent/parent"/>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559637020220</timeStamp>
+        <message>Document [{}] has been updated.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.LogEvent[3]/argumentArray/org.xwiki.model.reference.DocumentReference[2]"/>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559637020266</timeStamp>
+        <message>Document [{}] has been deleted with all its translations.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.LogEvent[3]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559637020268</timeStamp>
+        <message>Updating the document parent fields from [{}] to [{}].</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.LogEvent[3]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.LogEvent[3]/argumentArray/org.xwiki.model.reference.DocumentReference[2]"/>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559637020272</timeStamp>
+        <message>Updating the back-links for document [{}] in wiki [{}].</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.LogEvent[3]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+          <string>xwiki</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559637020274</timeStamp>
+        <message>Updating the relative links from [{}].</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.LogEvent[3]/argumentArray/org.xwiki.model.reference.DocumentReference[2]"/>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559637020275</timeStamp>
+        <message>No relative links to update in [{}].</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>$services.localization.render(&quot;route.entry.name&quot;)TemplateProvider</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>$services.localization.render(&quot;route.entry.name&quot;)</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>job.log.endWithId</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker>
+              <name>xwiki.end</name>
+              <referenceList class="java.util.concurrent.CopyOnWriteArrayList" serialization="custom">
+                <java.util.concurrent.CopyOnWriteArrayList>
+                  <default/>
+                  <int>0</int>
+                </java.util.concurrent.CopyOnWriteArrayList>
+              </referenceList>
+            </org.slf4j.helpers.BasicMarker>
+          </references>
+          <translationKey>job.log.endWithId</translationKey>
+        </marker>
+        <message>Finished job of type [{}] with identifier [{}]</message>
+        <argumentArray>
+          <string>refactoring/rename</string>
+          <list reference="../../../org.xwiki.logging.event.BeginLogEvent/argumentArray/list"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559637020280</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <null/>
+    </java.util.concurrent.ConcurrentLinkedQueue>
+  </logs>
+  <jobType>refactoring/rename</jobType>
+  <state>FINISHED</state>
+  <request class="org.xwiki.refactoring.job.MoveRequest">
+    <id reference="../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.BeginLogEvent/argumentArray/list"/>
+    <properties>
+      <entry>
+        <string>updateLinks</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>job.type</string>
+        <string>refactoring/rename</string>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.LogEvent[9]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent/parent"/>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>destination</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>$services.localization.render(&quot;route.entry.name&quot;)TemplateProvider</name>
+          <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.LogEvent[3]/argumentArray/org.xwiki.model.reference.DocumentReference[2]/parent"/>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>updateParentField</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>autoRedirect</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>entityReferences</string>
+        <singleton-list>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>routeTemplateProvider</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.LogEvent[3]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+          </org.xwiki.model.reference.DocumentReference>
+        </singleton-list>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <startDate>2019-06-04 08:30:19.987 UTC</startDate>
+  <endDate>2019-06-04 08:30:20.280 UTC</endDate>
+  <isolated>true</isolated>
+  <canceled>false</canceled>
+  <cancelable>true</cancelable>
+  <serialized>true</serialized>
+  <quesionEnd>-1</quesionEnd>
+</org.xwiki.refactoring.job.EntityJobStatus>

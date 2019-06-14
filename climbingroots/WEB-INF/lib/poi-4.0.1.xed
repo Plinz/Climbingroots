@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.poi:poi</id>
+<version>4.0.1</version>
+<type>jar</type>
+<name>Apache POI</name>
+<summary>Apache POI - Java API To Access Microsoft Format Files</summary>
+<website>http://poi.apache.org/</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<dependencies>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.2</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>log4j:log4j</id>
+<version>1.2.17</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>commons-codec:commons-codec</id>
+<version>1.11</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-collections4</id>
+<version>4.2</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-math3</id>
+<version>3.6.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.apache.poi</maven.groupid>
+<maven.artifactid>poi</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.restlet.jse:org.restlet</id>
+<version>2.3.12</version>
+<type>jar</type>
+<name>Restlet Core - API and Engine</name>
+<summary>RESTful web framework for Java (API and Engine).</summary>
+<website>http://restlet.org/org.restlet</website>
+<licenses>
+<license>
+<name>Apache 2.0 license</name>
+</license>
+<license>
+<name>LGPL 3.0 license</name>
+</license>
+<license>
+<name>LGPL 2.1 license</name>
+</license>
+<license>
+<name>CDDL 1.0 license</name>
+</license>
+<license>
+<name>EPL 1.0 license</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/restlet/restlet-framework-java/org.restlet</url>
+</scm>
+<properties>
+<maven.groupid>org.restlet.jse</maven.groupid>
+<maven.artifactid>org.restlet</maven.artifactid>
+</properties>
+</extension>

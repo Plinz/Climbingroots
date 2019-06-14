@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<attachment-list serializer="attachment-list-meta/1.0">
+ <attachment serializer="attachment-meta/1.0">
+  <filename>logo.svg</filename>
+  <filesize>89079</filesize>
+  <author>XWiki.Lolo</author>
+  <version>1.6</version>
+  <comment></comment>
+  <date>1559659546000</date>
+ </attachment>
+ <attachment serializer="attachment-meta/1.0">
+  <filename>logo.svg</filename>
+  <filesize>2959</filesize>
+  <author>XWiki.AntoineDuquennoy</author>
+  <version>1.1</version>
+  <comment></comment>
+  <date>1558797391000</date>
+ </attachment>
+ <attachment serializer="attachment-meta/1.0">
+  <filename>logo.svg</filename>
+  <filesize>41497</filesize>
+  <author>XWiki.AntoineDuquennoy</author>
+  <version>1.2</version>
+  <comment></comment>
+  <date>1559566630000</date>
+ </attachment>
+ <attachment serializer="attachment-meta/1.0">
+  <filename>logo.svg</filename>
+  <filesize>41168</filesize>
+  <author>XWiki.AntoineDuquennoy</author>
+  <version>1.3</version>
+  <comment></comment>
+  <date>1559567281000</date>
+ </attachment>
+ <attachment serializer="attachment-meta/1.0">
+  <filename>logo.svg</filename>
+  <filesize>51076</filesize>
+  <author>XWiki.AntoineDuquennoy</author>
+  <version>1.4</version>
+  <comment></comment>
+  <date>1559567566000</date>
+ </attachment>
+ <attachment serializer="attachment-meta/1.0">
+  <filename>logo.svg</filename>
+  <filesize>89079</filesize>
+  <author>XWiki.Lolo</author>
+  <version>1.5</version>
+  <comment></comment>
+  <date>1559658003000</date>
+ </attachment>
+</attachment-list>

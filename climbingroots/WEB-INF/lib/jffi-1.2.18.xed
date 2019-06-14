@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.jnr:jffi</id>
+<version>1.2.18</version>
+<type>jar</type>
+<name>jffi</name>
+<summary>Java Foreign Function Interface</summary>
+<website>http://github.com/jnr/jffi</website>
+<authors>
+<author>
+<name>Wayne Meissner</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>git@github.com:jnr/jffi.git</url>
+<connection>
+<system>git</system>
+<path>git@github.com:jnr/jffi.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:jnr/jffi.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>com.github.jnr</maven.groupid>
+<maven.artifactid>jffi</maven.artifactid>
+</properties>
+</extension>

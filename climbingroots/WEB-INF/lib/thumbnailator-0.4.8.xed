@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>net.coobird:thumbnailator</id>
+<version>0.4.8</version>
+<type>jar</type>
+<name>thumbnailator</name>
+<summary>Thumbnailator - a thumbnail generation library for Java</summary>
+<website>http://code.google.com/p/thumbnailator</website>
+<authors>
+<author>
+<name>Chris Kroells</name>
+<url>http://coobird.net</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License (MIT)</name>
+</license>
+</licenses>
+<scm>
+<url>http://code.google.com/p/thumbnailator</url>
+<connection>
+<system>hg</system>
+<path>https://code.google.com/p/thumbnailator</path>
+</connection>
+</scm>
+<properties>
+<maven.groupid>net.coobird</maven.groupid>
+<maven.artifactid>thumbnailator</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,2397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.xwiki.job.DefaultJobStatus>
+  <progress>
+    <listenerName>org.xwiki.job.internal.DefaultJobProgress_1810403541</listenerName>
+    <rootStep>
+      <message>
+        <message>Progress with name [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>job.progress</translationKey>
+        </marker>
+        <argumentArray>
+          <null/>
+        </argumentArray>
+      </message>
+      <index>0</index>
+      <offset>1.0</offset>
+      <maximumChildren>3</maximumChildren>
+      <childSize>0.3333333333333333</childSize>
+      <children>
+        <org.xwiki.job.internal.DefaultJobProgressStep>
+          <index>0</index>
+          <offset>1.0</offset>
+          <maximumChildren>1</maximumChildren>
+          <childSize>1.0</childSize>
+          <children>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>0</index>
+              <offset>1.0</offset>
+              <maximumChildren>2</maximumChildren>
+              <childSize>0.5</childSize>
+              <children>
+                <org.xwiki.job.internal.DefaultJobProgressStep>
+                  <index>0</index>
+                  <offset>1.0</offset>
+                  <maximumChildren>-1</maximumChildren>
+                  <childSize>0.0</childSize>
+                  <startTime>1099514634487032</startTime>
+                  <finished>true</finished>
+                  <levelFinished>true</levelFinished>
+                  <elapsedTime>174552631</elapsedTime>
+                </org.xwiki.job.internal.DefaultJobProgressStep>
+                <org.xwiki.job.internal.DefaultJobProgressStep>
+                  <index>1</index>
+                  <offset>1.0</offset>
+                  <maximumChildren>5</maximumChildren>
+                  <childSize>0.2</childSize>
+                  <children>
+                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                      <index>0</index>
+                      <offset>1.0</offset>
+                      <maximumChildren>-1</maximumChildren>
+                      <childSize>0.0</childSize>
+                      <startTime>1099514809078750</startTime>
+                      <finished>true</finished>
+                      <levelFinished>true</levelFinished>
+                      <elapsedTime>133865</elapsedTime>
+                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                      <index>1</index>
+                      <offset>1.0</offset>
+                      <maximumChildren>-1</maximumChildren>
+                      <childSize>0.0</childSize>
+                      <startTime>1099514809215107</startTime>
+                      <finished>true</finished>
+                      <levelFinished>true</levelFinished>
+                      <elapsedTime>135739</elapsedTime>
+                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                      <index>2</index>
+                      <offset>1.0</offset>
+                      <maximumChildren>-1</maximumChildren>
+                      <childSize>0.0</childSize>
+                      <startTime>1099514809353399</startTime>
+                      <finished>true</finished>
+                      <levelFinished>true</levelFinished>
+                      <elapsedTime>11231</elapsedTime>
+                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                      <index>3</index>
+                      <offset>1.0</offset>
+                      <maximumChildren>13</maximumChildren>
+                      <childSize>0.07692307692307693</childSize>
+                      <children>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <index>0</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>2</maximumChildren>
+                          <childSize>0.5</childSize>
+                          <children>
+                            <org.xwiki.job.internal.DefaultJobProgressStep>
+                              <index>0</index>
+                              <offset>1.0</offset>
+                              <maximumChildren>-1</maximumChildren>
+                              <childSize>0.0</childSize>
+                              <startTime>1099514809366463</startTime>
+                              <finished>true</finished>
+                              <levelFinished>true</levelFinished>
+                              <elapsedTime>734276594</elapsedTime>
+                            </org.xwiki.job.internal.DefaultJobProgressStep>
+                            <org.xwiki.job.internal.DefaultJobProgressStep>
+                              <index>1</index>
+                              <offset>1.0</offset>
+                              <maximumChildren>5</maximumChildren>
+                              <childSize>0.2</childSize>
+                              <children>
+                                <org.xwiki.job.internal.DefaultJobProgressStep>
+                                  <index>0</index>
+                                  <offset>1.0</offset>
+                                  <maximumChildren>-1</maximumChildren>
+                                  <childSize>0.0</childSize>
+                                  <startTime>1099515543685988</startTime>
+                                  <finished>true</finished>
+                                  <levelFinished>true</levelFinished>
+                                  <elapsedTime>143769</elapsedTime>
+                                </org.xwiki.job.internal.DefaultJobProgressStep>
+                                <org.xwiki.job.internal.DefaultJobProgressStep>
+                                  <index>1</index>
+                                  <offset>1.0</offset>
+                                  <maximumChildren>-1</maximumChildren>
+                                  <childSize>0.0</childSize>
+                                  <startTime>1099515543832809</startTime>
+                                  <finished>true</finished>
+                                  <levelFinished>true</levelFinished>
+                                  <elapsedTime>159973</elapsedTime>
+                                </org.xwiki.job.internal.DefaultJobProgressStep>
+                                <org.xwiki.job.internal.DefaultJobProgressStep>
+                                  <index>2</index>
+                                  <offset>1.0</offset>
+                                  <maximumChildren>-1</maximumChildren>
+                                  <childSize>0.0</childSize>
+                                  <startTime>1099515543995613</startTime>
+                                  <finished>true</finished>
+                                  <levelFinished>true</levelFinished>
+                                  <elapsedTime>36789</elapsedTime>
+                                </org.xwiki.job.internal.DefaultJobProgressStep>
+                                <org.xwiki.job.internal.DefaultJobProgressStep>
+                                  <index>3</index>
+                                  <offset>1.0</offset>
+                                  <maximumChildren>8</maximumChildren>
+                                  <childSize>0.125</childSize>
+                                  <children>
+                                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                                      <index>0</index>
+                                      <offset>1.0</offset>
+                                      <maximumChildren>2</maximumChildren>
+                                      <childSize>0.5</childSize>
+                                      <children>
+                                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                                          <index>0</index>
+                                          <offset>1.0</offset>
+                                          <maximumChildren>-1</maximumChildren>
+                                          <childSize>0.0</childSize>
+                                          <startTime>1099515544034213</startTime>
+                                          <finished>true</finished>
+                                          <levelFinished>true</levelFinished>
+                                          <elapsedTime>724308236</elapsedTime>
+                                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                                          <index>1</index>
+                                          <offset>1.0</offset>
+                                          <maximumChildren>5</maximumChildren>
+                                          <childSize>0.2</childSize>
+                                          <children>
+                                            <org.xwiki.job.internal.DefaultJobProgressStep>
+                                              <index>0</index>
+                                              <offset>1.0</offset>
+                                              <maximumChildren>-1</maximumChildren>
+                                              <childSize>0.0</childSize>
+                                              <startTime>1099516268385517</startTime>
+                                              <finished>true</finished>
+                                              <levelFinished>true</levelFinished>
+                                              <elapsedTime>153647</elapsedTime>
+                                            </org.xwiki.job.internal.DefaultJobProgressStep>
+                                            <org.xwiki.job.internal.DefaultJobProgressStep>
+                                              <index>1</index>
+                                              <offset>1.0</offset>
+                                              <maximumChildren>-1</maximumChildren>
+                                              <childSize>0.0</childSize>
+                                              <startTime>1099516268542196</startTime>
+                                              <finished>true</finished>
+                                              <levelFinished>true</levelFinished>
+                                              <elapsedTime>163124</elapsedTime>
+                                            </org.xwiki.job.internal.DefaultJobProgressStep>
+                                            <org.xwiki.job.internal.DefaultJobProgressStep>
+                                              <index>2</index>
+                                              <offset>1.0</offset>
+                                              <maximumChildren>-1</maximumChildren>
+                                              <childSize>0.0</childSize>
+                                              <startTime>1099516268709003</startTime>
+                                              <finished>true</finished>
+                                              <levelFinished>true</levelFinished>
+                                              <elapsedTime>11225</elapsedTime>
+                                            </org.xwiki.job.internal.DefaultJobProgressStep>
+                                            <org.xwiki.job.internal.DefaultJobProgressStep>
+                                              <index>3</index>
+                                              <offset>1.0</offset>
+                                              <maximumChildren>-1</maximumChildren>
+                                              <childSize>0.0</childSize>
+                                              <startTime>1099516268722417</startTime>
+                                              <finished>true</finished>
+                                              <levelFinished>true</levelFinished>
+                                              <elapsedTime>3594</elapsedTime>
+                                            </org.xwiki.job.internal.DefaultJobProgressStep>
+                                            <org.xwiki.job.internal.DefaultJobProgressStep>
+                                              <index>4</index>
+                                              <offset>1.0</offset>
+                                              <maximumChildren>-1</maximumChildren>
+                                              <childSize>0.0</childSize>
+                                              <startTime>1099516268727849</startTime>
+                                              <finished>true</finished>
+                                              <levelFinished>true</levelFinished>
+                                              <elapsedTime>29614</elapsedTime>
+                                            </org.xwiki.job.internal.DefaultJobProgressStep>
+                                          </children>
+                                          <startTime>1099516268385517</startTime>
+                                          <finished>true</finished>
+                                          <levelFinished>true</levelFinished>
+                                          <elapsedTime>375063</elapsedTime>
+                                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                                      </children>
+                                      <startTime>1099515544034213</startTime>
+                                      <finished>true</finished>
+                                      <levelFinished>true</levelFinished>
+                                      <elapsedTime>724757165</elapsedTime>
+                                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                                      <index>1</index>
+                                      <offset>1.0</offset>
+                                      <maximumChildren>-1</maximumChildren>
+                                      <childSize>0.0</childSize>
+                                      <startTime>1099516268795466</startTime>
+                                      <finished>true</finished>
+                                      <levelFinished>true</levelFinished>
+                                      <elapsedTime>205182</elapsedTime>
+                                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                                      <index>2</index>
+                                      <offset>1.0</offset>
+                                      <maximumChildren>-1</maximumChildren>
+                                      <childSize>0.0</childSize>
+                                      <startTime>1099516269003676</startTime>
+                                      <finished>true</finished>
+                                      <levelFinished>true</levelFinished>
+                                      <elapsedTime>307355</elapsedTime>
+                                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                                      <index>3</index>
+                                      <offset>1.0</offset>
+                                      <maximumChildren>-1</maximumChildren>
+                                      <childSize>0.0</childSize>
+                                      <startTime>1099516269314592</startTime>
+                                      <finished>true</finished>
+                                      <levelFinished>true</levelFinished>
+                                      <elapsedTime>114647</elapsedTime>
+                                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                                      <index>4</index>
+                                      <offset>1.0</offset>
+                                      <maximumChildren>-1</maximumChildren>
+                                      <childSize>0.0</childSize>
+                                      <startTime>1099516269432252</startTime>
+                                      <finished>true</finished>
+                                      <levelFinished>true</levelFinished>
+                                      <elapsedTime>103973</elapsedTime>
+                                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                                      <index>5</index>
+                                      <offset>1.0</offset>
+                                      <maximumChildren>-1</maximumChildren>
+                                      <childSize>0.0</childSize>
+                                      <startTime>1099516269539377</startTime>
+                                      <finished>true</finished>
+                                      <levelFinished>true</levelFinished>
+                                      <elapsedTime>109526</elapsedTime>
+                                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                                      <index>6</index>
+                                      <offset>1.0</offset>
+                                      <maximumChildren>-1</maximumChildren>
+                                      <childSize>0.0</childSize>
+                                      <startTime>1099516269651702</startTime>
+                                      <finished>true</finished>
+                                      <levelFinished>true</levelFinished>
+                                      <elapsedTime>100059</elapsedTime>
+                                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                                  </children>
+                                  <startTime>1099515544034213</startTime>
+                                  <finished>true</finished>
+                                  <levelFinished>true</levelFinished>
+                                  <elapsedTime>725724528</elapsedTime>
+                                </org.xwiki.job.internal.DefaultJobProgressStep>
+                                <org.xwiki.job.internal.DefaultJobProgressStep>
+                                  <index>4</index>
+                                  <offset>1.0</offset>
+                                  <maximumChildren>-1</maximumChildren>
+                                  <childSize>0.0</childSize>
+                                  <startTime>1099516269760749</startTime>
+                                  <finished>true</finished>
+                                  <levelFinished>true</levelFinished>
+                                  <elapsedTime>14426</elapsedTime>
+                                </org.xwiki.job.internal.DefaultJobProgressStep>
+                              </children>
+                              <startTime>1099515543685988</startTime>
+                              <finished>true</finished>
+                              <levelFinished>true</levelFinished>
+                              <elapsedTime>726093012</elapsedTime>
+                            </org.xwiki.job.internal.DefaultJobProgressStep>
+                          </children>
+                          <startTime>1099514809366463</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>1460428218</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <index>1</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>2</maximumChildren>
+                          <childSize>0.5</childSize>
+                          <children>
+                            <org.xwiki.job.internal.DefaultJobProgressStep>
+                              <index>0</index>
+                              <offset>1.0</offset>
+                              <maximumChildren>-1</maximumChildren>
+                              <childSize>0.0</childSize>
+                              <startTime>1099516269798220</startTime>
+                              <finished>true</finished>
+                              <levelFinished>true</levelFinished>
+                              <elapsedTime>742378575</elapsedTime>
+                            </org.xwiki.job.internal.DefaultJobProgressStep>
+                            <org.xwiki.job.internal.DefaultJobProgressStep>
+                              <index>1</index>
+                              <offset>1.0</offset>
+                              <maximumChildren>5</maximumChildren>
+                              <childSize>0.2</childSize>
+                              <children>
+                                <org.xwiki.job.internal.DefaultJobProgressStep>
+                                  <index>0</index>
+                                  <offset>1.0</offset>
+                                  <maximumChildren>-1</maximumChildren>
+                                  <childSize>0.0</childSize>
+                                  <startTime>1099517012223088</startTime>
+                                  <finished>true</finished>
+                                  <levelFinished>true</levelFinished>
+                                  <elapsedTime>178380</elapsedTime>
+                                </org.xwiki.job.internal.DefaultJobProgressStep>
+                                <org.xwiki.job.internal.DefaultJobProgressStep>
+                                  <index>1</index>
+                                  <offset>1.0</offset>
+                                  <maximumChildren>-1</maximumChildren>
+                                  <childSize>0.0</childSize>
+                                  <startTime>1099517012405154</startTime>
+                                  <finished>true</finished>
+                                  <levelFinished>true</levelFinished>
+                                  <elapsedTime>171785</elapsedTime>
+                                </org.xwiki.job.internal.DefaultJobProgressStep>
+                                <org.xwiki.job.internal.DefaultJobProgressStep>
+                                  <index>2</index>
+                                  <offset>1.0</offset>
+                                  <maximumChildren>-1</maximumChildren>
+                                  <childSize>0.0</childSize>
+                                  <startTime>1099517012581183</startTime>
+                                  <finished>true</finished>
+                                  <levelFinished>true</levelFinished>
+                                  <elapsedTime>13312</elapsedTime>
+                                </org.xwiki.job.internal.DefaultJobProgressStep>
+                                <org.xwiki.job.internal.DefaultJobProgressStep>
+                                  <index>3</index>
+                                  <offset>1.0</offset>
+                                  <maximumChildren>8</maximumChildren>
+                                  <childSize>0.125</childSize>
+                                  <children>
+                                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                                      <index>0</index>
+                                      <offset>1.0</offset>
+                                      <maximumChildren>-1</maximumChildren>
+                                      <childSize>0.0</childSize>
+                                      <startTime>1099517012597368</startTime>
+                                      <finished>true</finished>
+                                      <levelFinished>true</levelFinished>
+                                      <elapsedTime>229832</elapsedTime>
+                                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                                      <index>1</index>
+                                      <offset>1.0</offset>
+                                      <maximumChildren>2</maximumChildren>
+                                      <childSize>0.5</childSize>
+                                      <children>
+                                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                                          <index>0</index>
+                                          <offset>1.0</offset>
+                                          <maximumChildren>-1</maximumChildren>
+                                          <childSize>0.0</childSize>
+                                          <startTime>1099517012830858</startTime>
+                                          <finished>true</finished>
+                                          <levelFinished>true</levelFinished>
+                                          <elapsedTime>698330984</elapsedTime>
+                                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                                          <index>1</index>
+                                          <offset>1.0</offset>
+                                          <maximumChildren>5</maximumChildren>
+                                          <childSize>0.2</childSize>
+                                          <children>
+                                            <org.xwiki.job.internal.DefaultJobProgressStep>
+                                              <index>0</index>
+                                              <offset>1.0</offset>
+                                              <maximumChildren>-1</maximumChildren>
+                                              <childSize>0.0</childSize>
+                                              <startTime>1099517711200328</startTime>
+                                              <finished>true</finished>
+                                              <levelFinished>true</levelFinished>
+                                              <elapsedTime>155341</elapsedTime>
+                                            </org.xwiki.job.internal.DefaultJobProgressStep>
+                                            <org.xwiki.job.internal.DefaultJobProgressStep>
+                                              <index>1</index>
+                                              <offset>1.0</offset>
+                                              <maximumChildren>-1</maximumChildren>
+                                              <childSize>0.0</childSize>
+                                              <startTime>1099517711358507</startTime>
+                                              <finished>true</finished>
+                                              <levelFinished>true</levelFinished>
+                                              <elapsedTime>170869</elapsedTime>
+                                            </org.xwiki.job.internal.DefaultJobProgressStep>
+                                            <org.xwiki.job.internal.DefaultJobProgressStep>
+                                              <index>2</index>
+                                              <offset>1.0</offset>
+                                              <maximumChildren>-1</maximumChildren>
+                                              <childSize>0.0</childSize>
+                                              <startTime>1099517711545029</startTime>
+                                              <finished>true</finished>
+                                              <levelFinished>true</levelFinished>
+                                              <elapsedTime>9308</elapsedTime>
+                                            </org.xwiki.job.internal.DefaultJobProgressStep>
+                                            <org.xwiki.job.internal.DefaultJobProgressStep>
+                                              <index>3</index>
+                                              <offset>1.0</offset>
+                                              <maximumChildren>3</maximumChildren>
+                                              <childSize>0.3333333333333333</childSize>
+                                              <children>
+                                                <org.xwiki.job.internal.DefaultJobProgressStep>
+                                                  <index>0</index>
+                                                  <offset>1.0</offset>
+                                                  <maximumChildren>-1</maximumChildren>
+                                                  <childSize>0.0</childSize>
+                                                  <startTime>1099517711555794</startTime>
+                                                  <finished>true</finished>
+                                                  <levelFinished>true</levelFinished>
+                                                  <elapsedTime>354978</elapsedTime>
+                                                </org.xwiki.job.internal.DefaultJobProgressStep>
+                                                <org.xwiki.job.internal.DefaultJobProgressStep>
+                                                  <index>1</index>
+                                                  <offset>1.0</offset>
+                                                  <maximumChildren>-1</maximumChildren>
+                                                  <childSize>0.0</childSize>
+                                                  <startTime>1099517711913808</startTime>
+                                                  <finished>true</finished>
+                                                  <levelFinished>true</levelFinished>
+                                                  <elapsedTime>87091</elapsedTime>
+                                                </org.xwiki.job.internal.DefaultJobProgressStep>
+                                              </children>
+                                              <startTime>1099517711555794</startTime>
+                                              <finished>true</finished>
+                                              <levelFinished>true</levelFinished>
+                                              <elapsedTime>488805</elapsedTime>
+                                            </org.xwiki.job.internal.DefaultJobProgressStep>
+                                            <org.xwiki.job.internal.DefaultJobProgressStep>
+                                              <index>4</index>
+                                              <offset>1.0</offset>
+                                              <maximumChildren>-1</maximumChildren>
+                                              <childSize>0.0</childSize>
+                                              <startTime>1099517712046090</startTime>
+                                              <finished>true</finished>
+                                              <levelFinished>true</levelFinished>
+                                              <elapsedTime>18496</elapsedTime>
+                                            </org.xwiki.job.internal.DefaultJobProgressStep>
+                                          </children>
+                                          <startTime>1099517711200328</startTime>
+                                          <finished>true</finished>
+                                          <levelFinished>true</levelFinished>
+                                          <elapsedTime>866576</elapsedTime>
+                                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                                      </children>
+                                      <startTime>1099517012830858</startTime>
+                                      <finished>true</finished>
+                                      <levelFinished>true</levelFinished>
+                                      <elapsedTime>699243570</elapsedTime>
+                                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                                      <index>2</index>
+                                      <offset>1.0</offset>
+                                      <maximumChildren>-1</maximumChildren>
+                                      <childSize>0.0</childSize>
+                                      <startTime>1099517712076849</startTime>
+                                      <finished>true</finished>
+                                      <levelFinished>true</levelFinished>
+                                      <elapsedTime>158984</elapsedTime>
+                                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                                      <index>3</index>
+                                      <offset>1.0</offset>
+                                      <maximumChildren>-1</maximumChildren>
+                                      <childSize>0.0</childSize>
+                                      <startTime>1099517712238883</startTime>
+                                      <finished>true</finished>
+                                      <levelFinished>true</levelFinished>
+                                      <elapsedTime>104254</elapsedTime>
+                                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                                      <index>4</index>
+                                      <offset>1.0</offset>
+                                      <maximumChildren>-1</maximumChildren>
+                                      <childSize>0.0</childSize>
+                                      <startTime>1099517712346749</startTime>
+                                      <finished>true</finished>
+                                      <levelFinished>true</levelFinished>
+                                      <elapsedTime>100407</elapsedTime>
+                                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                                      <index>5</index>
+                                      <offset>1.0</offset>
+                                      <maximumChildren>-1</maximumChildren>
+                                      <childSize>0.0</childSize>
+                                      <startTime>1099517712449749</startTime>
+                                      <finished>true</finished>
+                                      <levelFinished>true</levelFinished>
+                                      <elapsedTime>91086</elapsedTime>
+                                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                                      <index>6</index>
+                                      <offset>1.0</offset>
+                                      <maximumChildren>-1</maximumChildren>
+                                      <childSize>0.0</childSize>
+                                      <startTime>1099517712543261</startTime>
+                                      <finished>true</finished>
+                                      <levelFinished>true</levelFinished>
+                                      <elapsedTime>69908</elapsedTime>
+                                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                                  </children>
+                                  <startTime>1099517012597368</startTime>
+                                  <finished>true</finished>
+                                  <levelFinished>true</levelFinished>
+                                  <elapsedTime>700021286</elapsedTime>
+                                </org.xwiki.job.internal.DefaultJobProgressStep>
+                                <org.xwiki.job.internal.DefaultJobProgressStep>
+                                  <index>4</index>
+                                  <offset>1.0</offset>
+                                  <maximumChildren>-1</maximumChildren>
+                                  <childSize>0.0</childSize>
+                                  <startTime>1099517712620085</startTime>
+                                  <finished>true</finished>
+                                  <levelFinished>true</levelFinished>
+                                  <elapsedTime>11154</elapsedTime>
+                                </org.xwiki.job.internal.DefaultJobProgressStep>
+                              </children>
+                              <startTime>1099517012223088</startTime>
+                              <finished>true</finished>
+                              <levelFinished>true</levelFinished>
+                              <elapsedTime>700410689</elapsedTime>
+                            </org.xwiki.job.internal.DefaultJobProgressStep>
+                          </children>
+                          <startTime>1099516269798220</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>1442848790</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <index>2</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>1099517712651374</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>42531</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <index>3</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>1099517712695624</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>88137</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <index>4</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>1099517712786737</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>76355</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <index>5</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>1099517712865232</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>56099</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <index>6</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>1099517712923348</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>71021</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <index>7</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>1099517712997312</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>107140</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <index>8</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>1099517713107059</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>64452</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <index>9</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>1099517713173689</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>73947</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <index>10</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>1099517713249775</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>80673</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                        <org.xwiki.job.internal.DefaultJobProgressStep>
+                          <index>11</index>
+                          <offset>1.0</offset>
+                          <maximumChildren>-1</maximumChildren>
+                          <childSize>0.0</childSize>
+                          <startTime>1099517713332695</startTime>
+                          <finished>true</finished>
+                          <levelFinished>true</levelFinished>
+                          <elapsedTime>80757</elapsedTime>
+                        </org.xwiki.job.internal.DefaultJobProgressStep>
+                      </children>
+                      <startTime>1099514809366463</startTime>
+                      <finished>true</finished>
+                      <levelFinished>true</levelFinished>
+                      <elapsedTime>2904054342</elapsedTime>
+                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                      <index>4</index>
+                      <offset>1.0</offset>
+                      <maximumChildren>-1</maximumChildren>
+                      <childSize>0.0</childSize>
+                      <startTime>1099517713423904</startTime>
+                      <finished>true</finished>
+                      <levelFinished>true</levelFinished>
+                      <elapsedTime>16966</elapsedTime>
+                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                  </children>
+                  <startTime>1099514809078750</startTime>
+                  <finished>true</finished>
+                  <levelFinished>true</levelFinished>
+                  <elapsedTime>2904365543</elapsedTime>
+                </org.xwiki.job.internal.DefaultJobProgressStep>
+              </children>
+              <startTime>1099514634487032</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>3078974503</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+          </children>
+          <startTime>1099514634487032</startTime>
+          <finished>true</finished>
+          <levelFinished>true</levelFinished>
+          <elapsedTime>3079116702</elapsedTime>
+        </org.xwiki.job.internal.DefaultJobProgressStep>
+        <org.xwiki.job.internal.DefaultJobProgressStep>
+          <index>1</index>
+          <offset>1.0</offset>
+          <maximumChildren>20</maximumChildren>
+          <childSize>0.05</childSize>
+          <children>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>0</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099517713605408</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>85581829</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>1</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099517799226037</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>4510</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>2</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099517799232526</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1368</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>3</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099517799235545</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1526</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>4</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099517799238487</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1527</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>5</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099517799241451</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1261</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>6</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099517799244039</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1266</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>7</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099517799246664</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>111534282</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>8</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099517910819243</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>5122</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>9</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099517910826770</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>113812902</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>10</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518024676026</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>5577</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>11</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518024683583</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1633</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>12</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518024686921</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>2261</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>13</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518024691098</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1627</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>14</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518024694875</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>91746288</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>15</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518116474430</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>5835</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>16</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518116482677</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>2025</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>17</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518116486827</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>2158</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>18</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518116491134</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1969</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>19</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518116495431</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>41281810</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+          </children>
+          <startTime>1099517713605408</startTime>
+          <finished>true</finished>
+          <levelFinished>true</levelFinished>
+          <elapsedTime>444204469</elapsedTime>
+        </org.xwiki.job.internal.DefaultJobProgressStep>
+        <org.xwiki.job.internal.DefaultJobProgressStep>
+          <index>2</index>
+          <offset>1.0</offset>
+          <maximumChildren>20</maximumChildren>
+          <childSize>0.05</childSize>
+          <children>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>0</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518157815394</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>37841297</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>1</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518195664179</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>2149</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>2</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518195668363</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1716</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>3</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518195671986</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1419</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>4</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518195675000</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>2099</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>5</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518195679060</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1520</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>6</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518195682363</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1339</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>7</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518195685245</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>13451976</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>8</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518209144490</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1937</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>9</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518209147684</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>11797752</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>10</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518220953438</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>2477</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>11</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518220957446</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1269</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>12</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518220959996</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1321</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>13</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518220962559</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1167</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>14</index>
+              <offset>1.0</offset>
+              <maximumChildren>0</maximumChildren>
+              <childSize>1.0</childSize>
+              <children>
+                <org.xwiki.job.internal.DefaultJobProgressStep>
+                  <message>
+                    <message>Execute HQL query [{}]</message>
+                    <marker class="org.xwiki.logging.marker.TranslationMarker">
+                      <name>xwiki.translation</name>
+                      <translationKey>query.hql.progress.execute</translationKey>
+                    </marker>
+                    <argumentArray>
+                      <string>getWikiMacroDocuments</string>
+                    </argumentArray>
+                  </message>
+                  <index>0</index>
+                  <offset>1.0</offset>
+                  <maximumChildren>-1</maximumChildren>
+                  <childSize>0.0</childSize>
+                  <startTime>1099518220964988</startTime>
+                  <finished>true</finished>
+                  <levelFinished>true</levelFinished>
+                  <elapsedTime>123731163</elapsedTime>
+                </org.xwiki.job.internal.DefaultJobProgressStep>
+              </children>
+              <startTime>1099518220964988</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>154435635</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>15</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518375409064</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>2561</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>16</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518375412975</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1208</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>17</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518375415413</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1006</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>18</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518375417627</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>1234</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>19</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1099518375420024</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>21142195</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+          </children>
+          <startTime>1099518157815394</startTime>
+          <finished>true</finished>
+          <levelFinished>true</levelFinished>
+          <elapsedTime>238759839</elapsedTime>
+        </org.xwiki.job.internal.DefaultJobProgressStep>
+      </children>
+      <startTime>1099514634487032</startTime>
+      <finished>true</finished>
+      <levelFinished>true</levelFinished>
+      <elapsedTime>4134299908</elapsedTime>
+    </rootStep>
+  </progress>
+  <logs serialization="custom">
+    <unserializable-parents/>
+    <java.util.concurrent.ConcurrentLinkedQueue>
+      <default/>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>job.log.beginWithId</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker>
+              <name>xwiki.begin</name>
+              <referenceList class="java.util.concurrent.CopyOnWriteArrayList" serialization="custom">
+                <java.util.concurrent.CopyOnWriteArrayList>
+                  <default/>
+                  <int>0</int>
+                </java.util.concurrent.CopyOnWriteArrayList>
+              </referenceList>
+            </org.slf4j.helpers.BasicMarker>
+          </references>
+          <translationKey>job.log.beginWithId</translationKey>
+        </marker>
+        <message>Starting job of type [{}] with identifier [{}]</message>
+        <argumentArray>
+          <string>install</string>
+          <list>
+            <string>extension</string>
+            <string>action</string>
+            <string>com.xwiki.licensing:application-licensing-licensor-api</string>
+          </list>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896058947</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>job.log.begin</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.BeginLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>job.log.begin</translationKey>
+        </marker>
+        <message>Starting job of type [{}]</message>
+        <argumentArray>
+          <string>installplan</string>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896058947</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896058947</timeStamp>
+        <message>Resolving extension [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>extension.log.job.plan.resolve</translationKey>
+        </marker>
+        <argumentArray>
+          <org.xwiki.extension.ExtensionId>
+            <id>com.xwiki.licensing:application-licensing-licensor-api</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" serialization="custom">
+              <org.xwiki.extension.version.internal.DefaultVersion>
+                <string>1.13.9</string>
+              </org.xwiki.extension.version.internal.DefaultVersion>
+            </version>
+          </org.xwiki.extension.ExtensionId>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896059121</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>extension.log.job.plan.resolvedependency</translationKey>
+        </marker>
+        <argumentArray>
+          <string>com.xwiki.licensing:application-licensing-common-api-1.13.9</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896059856</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>com.xwiki.licensing:application-licensing-common-model-1.13.9</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896060581</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.apache.commons:commons-lang3-3.5</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896060581</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.commons:xwiki-commons-component-api-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896060581</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.commons:xwiki-commons-extension-api-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896060581</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.platform:xwiki-platform-instance-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896060581</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.commons:xwiki-commons-crypto-common-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896060582</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.commons:xwiki-commons-crypto-pkix-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896060582</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>com.xwiki.licensing:application-licensing-licensor-ui-1.13.9</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896061325</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>com.xwiki.licensing:application-licensing-common-api-1.13.9</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896061325</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>com.xwiki.licensing:application-licensing-script-1.13.9</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062024</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.commons:xwiki-commons-script-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062024</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>com.xwiki.licensing:application-licensing-common-api-1.13.9</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062024</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.platform:xwiki-platform-instance-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062024</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.platform:xwiki-platform-skin-skinx-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062024</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.platform:xwiki-platform-localization-script-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062024</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.platform:xwiki-platform-rendering-macro-velocity-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062024</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.rendering:xwiki-rendering-macro-html-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062024</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.apache.commons:commons-lang3-3.5</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062025</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.commons:xwiki-commons-component-api-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062025</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.commons:xwiki-commons-extension-api-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062025</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.platform:xwiki-platform-extension-handler-xar-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062025</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.commons:xwiki-commons-velocity-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062025</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.platform:xwiki-platform-security-api-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062025</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.platform:xwiki-platform-bridge-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062025</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.platform:xwiki-platform-instance-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062025</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.commons:xwiki-commons-crypto-common-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062025</timeStamp>
+        <message>Resolving extension dependency [{}] on all namespaces</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[2]/marker"/>
+        <argumentArray>
+          <string>org.xwiki.commons:xwiki-commons-crypto-pkix-[11.4]</string>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>job.log.end</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker>
+              <name>xwiki.end</name>
+              <referenceList class="java.util.concurrent.CopyOnWriteArrayList" serialization="custom">
+                <java.util.concurrent.CopyOnWriteArrayList>
+                  <default/>
+                  <int>0</int>
+                </java.util.concurrent.CopyOnWriteArrayList>
+              </referenceList>
+            </org.slf4j.helpers.BasicMarker>
+          </references>
+          <translationKey>job.log.end</translationKey>
+        </marker>
+        <message>Finished job of type [{}]</message>
+        <argumentArray>
+          <string>installplan</string>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062025</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062025</timeStamp>
+        <message>Downloading extension [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>extension.log.job.downloading</translationKey>
+        </marker>
+        <argumentArray>
+          <org.xwiki.extension.ExtensionId>
+            <id>com.xwiki.licensing:application-licensing-common-model</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" serialization="custom">
+              <org.xwiki.extension.version.internal.DefaultVersion>
+                <string>1.13.9</string>
+              </org.xwiki.extension.version.internal.DefaultVersion>
+            </version>
+          </org.xwiki.extension.ExtensionId>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062111</timeStamp>
+        <message>Downloading extension [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[30]/marker"/>
+        <argumentArray>
+          <org.xwiki.extension.ExtensionId>
+            <id>com.xwiki.licensing:application-licensing-common-api</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" reference="../../../../org.xwiki.logging.event.LogEvent[30]/argumentArray/org.xwiki.extension.ExtensionId/version"/>
+          </org.xwiki.extension.ExtensionId>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062223</timeStamp>
+        <message>Downloading extension [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[30]/marker"/>
+        <argumentArray>
+          <org.xwiki.extension.ExtensionId>
+            <id>com.xwiki.licensing:application-licensing-script</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" reference="../../../../org.xwiki.logging.event.LogEvent[30]/argumentArray/org.xwiki.extension.ExtensionId/version"/>
+          </org.xwiki.extension.ExtensionId>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062336</timeStamp>
+        <message>Downloading extension [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[30]/marker"/>
+        <argumentArray>
+          <org.xwiki.extension.ExtensionId>
+            <id>com.xwiki.licensing:application-licensing-licensor-ui</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" reference="../../../../org.xwiki.logging.event.LogEvent[30]/argumentArray/org.xwiki.extension.ExtensionId/version"/>
+          </org.xwiki.extension.ExtensionId>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062428</timeStamp>
+        <message>Downloading extension [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker" reference="../../org.xwiki.logging.event.LogEvent[30]/marker"/>
+        <argumentArray>
+          <org.xwiki.extension.ExtensionId>
+            <id>com.xwiki.licensing:application-licensing-licensor-api</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" reference="../../../../org.xwiki.logging.event.LogEvent[30]/argumentArray/org.xwiki.extension.ExtensionId/version"/>
+          </org.xwiki.extension.ExtensionId>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>extension.log.job.upgrade.begin</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.BeginLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>extension.log.job.upgrade.begin</translationKey>
+        </marker>
+        <message>Applying [{}] for extension [{}] on namespace [{}] from previous extension(s) [{}]</message>
+        <argumentArray>
+          <org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>UPGRADE</org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>
+          <org.xwiki.extension.ExtensionId reference="../../../org.xwiki.logging.event.LogEvent[30]/argumentArray/org.xwiki.extension.ExtensionId"/>
+          <null/>
+          <list>
+            <org.xwiki.extension.ExtensionId>
+              <id>com.xwiki.licensing:application-licensing-common-model</id>
+              <version class="org.xwiki.extension.version.internal.DefaultVersion" serialization="custom">
+                <org.xwiki.extension.version.internal.DefaultVersion>
+                  <string>1.13.8</string>
+                </org.xwiki.extension.version.internal.DefaultVersion>
+              </version>
+            </org.xwiki.extension.ExtensionId>
+          </list>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062470</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>extension.log.job.upgrade.success.end</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.EndLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>extension.log.job.upgrade.success.end</translationKey>
+        </marker>
+        <message>Successfully applied [{}] for extension [{}] on namespace [{}] from previous extension(s) [{}]</message>
+        <argumentArray>
+          <org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>UPGRADE</org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>
+          <org.xwiki.extension.ExtensionId reference="../../../org.xwiki.logging.event.LogEvent[30]/argumentArray/org.xwiki.extension.ExtensionId"/>
+          <null/>
+          <list reference="../../../org.xwiki.logging.event.BeginLogEvent[3]/argumentArray/list"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062507</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>extension.log.job.upgrade.begin</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.BeginLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>extension.log.job.upgrade.begin</translationKey>
+        </marker>
+        <message>Applying [{}] for extension [{}] on namespace [{}] from previous extension(s) [{}]</message>
+        <argumentArray>
+          <org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>UPGRADE</org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>
+          <org.xwiki.extension.ExtensionId reference="../../../org.xwiki.logging.event.LogEvent[31]/argumentArray/org.xwiki.extension.ExtensionId"/>
+          <null/>
+          <list>
+            <org.xwiki.extension.ExtensionId>
+              <id>com.xwiki.licensing:application-licensing-common-api</id>
+              <version class="org.xwiki.extension.version.internal.DefaultVersion" reference="../../../../../org.xwiki.logging.event.BeginLogEvent[3]/argumentArray/list/org.xwiki.extension.ExtensionId/version"/>
+            </org.xwiki.extension.ExtensionId>
+          </list>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062507</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>extension.log.job.upgrade.success.end</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.EndLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>extension.log.job.upgrade.success.end</translationKey>
+        </marker>
+        <message>Successfully applied [{}] for extension [{}] on namespace [{}] from previous extension(s) [{}]</message>
+        <argumentArray>
+          <org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>UPGRADE</org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>
+          <org.xwiki.extension.ExtensionId reference="../../../org.xwiki.logging.event.LogEvent[31]/argumentArray/org.xwiki.extension.ExtensionId"/>
+          <null/>
+          <list reference="../../../org.xwiki.logging.event.BeginLogEvent[4]/argumentArray/list"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062521</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>extension.log.job.upgrade.begin</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.BeginLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>extension.log.job.upgrade.begin</translationKey>
+        </marker>
+        <message>Applying [{}] for extension [{}] on namespace [{}] from previous extension(s) [{}]</message>
+        <argumentArray>
+          <org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>UPGRADE</org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>
+          <org.xwiki.extension.ExtensionId reference="../../../org.xwiki.logging.event.LogEvent[32]/argumentArray/org.xwiki.extension.ExtensionId"/>
+          <null/>
+          <list>
+            <org.xwiki.extension.ExtensionId>
+              <id>com.xwiki.licensing:application-licensing-script</id>
+              <version class="org.xwiki.extension.version.internal.DefaultVersion" reference="../../../../../org.xwiki.logging.event.BeginLogEvent[3]/argumentArray/list/org.xwiki.extension.ExtensionId/version"/>
+            </org.xwiki.extension.ExtensionId>
+          </list>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062521</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>extension.log.job.upgrade.success.end</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.EndLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>extension.log.job.upgrade.success.end</translationKey>
+        </marker>
+        <message>Successfully applied [{}] for extension [{}] on namespace [{}] from previous extension(s) [{}]</message>
+        <argumentArray>
+          <org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>UPGRADE</org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>
+          <org.xwiki.extension.ExtensionId reference="../../../org.xwiki.logging.event.LogEvent[32]/argumentArray/org.xwiki.extension.ExtensionId"/>
+          <null/>
+          <list reference="../../../org.xwiki.logging.event.BeginLogEvent[5]/argumentArray/list"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062533</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>extension.log.job.upgrade.begin</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.BeginLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>extension.log.job.upgrade.begin</translationKey>
+        </marker>
+        <message>Applying [{}] for extension [{}] on namespace [{}] from previous extension(s) [{}]</message>
+        <argumentArray>
+          <org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>UPGRADE</org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>
+          <org.xwiki.extension.ExtensionId reference="../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.extension.ExtensionId"/>
+          <null/>
+          <list>
+            <org.xwiki.extension.ExtensionId>
+              <id>com.xwiki.licensing:application-licensing-licensor-ui</id>
+              <version class="org.xwiki.extension.version.internal.DefaultVersion" reference="../../../../../org.xwiki.logging.event.BeginLogEvent[3]/argumentArray/list/org.xwiki.extension.ExtensionId/version"/>
+            </org.xwiki.extension.ExtensionId>
+          </list>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062533</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062533</timeStamp>
+        <message>Preparing XAR extension plan</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>extension.xar.log.extensionplan.begin</translationKey>
+        </marker>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1559896062541</timeStamp>
+        <message>XAR extension plan ready</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>extension.xar.log.extensionplan.end</translationKey>
+        </marker>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>extension.xar.log.install.document.begin</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.BeginLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>extension.xar.log.install.document.begin</translationKey>
+        </marker>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>MissingLicensesUIX</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>Licenses</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale></locale>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062550</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>extension.xar.log.install.document.success.end</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.EndLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>extension.xar.log.install.document.success.end</translationKey>
+        </marker>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062552</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>Translations</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale>fr</locale>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062553</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[8]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062553</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>GetTrialLicenseService</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062556</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[9]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062556</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>LicensesNotificationsUIX</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062559</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[10]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062559</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>VelocityMacros</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062560</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[11]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062560</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>UpdateLicenses</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062563</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[12]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062563</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>LicensingOwnerClass</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062564</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[13]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062565</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>LicensingStoreClass</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062571</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[14]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062572</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>LicensingConfig</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062604</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[15]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062604</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>Translations</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062606</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[16]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062606</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>LicenseJSON</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062615</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[17]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062616</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>AvailableTemplateProvidersFilter</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062617</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[18]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062618</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>AddLicense</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062620</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[19]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062620</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>Translations</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale>fr_FR</locale>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062623</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[20]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062623</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062624</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[21]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062624</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>UpdateOwnerDetails</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062626</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[22]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062626</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker" reference="../../org.xwiki.logging.event.BeginLogEvent[7]/marker"/>
+        <message>Installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062638</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker" reference="../../org.xwiki.logging.event.EndLogEvent[5]/marker"/>
+        <message>Done installing document [{}]</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference reference="../../../org.xwiki.logging.event.BeginLogEvent[23]/argumentArray/org.xwiki.model.reference.DocumentReference"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062640</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>extension.log.job.upgrade.success.end</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.EndLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>extension.log.job.upgrade.success.end</translationKey>
+        </marker>
+        <message>Successfully applied [{}] for extension [{}] on namespace [{}] from previous extension(s) [{}]</message>
+        <argumentArray>
+          <org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>UPGRADE</org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>
+          <org.xwiki.extension.ExtensionId reference="../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.extension.ExtensionId"/>
+          <null/>
+          <list reference="../../../org.xwiki.logging.event.BeginLogEvent[6]/argumentArray/list"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062687</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>extension.log.job.upgrade.begin</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.BeginLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>extension.log.job.upgrade.begin</translationKey>
+        </marker>
+        <message>Applying [{}] for extension [{}] on namespace [{}] from previous extension(s) [{}]</message>
+        <argumentArray>
+          <org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>UPGRADE</org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>
+          <org.xwiki.extension.ExtensionId reference="../../../org.xwiki.logging.event.LogEvent[34]/argumentArray/org.xwiki.extension.ExtensionId"/>
+          <null/>
+          <list>
+            <org.xwiki.extension.ExtensionId>
+              <id>com.xwiki.licensing:application-licensing-licensor-api</id>
+              <version class="org.xwiki.extension.version.internal.DefaultVersion" reference="../../../../../org.xwiki.logging.event.BeginLogEvent[3]/argumentArray/list/org.xwiki.extension.ExtensionId/version"/>
+            </org.xwiki.extension.ExtensionId>
+          </list>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062687</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>extension.log.job.upgrade.success.end</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.EndLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>extension.log.job.upgrade.success.end</translationKey>
+        </marker>
+        <message>Successfully applied [{}] for extension [{}] on namespace [{}] from previous extension(s) [{}]</message>
+        <argumentArray>
+          <org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>UPGRADE</org.xwiki.extension.job.plan.ExtensionPlanAction_-Action>
+          <org.xwiki.extension.ExtensionId reference="../../../org.xwiki.logging.event.LogEvent[34]/argumentArray/org.xwiki.extension.ExtensionId"/>
+          <null/>
+          <list reference="../../../org.xwiki.logging.event.BeginLogEvent[24]/argumentArray/list"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896062708</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>job.log.endWithId</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker reference="../../../../org.xwiki.logging.event.EndLogEvent/marker/references/org.slf4j.helpers.BasicMarker"/>
+          </references>
+          <translationKey>job.log.endWithId</translationKey>
+        </marker>
+        <message>Finished job of type [{}] with identifier [{}]</message>
+        <argumentArray>
+          <string>install</string>
+          <list reference="../../../org.xwiki.logging.event.BeginLogEvent/argumentArray/list"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559896063080</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <null/>
+    </java.util.concurrent.ConcurrentLinkedQueue>
+  </logs>
+  <jobType>install</jobType>
+  <state>FINISHED</state>
+  <request class="org.xwiki.extension.job.InstallRequest">
+    <id reference="../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.BeginLogEvent/argumentArray/list"/>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId reference="../../../../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.extension.ExtensionId"/>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rewriter</string>
+        <org.xwiki.extension.script.ScriptExtensionRewriter>
+          <installOnRootNamespace/>
+        </org.xwiki.extension.script.ScriptExtensionRewriter>
+      </entry>
+      <entry>
+        <string>extension.properties</string>
+        <map>
+          <entry>
+            <string>user.reference</string>
+            <string>xwiki:XWiki.AntoineDuquennoy</string>
+          </entry>
+        </map>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.BeginLogEvent[7]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent/parent"/>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <startDate>2019-06-07 08:27:38.947 UTC</startDate>
+  <endDate>2019-06-07 08:27:43.80 UTC</endDate>
+  <isolated>true</isolated>
+  <canceled>false</canceled>
+  <cancelable>false</cancelable>
+  <serialized>true</serialized>
+  <quesionEnd>-1</quesionEnd>
+</org.xwiki.job.DefaultJobStatus>

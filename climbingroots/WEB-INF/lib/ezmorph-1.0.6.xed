@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>net.sf.ezmorph:ezmorph</id>
+<version>1.0.6</version>
+<type>jar</type>
+<name>ezmorph</name>
+<summary>Simple java library for transforming an Object to another Object.</summary>
+<website>http://ezmorph.sourceforge.net</website>
+<authors>
+<author>
+<name>Andres Almiray</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://ezmorph.cvs.sourceforge.net/ezmorph</url>
+<connection>
+<system>cvs</system>
+<path>pserver:anonymous@ezmorph.cvs.sourceforge.net:/cvsroot/ezmorph:ezmorph</path>
+</connection>
+<developerconnection>
+<system>cvs</system>
+<path>ext:${maven.username}@ezmorph.cvs.sourceforge.net:/cvsroot/ezmorph:ezmorph</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>SourceForge</system>
+<url>https://sourceforge.net/tracker/?group_id=174866</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>junit:junit</id>
+<version>3.8.2</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>commons-lang:commons-lang</id>
+<version>2.3</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>commons-beanutils:commons-beanutils</id>
+<version>1.7.0</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.1</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>log4j:log4j</id>
+<version>1.2.14</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>net.sf.ezmorph</maven.groupid>
+<maven.artifactid>ezmorph</maven.artifactid>
+</properties>
+</extension>

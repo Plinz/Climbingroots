@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.tdunning:json</id>
+<version>1.8</version>
+<type>jar</type>
+<name>Open JSON</name>
+<summary>A clean-room Apache-licensed implementation of simple JSON processing</summary>
+<website>https://github.com/tdunning/open-json</website>
+<extensionfeatures>
+<feature>
+<feature>org.json:json</feature>
+<version>20180130</version>
+</feature>
+</extensionfeatures>
+<features>
+<feature>org.json:json</feature>
+</features>
+<authors>
+<author>
+<name>Ted</name>
+<url>https://github.com/tdunning/open-json</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/tdunning/open-json</url>
+<connection>
+<system>git</system>
+<path>https://github.com/tdunning/open-json.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/tdunning/open-json.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>com.tdunning</maven.groupid>
+<maven.artifactid>json</maven.artifactid>
+</properties>
+</extension>

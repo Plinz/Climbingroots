@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.sis.core:sis-feature</id>
+<version>0.8</version>
+<type>jar</type>
+<name>Apache SIS features</name>
+<summary>Representations of geographic features.</summary>
+<website>http://sis.apache.org/core/sis-feature</website>
+<authors>
+<author>
+<name>Travis L. Pinney</name>
+</author>
+<author>
+<name>Martin Desruisseaux</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/sis/tags/0.8/core/sis-feature</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/sis/tags/0.8/core/sis-feature</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/sis/tags/0.8/core/sis-feature</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>https://issues.apache.org/jira/browse/SIS</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.apache.sis.core:sis-utility</id>
+<version>0.8</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.sis.core:sis-metadata</id>
+<version>0.8</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.sis.core:sis-referencing</id>
+<version>0.8</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>com.esri.geometry:esri-geometry-api</id>
+<version>2.0.0</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>javax.measure:unit-api</id>
+<version>1.0</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.opengis:geoapi</id>
+<version>3.0.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.opengis:geoapi</id>
+<version>3.0.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.opengis:geoapi-conformance</id>
+<version>3.0.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>com.esri.geometry:esri-geometry-api</id>
+<version>2.0.0</version>
+<optional type="boolean">true</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>gov.nist.math:jama</id>
+<version>1.0.3</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>javax:javaee-api</id>
+<version>7.0</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-compress</id>
+<version>1.14</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.derby:derby</id>
+<version>10.12.1.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.hsqldb:hsqldb</id>
+<version>2.3.5</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.postgresql:postgresql</id>
+<version>42.1.4.jre7</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.osgi:org.osgi.core</id>
+<version>6.0.0</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>edu.ucar:cdm</id>
+<version>4.6.10</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-jdk14</id>
+<version>1.7.22</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>javax.measure:unit-api</id>
+<version>1.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>tec.units:unit-ri</id>
+<version>1.0.3</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.12</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.sis.core</maven.groupid>
+<maven.artifactid>sis-feature</maven.artifactid>
+</properties>
+</extension>

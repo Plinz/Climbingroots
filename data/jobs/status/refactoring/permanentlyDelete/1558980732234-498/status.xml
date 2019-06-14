@@ -1,0 +1,1942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.xwiki.job.DefaultJobStatus>
+  <progress>
+    <listenerName>org.xwiki.job.internal.DefaultJobProgress_1786993196</listenerName>
+    <rootStep>
+      <message>
+        <message>Progress with name [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>job.progress</translationKey>
+        </marker>
+        <argumentArray>
+          <null/>
+        </argumentArray>
+      </message>
+      <index>0</index>
+      <offset>1.0</offset>
+      <maximumChildren>2</maximumChildren>
+      <childSize>0.5</childSize>
+      <children>
+        <org.xwiki.job.internal.DefaultJobProgressStep>
+          <index>0</index>
+          <offset>1.0</offset>
+          <maximumChildren>-1</maximumChildren>
+          <childSize>0.0</childSize>
+          <startTime>184187923092058</startTime>
+          <finished>true</finished>
+          <levelFinished>true</levelFinished>
+          <elapsedTime>2898989</elapsedTime>
+        </org.xwiki.job.internal.DefaultJobProgressStep>
+        <org.xwiki.job.internal.DefaultJobProgressStep>
+          <index>1</index>
+          <offset>1.0</offset>
+          <maximumChildren>47</maximumChildren>
+          <childSize>0.02127659574468085</childSize>
+          <children>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>0</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184187925991635</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>94619914</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>1</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188020622750</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>25395410</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>2</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188046037484</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>13012853</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>3</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188059065103</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>10380908</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>4</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188069461039</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>9866725</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>5</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188079339638</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>13719095</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>6</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188093073433</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>8992564</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>7</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188102077917</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>8057682</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>8</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188110146465</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>20116930</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>9</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188130275952</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>11366607</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>10</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188143499165</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>13654531</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>11</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188157164127</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>8181065</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>12</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188165354321</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>9364179</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>13</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188174726381</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>6331155</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>14</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188181064784</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>6696418</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>15</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188187771882</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>6783007</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>16</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188194565244</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>6124602</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>17</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188200697708</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>6545829</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>18</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188207250958</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>6424526</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>19</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188213681764</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>6965173</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>20</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188222226737</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>7685777</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>21</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188229922709</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>10182087</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>22</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188240127863</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>9700757</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>23</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188249837613</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>6917370</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>24</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188256764938</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>7174428</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>25</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188263947843</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>8871840</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>26</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188272829870</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>7668743</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>27</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188280532477</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>10178689</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>28</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188290724311</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>11965021</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>29</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188302702205</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>11990345</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>30</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188316285536</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>8759442</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>31</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188325055649</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>10785843</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>32</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188335856888</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>8421338</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>33</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188344290928</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>8779407</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>34</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188353081556</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>8430313</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>35</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188361526511</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>8904211</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>36</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188370443685</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>8544816</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>37</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188379001204</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>12327684</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>38</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188391339680</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>7614746</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>39</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188398965158</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>7693005</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>40</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188408373719</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>7768992</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>41</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188416154831</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>8108522</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>42</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188424282825</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>15867341</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>43</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188440169554</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>12984704</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>44</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188453171263</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>12520202</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>45</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188465704776</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>10918467</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>46</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>184188476633953</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>9707228</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+          </children>
+          <startTime>184187925991635</startTime>
+          <finished>true</finished>
+          <levelFinished>true</levelFinished>
+          <elapsedTime>560508316</elapsedTime>
+        </org.xwiki.job.internal.DefaultJobProgressStep>
+      </children>
+      <startTime>184187923092058</startTime>
+      <finished>true</finished>
+      <levelFinished>true</levelFinished>
+      <elapsedTime>563408024</elapsedTime>
+    </rootStep>
+  </progress>
+  <logs serialization="custom">
+    <unserializable-parents/>
+    <java.util.concurrent.ConcurrentLinkedQueue>
+      <default/>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>job.log.beginWithId</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker>
+              <name>xwiki.begin</name>
+              <referenceList class="java.util.concurrent.CopyOnWriteArrayList" serialization="custom">
+                <java.util.concurrent.CopyOnWriteArrayList>
+                  <default/>
+                  <int>0</int>
+                </java.util.concurrent.CopyOnWriteArrayList>
+              </referenceList>
+            </org.slf4j.helpers.BasicMarker>
+          </references>
+          <translationKey>job.log.beginWithId</translationKey>
+        </marker>
+        <message>Starting job of type [{}] with identifier [{}]</message>
+        <argumentArray>
+          <string>refactoring/permanentlyDelete</string>
+          <list>
+            <string>refactoring</string>
+            <string>permanentlyDelete</string>
+            <string>1558980732234-498</string>
+          </list>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1558980732237</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732332</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebPreferences</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>nameStories</name>
+              <parent class="org.xwiki.model.reference.WikiReference">
+                <name>xwiki</name>
+                <type>WIKI</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale></locale>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732358</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>nameStories</name>
+              <parent class="org.xwiki.model.reference.WikiReference">
+                <name>xwiki</name>
+                <type>WIKI</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732371</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>nameStoriesTranslations</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>nameStories</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732381</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>nameStoriesTemplateProvider</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>nameStories</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732391</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>nameStoriesTemplate</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>nameStories</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732405</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>nameStoriesSheet</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>nameStories</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732414</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>nameStoriesClass</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>nameStories</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732422</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>nameStories</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732442</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>La barre à un million d&apos;année</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>nameStories</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732453</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebPreferences</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>anecdote</name>
+              <parent class="org.xwiki.model.reference.WikiReference">
+                <name>xwiki</name>
+                <type>WIKI</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732469</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>anecdote</name>
+              <parent class="org.xwiki.model.reference.WikiReference">
+                <name>xwiki</name>
+                <type>WIKI</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732477</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>anecdoteTranslations</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>anecdote</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732486</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>anecdoteTemplateProvider</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>anecdote</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732493</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>anecdoteTemplate</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>anecdote</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732499</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>anecdoteSheet</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>anecdote</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732506</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>anecdoteClass</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>anecdote</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732512</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>anecdote</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732519</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebPreferences</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>country</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>data</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732525</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>crag</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>france</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>country</name>
+                  <parent class="org.xwiki.model.reference.SpaceReference">
+                    <name>data</name>
+                    <parent class="org.xwiki.model.reference.WikiReference">
+                      <name>xwiki</name>
+                      <type>WIKI</type>
+                    </parent>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>SPACE</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732532</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>france</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>country</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>data</name>
+                  <parent class="org.xwiki.model.reference.WikiReference">
+                    <name>xwiki</name>
+                    <type>WIKI</type>
+                  </parent>
+                  <type>SPACE</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732542</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>country</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>data</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732552</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>data</name>
+              <parent class="org.xwiki.model.reference.WikiReference">
+                <name>xwiki</name>
+                <type>WIKI</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732562</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>SpaceParentsChildrenService</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>XWiki</name>
+              <parent class="org.xwiki.model.reference.WikiReference">
+                <name>xwiki</name>
+                <type>WIKI</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732568</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>SpaceParentsChildrenLiveTableResultsMacros</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>XWiki</name>
+              <parent class="org.xwiki.model.reference.WikiReference">
+                <name>xwiki</name>
+                <type>WIKI</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732576</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>SpaceParentsChildrenMacro</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Main</name>
+              <parent class="org.xwiki.model.reference.WikiReference">
+                <name>xwiki</name>
+                <type>WIKI</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732585</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Italie</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>country</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>data</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../../org.xwiki.logging.event.LogEvent[25]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732592</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>France</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>country</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>data</name>
+                  <parent class="org.xwiki.model.reference.WikiReference">
+                    <name>xwiki</name>
+                    <type>WIKI</type>
+                  </parent>
+                  <type>SPACE</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732602</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>Country Template Provider</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>XWiki</name>
+              <parent class="org.xwiki.model.reference.WikiReference">
+                <name>xwiki</name>
+                <type>WIKI</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732614</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebPreferences</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Country</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>data</name>
+                <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../org.xwiki.logging.event.LogEvent[28]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732626</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Country</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>data</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732637</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Italie</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>Country</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>data</name>
+                  <parent class="org.xwiki.model.reference.WikiReference">
+                    <name>xwiki</name>
+                    <type>WIKI</type>
+                  </parent>
+                  <type>SPACE</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732648</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>France</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>Country</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>data</name>
+                  <parent class="org.xwiki.model.reference.WikiReference">
+                    <name>xwiki</name>
+                    <type>WIKI</type>
+                  </parent>
+                  <type>SPACE</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732656</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Data</name>
+              <parent class="org.xwiki.model.reference.WikiReference">
+                <name>xwiki</name>
+                <type>WIKI</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732665</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebPreferences</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Country</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>Data</name>
+                <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732673</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Country</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>Data</name>
+                <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732682</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Italie</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>Country</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Data</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732691</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>France</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>Country</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Data</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732703</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebPreferences</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Pays</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>Data</name>
+                <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732711</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Pays</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>Data</name>
+                <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732718</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Italie</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>Pays</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Data</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732728</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>France</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>Pays</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Data</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732736</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebPreferences</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Pays</name>
+              <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732752</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Pays</name>
+              <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732765</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Italie</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>Pays</name>
+                <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732777</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>France</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>Pays</name>
+                <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732788</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>WebHome</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Pays</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>XWiki</name>
+                <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../org.xwiki.logging.event.LogEvent[33]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1558980732798</timeStamp>
+        <message>Document [{}] has been permanently deleted.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>Pays</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>XWiki</name>
+              <parent class="org.xwiki.model.reference.WikiReference">
+                <name>xwiki</name>
+                <type>WIKI</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale reference="../../../../../../org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>job.log.endWithId</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker>
+              <name>xwiki.end</name>
+              <referenceList class="java.util.concurrent.CopyOnWriteArrayList" serialization="custom">
+                <java.util.concurrent.CopyOnWriteArrayList>
+                  <default/>
+                  <int>0</int>
+                </java.util.concurrent.CopyOnWriteArrayList>
+              </referenceList>
+            </org.slf4j.helpers.BasicMarker>
+          </references>
+          <translationKey>job.log.endWithId</translationKey>
+        </marker>
+        <message>Finished job of type [{}] with identifier [{}]</message>
+        <argumentArray>
+          <string>refactoring/permanentlyDelete</string>
+          <list reference="../../../org.xwiki.logging.event.BeginLogEvent/argumentArray/list"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1558980732798</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <null/>
+    </java.util.concurrent.ConcurrentLinkedQueue>
+  </logs>
+  <jobType>refactoring/permanentlyDelete</jobType>
+  <state>FINISHED</state>
+  <request class="org.xwiki.refactoring.job.PermanentlyDeleteRequest">
+    <id reference="../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.BeginLogEvent/argumentArray/list"/>
+    <properties>
+      <entry>
+        <string>wikiReference</string>
+        <org.xwiki.model.reference.WikiReference>
+          <name>xwiki</name>
+          <type>WIKI</type>
+        </org.xwiki.model.reference.WikiReference>
+      </entry>
+      <entry>
+        <string>checkAuthorRights</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>deletedDocumentIds</string>
+        <empty-list/>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <startDate>2019-05-27 18:12:12.237 UTC</startDate>
+  <endDate>2019-05-27 18:12:12.798 UTC</endDate>
+  <isolated>true</isolated>
+  <canceled>false</canceled>
+  <cancelable>true</cancelable>
+  <serialized>true</serialized>
+  <quesionEnd>-1</quesionEnd>
+</org.xwiki.job.DefaultJobStatus>

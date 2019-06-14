@@ -1,0 +1,74 @@
+User-agent: *
+# Prevent bots from executing all actions except "view" since:
+# 1) we don't want bots to execute stuff in the wiki!
+# 2) we don't want bots to consume CPU and memory
+# (for example to perform exports)
+# Note: You may want to allow /download/ if you wish to have
+# attachments indexed.
+Disallow: /*viewattachrev/
+Disallow: /*viewrev/
+Disallow: /*pdf/
+Disallow: /*tex/
+Disallow: /*edit/
+Disallow: /*create/
+Disallow: /*inline/
+Disallow: /*preview/
+Disallow: /*save/
+Disallow: /*saveandcontinue/
+Disallow: /*rollback/
+Disallow: /*deleteversions/
+Disallow: /*cancel/
+Disallow: /*delete/
+Disallow: /*deletespace/
+Disallow: /*undelete/
+Disallow: /*reset/
+Disallow: /*register/
+Disallow: /*propupdate/
+Disallow: /*propadd/
+Disallow: /*propdisable/
+Disallow: /*propenable/
+Disallow: /*propdelete/
+Disallow: /*objectadd/
+Disallow: /*commentadd/
+Disallow: /*commentsave/
+Disallow: /*objectsync/
+Disallow: /*objectremove/
+Disallow: /*attach/
+Disallow: /*upload/
+Disallow: /*download/
+Disallow: /*temp/
+Disallow: /*downloadrev/
+Disallow: /*dot/
+Disallow: /*svg/
+Disallow: /*delattachment/
+Disallow: /*skin/
+Disallow: /*jsx/
+Disallow: /*ssx/
+Disallow: /*login/
+Disallow: /*loginsubmit/
+Disallow: /*loginerror/
+Disallow: /*logout/
+Disallow: /*charting/
+Disallow: /*lock/
+Disallow: /*redirect/
+Disallow: /*admin/
+Disallow: /*export/
+Disallow: /*import/
+Disallow: /*get/
+Disallow: /*distribution/
+Disallow: /*imagecaptcha/
+Disallow: /*unknown/
+Disallow: /*webjars/
+# Don't index sandbox content since it's sample content
+Disallow: /*view/Sandbox/
+# Don't index Admin space since it contains Admin stuff.
+# Note that the Admin space is protected by permissions
+# anyway but this acts as a safety net to not have private
+# info leaked on the internet ;)
+Disallow: /*view/Admin/
+# Don't index Stats data (just because it's not useful and
+# those pages are a bit CPU intensive)
+Disallow: /*view/Stats/
+# Don't index Panels data (because we don't want it
+# indexed on the internet)
+Disallow: /*view/Panels/

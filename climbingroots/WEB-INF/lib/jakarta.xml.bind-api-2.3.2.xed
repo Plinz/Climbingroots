@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>jakarta.xml.bind:jakarta.xml.bind-api</id>
+<version>2.3.2</version>
+<type>jar</type>
+<summary>JAXB (JSR 222) API</summary>
+<website>https://github.com/eclipse-ee4j/jaxb-api/jakarta.xml.bind-api</website>
+<extensionfeatures>
+<feature>
+<feature>javax.xml.bind:jaxb-api</feature>
+<version>2.3.2</version>
+</feature>
+</extensionfeatures>
+<features>
+<feature>javax.xml.bind:jaxb-api</feature>
+</features>
+<authors>
+<author>
+<name>Roman Grigoriadi</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Eclipse Distribution License - v 1.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/eclipse-ee4j/jaxb-api.git/jakarta.xml.bind-api</url>
+<connection>
+<system>git</system>
+<path>git://github.com/eclipse-ee4j/jaxb-api.git/jakarta.xml.bind-api</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:eclipse-ee4j/jaxb-api.git/jakarta.xml.bind-api</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>github</system>
+<url>https://github.com/eclipse-ee4j/jaxb-api/issues</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>jakarta.activation:jakarta.activation-api</id>
+<version>1.2.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>jakarta.activation:jakarta.activation-api</id>
+<version>1.2.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>jakarta.xml.bind</maven.groupid>
+<maven.artifactid>jakarta.xml.bind-api</maven.artifactid>
+</properties>
+</extension>

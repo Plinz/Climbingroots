@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.xwiki.refactoring.job.EntityJobStatus>
+  <progress>
+    <listenerName>org.xwiki.job.internal.DefaultJobProgress_964969003</listenerName>
+    <rootStep>
+      <message>
+        <message>Progress with name [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>job.progress</translationKey>
+        </marker>
+        <argumentArray>
+          <null/>
+        </argumentArray>
+      </message>
+      <index>0</index>
+      <offset>1.0</offset>
+      <maximumChildren>1</maximumChildren>
+      <childSize>1.0</childSize>
+      <children>
+        <org.xwiki.job.internal.DefaultJobProgressStep>
+          <index>0</index>
+          <offset>1.0</offset>
+          <maximumChildren>3</maximumChildren>
+          <childSize>0.3333333333333333</childSize>
+          <children>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <message>
+                <message>Main document</message>
+                <marker class="org.xwiki.logging.marker.TranslationMarker">
+                  <name>xwiki.translation</name>
+                  <translationKey>Main document</translationKey>
+                </marker>
+              </message>
+              <index>0</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1448686154134391</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>8573321</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <message>
+                <message>Template children</message>
+                <marker class="org.xwiki.logging.marker.TranslationMarker">
+                  <name>xwiki.translation</name>
+                  <translationKey>Template children</translationKey>
+                </marker>
+              </message>
+              <index>1</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1448686162707957</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>14430</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <message>
+                <message>Remove lock from the main document</message>
+                <marker class="org.xwiki.logging.marker.TranslationMarker">
+                  <name>xwiki.translation</name>
+                  <translationKey>Remove lock from the main document</translationKey>
+                </marker>
+              </message>
+              <index>2</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>1448686162722522</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>12934642</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+          </children>
+          <startTime>1448686154134391</startTime>
+          <finished>true</finished>
+          <levelFinished>true</levelFinished>
+          <elapsedTime>21528379</elapsedTime>
+        </org.xwiki.job.internal.DefaultJobProgressStep>
+      </children>
+      <startTime>1448686154134391</startTime>
+      <finished>true</finished>
+      <levelFinished>true</levelFinished>
+      <elapsedTime>21772023</elapsedTime>
+    </rootStep>
+  </progress>
+  <logs serialization="custom">
+    <unserializable-parents/>
+    <java.util.concurrent.ConcurrentLinkedQueue>
+      <default/>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>job.log.beginWithId</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker>
+              <name>xwiki.begin</name>
+              <referenceList class="java.util.concurrent.CopyOnWriteArrayList" serialization="custom">
+                <java.util.concurrent.CopyOnWriteArrayList>
+                  <default/>
+                  <int>0</int>
+                </java.util.concurrent.CopyOnWriteArrayList>
+              </referenceList>
+            </org.slf4j.helpers.BasicMarker>
+          </references>
+          <translationKey>job.log.beginWithId</translationKey>
+        </marker>
+        <message>Starting job of type [{}] with identifier [{}]</message>
+        <argumentArray>
+          <string>refactoring/create</string>
+          <list>
+            <string>refactoring</string>
+            <string>create</string>
+            <string>1560245230466-199</string>
+          </list>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1560245230474</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>INFO</level>
+        <timeStamp>1560245230487</timeStamp>
+        <message>Document [{}] has been unlocked.</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>Allemagne</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>country</name>
+              <parent class="org.xwiki.model.reference.WikiReference">
+                <name>xwiki</name>
+                <type>WIKI</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>job.log.endWithId</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker>
+              <name>xwiki.end</name>
+              <referenceList class="java.util.concurrent.CopyOnWriteArrayList" serialization="custom">
+                <java.util.concurrent.CopyOnWriteArrayList>
+                  <default/>
+                  <int>0</int>
+                </java.util.concurrent.CopyOnWriteArrayList>
+              </referenceList>
+            </org.slf4j.helpers.BasicMarker>
+          </references>
+          <translationKey>job.log.endWithId</translationKey>
+        </marker>
+        <message>Finished job of type [{}] with identifier [{}]</message>
+        <argumentArray>
+          <string>refactoring/create</string>
+          <list reference="../../../org.xwiki.logging.event.BeginLogEvent/argumentArray/list"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1560245230487</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <null/>
+    </java.util.concurrent.ConcurrentLinkedQueue>
+  </logs>
+  <jobType>refactoring/create</jobType>
+  <state>FINISHED</state>
+  <request class="org.xwiki.refactoring.job.CreateRequest">
+    <id reference="../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.BeginLogEvent/argumentArray/list"/>
+    <properties>
+      <entry>
+        <string>template</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>countryTemplate</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>Code</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>country</name>
+              <parent class="org.xwiki.model.reference.WikiReference">
+                <name>xwiki</name>
+                <type>WIKI</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>job.type</string>
+        <string>refactoring/create</string>
+      </entry>
+      <entry>
+        <string>deep</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkAuthorRights</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <null/>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>skippedEntities</string>
+        <java.util.Arrays_-ArrayList>
+          <a class="org.xwiki.model.reference.EntityReference-array">
+            <org.xwiki.model.reference.DocumentReference>
+              <name>Allemagne</name>
+              <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../../../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.LogEvent/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+              <type>DOCUMENT</type>
+            </org.xwiki.model.reference.DocumentReference>
+          </a>
+        </java.util.Arrays_-ArrayList>
+      </entry>
+      <entry>
+        <string>entityReferences</string>
+        <java.util.Arrays_-ArrayList>
+          <a class="org.xwiki.model.reference.EntityReference-array">
+            <org.xwiki.model.reference.DocumentReference reference="../../../../entry[7]/java.util.Arrays_-ArrayList/a/org.xwiki.model.reference.DocumentReference"/>
+          </a>
+        </java.util.Arrays_-ArrayList>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <startDate>2019-06-11 09:27:10.474 UTC</startDate>
+  <endDate>2019-06-11 09:27:10.488 UTC</endDate>
+  <isolated>true</isolated>
+  <canceled>false</canceled>
+  <cancelable>true</cancelable>
+  <serialized>true</serialized>
+  <quesionEnd>-1</quesionEnd>
+</org.xwiki.refactoring.job.EntityJobStatus>

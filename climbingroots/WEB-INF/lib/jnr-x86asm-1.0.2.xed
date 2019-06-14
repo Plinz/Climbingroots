@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.jnr:jnr-x86asm</id>
+<version>1.0.2</version>
+<type>jar</type>
+<name>jnr-x86asm</name>
+<summary>A pure-java X86 and X86_64 assembler</summary>
+<website>http://github.com/jnr/jnr-x86asm</website>
+<authors>
+<author>
+<name>Wayne Meissner</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>git@github.com:jnr/jnr-x86asm.git</url>
+<connection>
+<system>git</system>
+<path>git@github.com:jnr/jnr-x86asm.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:jnr/jnr-x86asm.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>com.github.jnr</maven.groupid>
+<maven.artifactid>jnr-x86asm</maven.artifactid>
+</properties>
+</extension>

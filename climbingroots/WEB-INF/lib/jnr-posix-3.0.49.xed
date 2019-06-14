@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.jnr:jnr-posix</id>
+<version>3.0.49</version>
+<type>jar</type>
+<name>jnr-posix</name>
+<summary>Common cross-project/cross-platform POSIX APIs</summary>
+<website>http://nexus.sonatype.org/oss-repository-hosting.html/jnr-posix</website>
+<authors>
+<author>
+<name>Thomas E Enebo</name>
+</author>
+<author>
+<name>Wayne Meissner</name>
+</author>
+<author>
+<name>Charles Oliver Nutter</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Eclipse Public License - v 2.0</name>
+</license>
+<license>
+<name>GNU General Public License 2</name>
+</license>
+<license>
+<name>GNU Lesser General Public License 2.1</name>
+</license>
+</licenses>
+<scm>
+<url>git@github.com:jnr/jnr-posix.git</url>
+<connection>
+<system>git</system>
+<path>git@github.com:jnr/jnr-posix.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:jnr/jnr-posix.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>http://jira.codehaus.org/browse/JRUBY</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>com.github.jnr:jnr-ffi</id>
+<version>2.1.8</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>com.github.jnr:jnr-constants</id>
+<version>0.9.9</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.github.jnr</maven.groupid>
+<maven.artifactid>jnr-posix</maven.artifactid>
+</properties>
+</extension>

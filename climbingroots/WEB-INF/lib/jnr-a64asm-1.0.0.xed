@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.jnr:jnr-a64asm</id>
+<version>1.0.0</version>
+<type>jar</type>
+<name>jnr-a64asm</name>
+<summary>A pure-java A64 assembler</summary>
+<website>http://nexus.sonatype.org/oss-repository-hosting.html/jnr-a64asm</website>
+<authors>
+<author>
+<name>ossdev</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>git@github.com:jnr/jnr-a64asm.git</url>
+<connection>
+<system>git</system>
+<path>git@github.com:jnr/jnr-a64asm.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:jnr/jnr-a64asm.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>com.github.jnr</maven.groupid>
+<maven.artifactid>jnr-a64asm</maven.artifactid>
+</properties>
+</extension>

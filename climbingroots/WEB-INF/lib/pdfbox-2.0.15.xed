@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.pdfbox:pdfbox</id>
+<version>2.0.15</version>
+<type>jar</type>
+<name>Apache PDFBox</name>
+<summary>The Apache PDFBox library is an open source Java tool for working with PDF documents.</summary>
+<website>https://www.apache.org/pdfbox-parent/pdfbox/</website>
+<authors>
+<author>
+<name>Andreas Lehmkühler</name>
+</author>
+<author>
+<name>Adam Nichols</name>
+</author>
+<author>
+<name>Ben Litchfield</name>
+</author>
+<author>
+<name>Brian Carrier</name>
+</author>
+<author>
+<name>Daniel Wilson</name>
+</author>
+<author>
+<name>Guillaume Bailleul</name>
+</author>
+<author>
+<name>Jörg Henne</name>
+</author>
+<author>
+<name>Sebastian Holder</name>
+</author>
+<author>
+<name>John Hewson</name>
+</author>
+<author>
+<name>Jeremias Maerki</name>
+</author>
+<author>
+<name>Kevin Jackson</name>
+</author>
+<author>
+<name>Johannes Koch</name>
+</author>
+<author>
+<name>Carolin Köhler</name>
+</author>
+<author>
+<name>Matthäus Mayer</name>
+</author>
+<author>
+<name>Maruan Sahyoun</name>
+</author>
+<author>
+<name>Phillipp Koch</name>
+</author>
+<author>
+<name>Tim Allison</name>
+</author>
+<author>
+<name>Thomas Chojecki</name>
+</author>
+<author>
+<name>Timo Boehme</name>
+</author>
+<author>
+<name>Tilman Hausherr</name>
+</author>
+<author>
+<name>Villu Ruusmann</name>
+</author>
+<author>
+<name>Eric Leleu</name>
+</author>
+<author>
+<name>Jukka Zitting</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/maven/pom/tags/2.0.15/pdfbox-parent/pdfbox</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/maven/pom/tags/2.0.15/pdfbox-parent/pdfbox</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/maven/pom/tags/2.0.15/pdfbox-parent/pdfbox</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>https://issues.apache.org/jira/browse/PDFBOX</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.apache.pdfbox:fontbox</id>
+<version>2.0.15</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.2</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.bouncycastle:bcmail-jdk15on</id>
+<version>1.60</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.bouncycastle:bcprov-jdk15on</id>
+<version>1.60</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>junit:junit</id>
+<version>4.12</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.2</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>commons-io:commons-io</id>
+<version>2.6</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.bouncycastle:bcprov-jdk15on</id>
+<version>1.60</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.bouncycastle:bcmail-jdk15on</id>
+<version>1.60</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.bouncycastle:bcpkix-jdk15on</id>
+<version>1.60</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.pdfbox:jbig2-imageio</id>
+<version>3.0.2</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>com.github.jai-imageio:jai-imageio-core</id>
+<version>1.4.0</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>com.github.jai-imageio:jai-imageio-jpeg2000</id>
+<version>1.3.0</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.pdfbox</maven.groupid>
+<maven.artifactid>pdfbox</maven.artifactid>
+</properties>
+</extension>

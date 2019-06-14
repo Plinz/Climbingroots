@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.mchange:c3p0</id>
+<version>0.9.5.4</version>
+<type>jar</type>
+<name>c3p0</name>
+<summary>a JDBC Connection pooling / Statement caching library</summary>
+<website>https://github.com/swaldman/c3p0</website>
+<authors>
+<author>
+<name>Steve Waldman</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>GNU Lesser General Public License, Version 2.1</name>
+</license>
+<license>
+<name>Eclipse Public License - v 1.0</name>
+</license>
+</licenses>
+<scm>
+<url>scm:git:git@github.com:swaldman/c3p0.git</url>
+<connection>
+<system>git</system>
+<path>git@github.com:swaldman/c3p0.git</path>
+</connection>
+</scm>
+<dependencies>
+<dependency>
+<id>com.mchange:mchange-commons-java</id>
+<version>0.2.15</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.mchange</maven.groupid>
+<maven.artifactid>c3p0</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.restlet.jse:org.restlet.lib.org.simpleframework.simple-xml</id>
+<version>2.7.3.1</version>
+<type>jar</type>
+<name>Simple XML</name>
+<summary>Simple XML.</summary>
+<properties>
+<maven.groupid>org.restlet.jse</maven.groupid>
+<maven.artifactid>org.restlet.lib.org.simpleframework.simple-xml</maven.artifactid>
+</properties>
+</extension>

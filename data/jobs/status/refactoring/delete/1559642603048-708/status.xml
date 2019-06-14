@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.xwiki.refactoring.job.EntityJobStatus>
+  <progress>
+    <listenerName>org.xwiki.job.internal.DefaultJobProgress_1019829575</listenerName>
+    <rootStep>
+      <message>
+        <message>Progress with name [{}]</message>
+        <marker class="org.xwiki.logging.marker.TranslationMarker">
+          <name>xwiki.translation</name>
+          <translationKey>job.progress</translationKey>
+        </marker>
+        <argumentArray>
+          <null/>
+        </argumentArray>
+      </message>
+      <index>0</index>
+      <offset>1.0</offset>
+      <maximumChildren>2</maximumChildren>
+      <childSize>0.5</childSize>
+      <children>
+        <org.xwiki.job.internal.DefaultJobProgressStep>
+          <index>0</index>
+          <offset>1.0</offset>
+          <maximumChildren>1</maximumChildren>
+          <childSize>1.0</childSize>
+          <children>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>0</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>846058736928360</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>5066981</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+          </children>
+          <startTime>846058736928360</startTime>
+          <finished>true</finished>
+          <levelFinished>true</levelFinished>
+          <elapsedTime>9152518</elapsedTime>
+        </org.xwiki.job.internal.DefaultJobProgressStep>
+        <org.xwiki.job.internal.DefaultJobProgressStep>
+          <index>1</index>
+          <offset>1.0</offset>
+          <maximumChildren>0</maximumChildren>
+          <childSize>0.5</childSize>
+          <children>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <message>
+                <message>Execute HQL query [{}]</message>
+                <marker class="org.xwiki.logging.marker.TranslationMarker">
+                  <name>xwiki.translation</name>
+                  <translationKey>query.hql.progress.execute</translationKey>
+                </marker>
+                <argumentArray>
+                  <string>select distinct obj.name from BaseObject obj where obj.className=:className order by obj.name asc</string>
+                </argumentArray>
+              </message>
+              <index>0</index>
+              <offset>1.0</offset>
+              <maximumChildren>-1</maximumChildren>
+              <childSize>0.0</childSize>
+              <startTime>846058746081780</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>16450785</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+            <org.xwiki.job.internal.DefaultJobProgressStep>
+              <index>1</index>
+              <offset>1.0</offset>
+              <maximumChildren>1</maximumChildren>
+              <childSize>1.0</childSize>
+              <children>
+                <org.xwiki.job.internal.DefaultJobProgressStep>
+                  <index>0</index>
+                  <offset>1.0</offset>
+                  <maximumChildren>0</maximumChildren>
+                  <childSize>1.0</childSize>
+                  <children>
+                    <org.xwiki.job.internal.DefaultJobProgressStep>
+                      <message>
+                        <message>Execute HQL query [{}]</message>
+                        <marker class="org.xwiki.logging.marker.TranslationMarker">
+                          <name>xwiki.translation</name>
+                          <translationKey>query.hql.progress.execute</translationKey>
+                        </marker>
+                        <argumentArray>
+                          <string>select doc.language from XWikiDocument as doc where doc.space = :space and doc.name = :name and (doc.language &lt;&gt; &apos;&apos; or (doc.language is not null and &apos;&apos; is null))</string>
+                        </argumentArray>
+                      </message>
+                      <index>0</index>
+                      <offset>1.0</offset>
+                      <maximumChildren>-1</maximumChildren>
+                      <childSize>0.0</childSize>
+                      <startTime>846058764978103</startTime>
+                      <finished>true</finished>
+                      <levelFinished>true</levelFinished>
+                      <elapsedTime>2348837</elapsedTime>
+                    </org.xwiki.job.internal.DefaultJobProgressStep>
+                  </children>
+                  <startTime>846058764978103</startTime>
+                  <finished>true</finished>
+                  <levelFinished>true</levelFinished>
+                  <elapsedTime>145958872</elapsedTime>
+                </org.xwiki.job.internal.DefaultJobProgressStep>
+              </children>
+              <startTime>846058764978103</startTime>
+              <finished>true</finished>
+              <levelFinished>true</levelFinished>
+              <elapsedTime>145976687</elapsedTime>
+            </org.xwiki.job.internal.DefaultJobProgressStep>
+          </children>
+          <startTime>846058746081780</startTime>
+          <finished>true</finished>
+          <levelFinished>true</levelFinished>
+          <elapsedTime>164873179</elapsedTime>
+        </org.xwiki.job.internal.DefaultJobProgressStep>
+      </children>
+      <startTime>846058736928360</startTime>
+      <finished>true</finished>
+      <levelFinished>true</levelFinished>
+      <elapsedTime>174149738</elapsedTime>
+    </rootStep>
+  </progress>
+  <logs serialization="custom">
+    <unserializable-parents/>
+    <java.util.concurrent.ConcurrentLinkedQueue>
+      <default/>
+      <org.xwiki.logging.event.BeginLogEvent>
+        <marker class="org.xwiki.logging.marker.BeginTranslationMarker">
+          <name>job.log.beginWithId</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker>
+              <name>xwiki.begin</name>
+              <referenceList class="java.util.concurrent.CopyOnWriteArrayList" serialization="custom">
+                <java.util.concurrent.CopyOnWriteArrayList>
+                  <default/>
+                  <int>0</int>
+                </java.util.concurrent.CopyOnWriteArrayList>
+              </referenceList>
+            </org.slf4j.helpers.BasicMarker>
+          </references>
+          <translationKey>job.log.beginWithId</translationKey>
+        </marker>
+        <message>Starting job of type [{}] with identifier [{}]</message>
+        <argumentArray>
+          <string>refactoring/delete</string>
+          <list>
+            <string>refactoring</string>
+            <string>delete</string>
+            <string>1559642603048-708</string>
+          </list>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559642603054</timeStamp>
+      </org.xwiki.logging.event.BeginLogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>WARN</level>
+        <timeStamp>1559642603218</timeStamp>
+        <message>SQL Error: 1062, SQLState: 23000</message>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>ERROR</level>
+        <timeStamp>1559642603218</timeStamp>
+        <message>Duplicate entry &apos;climber.Code.climberTranslations--2019-06-04 12:03:23&apos; for key &apos;XDD_FULLNAME&apos;</message>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.LogEvent>
+        <level>ERROR</level>
+        <timeStamp>1559642603223</timeStamp>
+        <message>Failed to delete document [{}].</message>
+        <argumentArray>
+          <org.xwiki.model.reference.DocumentReference>
+            <name>climberTranslations</name>
+            <parent class="org.xwiki.model.reference.SpaceReference">
+              <name>Code</name>
+              <parent class="org.xwiki.model.reference.SpaceReference">
+                <name>climber</name>
+                <parent class="org.xwiki.model.reference.WikiReference">
+                  <name>xwiki</name>
+                  <type>WIKI</type>
+                </parent>
+                <type>SPACE</type>
+              </parent>
+              <type>SPACE</type>
+            </parent>
+            <type>DOCUMENT</type>
+            <parameters class="tree-map">
+              <entry>
+                <string>locale</string>
+                <locale></locale>
+              </entry>
+            </parameters>
+          </org.xwiki.model.reference.DocumentReference>
+        </argumentArray>
+        <throwable class="com.xpn.xwiki.XWikiException">
+          <detailMessage>Error number 0 in 3: Exception while hibernate execute</detailMessage>
+          <cause class="org.hibernate.exception.ConstraintViolationException">
+            <detailMessage>could not insert: [com.xpn.xwiki.doc.XWikiDeletedDocument]</detailMessage>
+            <cause class="com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException">
+              <detailMessage>Duplicate entry &apos;climber.Code.climberTranslations--2019-06-04 12:03:23&apos; for key &apos;XDD_FULLNAME&apos;</detailMessage>
+              <stackTrace>
+                <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</trace>
+                <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)</trace>
+                <trace>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</trace>
+                <trace>java.lang.reflect.Constructor.newInstance(Constructor.java:423)</trace>
+                <trace>com.mysql.jdbc.Util.handleNewInstance(Util.java:425)</trace>
+                <trace>com.mysql.jdbc.Util.getInstance(Util.java:408)</trace>
+                <trace>com.mysql.jdbc.SQLError.createSQLException(SQLError.java:935)</trace>
+                <trace>com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)</trace>
+                <trace>com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)</trace>
+                <trace>com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)</trace>
+                <trace>com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)</trace>
+                <trace>com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2490)</trace>
+                <trace>com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)</trace>
+                <trace>com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2079)</trace>
+                <trace>com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2013)</trace>
+                <trace>com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5116)</trace>
+                <trace>com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1998)</trace>
+                <trace>org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)</trace>
+                <trace>org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)</trace>
+                <trace>org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)</trace>
+                <trace>org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:94)</trace>
+                <trace>org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:57)</trace>
+                <trace>org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2345)</trace>
+                <trace>org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2852)</trace>
+                <trace>org.hibernate.action.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:71)</trace>
+                <trace>org.hibernate.engine.ActionQueue.execute(ActionQueue.java:273)</trace>
+                <trace>org.hibernate.event.def.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:320)</trace>
+                <trace>org.hibernate.event.def.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:203)</trace>
+                <trace>org.hibernate.event.def.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:129)</trace>
+                <trace>org.hibernate.event.def.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:210)</trace>
+                <trace>org.hibernate.event.def.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:56)</trace>
+                <trace>org.hibernate.event.def.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:195)</trace>
+                <trace>org.hibernate.event.def.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:50)</trace>
+                <trace>org.hibernate.event.def.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:93)</trace>
+                <trace>org.hibernate.impl.SessionImpl.fireSave(SessionImpl.java:713)</trace>
+                <trace>org.hibernate.impl.SessionImpl.save(SessionImpl.java:701)</trace>
+                <trace>org.hibernate.impl.SessionImpl.save(SessionImpl.java:697)</trace>
+                <trace>com.xpn.xwiki.store.XWikiHibernateRecycleBinStore$1.doInHibernate(XWikiHibernateRecycleBinStore.java:270)</trace>
+                <trace>com.xpn.xwiki.store.XWikiHibernateRecycleBinStore$1.doInHibernate(XWikiHibernateRecycleBinStore.java:260)</trace>
+                <trace>com.xpn.xwiki.store.XWikiHibernateBaseStore.execute(XWikiHibernateBaseStore.java:921)</trace>
+                <trace>com.xpn.xwiki.store.XWikiHibernateBaseStore.executeWrite(XWikiHibernateBaseStore.java:1036)</trace>
+                <trace>com.xpn.xwiki.store.XWikiHibernateRecycleBinStore.saveToRecycleBin(XWikiHibernateRecycleBinStore.java:259)</trace>
+                <trace>com.xpn.xwiki.XWiki.deleteDocument(XWiki.java:4380)</trace>
+                <trace>com.xpn.xwiki.XWiki.deleteDocument(XWiki.java:4335)</trace>
+                <trace>com.xpn.xwiki.XWiki.lambda$deleteAllDocuments$0(XWiki.java:6302)</trace>
+                <trace>org.xwiki.refactoring.internal.batch.DefaultBatchOperationExecutor.execute(DefaultBatchOperationExecutor.java:76)</trace>
+                <trace>org.xwiki.refactoring.internal.batch.DefaultBatchOperationExecutor.execute(DefaultBatchOperationExecutor.java:54)</trace>
+                <trace>com.xpn.xwiki.XWiki.deleteAllDocuments(XWiki.java:6294)</trace>
+                <trace>com.xpn.xwiki.XWiki.deleteAllDocuments(XWiki.java:6287)</trace>
+                <trace>org.xwiki.refactoring.internal.DefaultModelBridge.delete(DefaultModelBridge.java:190)</trace>
+                <trace>org.xwiki.refactoring.internal.job.DeleteJob.maybeDelete(DeleteJob.java:123)</trace>
+                <trace>org.xwiki.refactoring.internal.job.DeleteJob.process(DeleteJob.java:96)</trace>
+                <trace>org.xwiki.refactoring.internal.job.DeleteJob.process(DeleteJob.java:81)</trace>
+                <trace>org.xwiki.refactoring.internal.job.AbstractEntityJob.process(AbstractEntityJob.java:225)</trace>
+                <trace>org.xwiki.refactoring.internal.job.DeleteJob.lambda$process$0(DeleteJob.java:71)</trace>
+                <trace>org.xwiki.refactoring.internal.batch.DefaultBatchOperationExecutor.execute(DefaultBatchOperationExecutor.java:76)</trace>
+                <trace>org.xwiki.refactoring.internal.batch.DefaultBatchOperationExecutor.execute(DefaultBatchOperationExecutor.java:54)</trace>
+                <trace>org.xwiki.refactoring.internal.job.DeleteJob.process(DeleteJob.java:71)</trace>
+                <trace>org.xwiki.refactoring.internal.job.AbstractEntityJobWithChecks.runInternal(AbstractEntityJobWithChecks.java:64)</trace>
+                <trace>org.xwiki.job.AbstractJob.runInContext(AbstractJob.java:236)</trace>
+                <trace>org.xwiki.job.AbstractJob.run(AbstractJob.java:213)</trace>
+                <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+                <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+                <trace>java.lang.Thread.run(Thread.java:748)</trace>
+              </stackTrace>
+            </cause>
+            <stackTrace>
+              <trace>org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:96)</trace>
+              <trace>org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)</trace>
+              <trace>org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:64)</trace>
+              <trace>org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2345)</trace>
+              <trace>org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2852)</trace>
+              <trace>org.hibernate.action.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:71)</trace>
+              <trace>org.hibernate.engine.ActionQueue.execute(ActionQueue.java:273)</trace>
+              <trace>org.hibernate.event.def.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:320)</trace>
+              <trace>org.hibernate.event.def.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:203)</trace>
+              <trace>org.hibernate.event.def.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:129)</trace>
+              <trace>org.hibernate.event.def.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:210)</trace>
+              <trace>org.hibernate.event.def.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:56)</trace>
+              <trace>org.hibernate.event.def.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:195)</trace>
+              <trace>org.hibernate.event.def.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:50)</trace>
+              <trace>org.hibernate.event.def.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:93)</trace>
+              <trace>org.hibernate.impl.SessionImpl.fireSave(SessionImpl.java:713)</trace>
+              <trace>org.hibernate.impl.SessionImpl.save(SessionImpl.java:701)</trace>
+              <trace>org.hibernate.impl.SessionImpl.save(SessionImpl.java:697)</trace>
+              <trace>com.xpn.xwiki.store.XWikiHibernateRecycleBinStore$1.doInHibernate(XWikiHibernateRecycleBinStore.java:270)</trace>
+              <trace>com.xpn.xwiki.store.XWikiHibernateRecycleBinStore$1.doInHibernate(XWikiHibernateRecycleBinStore.java:260)</trace>
+              <trace>com.xpn.xwiki.store.XWikiHibernateBaseStore.execute(XWikiHibernateBaseStore.java:921)</trace>
+              <trace>com.xpn.xwiki.store.XWikiHibernateBaseStore.executeWrite(XWikiHibernateBaseStore.java:1036)</trace>
+              <trace>com.xpn.xwiki.store.XWikiHibernateRecycleBinStore.saveToRecycleBin(XWikiHibernateRecycleBinStore.java:259)</trace>
+              <trace>com.xpn.xwiki.XWiki.deleteDocument(XWiki.java:4380)</trace>
+              <trace>com.xpn.xwiki.XWiki.deleteDocument(XWiki.java:4335)</trace>
+              <trace>com.xpn.xwiki.XWiki.lambda$deleteAllDocuments$0(XWiki.java:6302)</trace>
+              <trace>org.xwiki.refactoring.internal.batch.DefaultBatchOperationExecutor.execute(DefaultBatchOperationExecutor.java:76)</trace>
+              <trace>org.xwiki.refactoring.internal.batch.DefaultBatchOperationExecutor.execute(DefaultBatchOperationExecutor.java:54)</trace>
+              <trace>com.xpn.xwiki.XWiki.deleteAllDocuments(XWiki.java:6294)</trace>
+              <trace>com.xpn.xwiki.XWiki.deleteAllDocuments(XWiki.java:6287)</trace>
+              <trace>org.xwiki.refactoring.internal.DefaultModelBridge.delete(DefaultModelBridge.java:190)</trace>
+              <trace>org.xwiki.refactoring.internal.job.DeleteJob.maybeDelete(DeleteJob.java:123)</trace>
+              <trace>org.xwiki.refactoring.internal.job.DeleteJob.process(DeleteJob.java:96)</trace>
+              <trace>org.xwiki.refactoring.internal.job.DeleteJob.process(DeleteJob.java:81)</trace>
+              <trace>org.xwiki.refactoring.internal.job.AbstractEntityJob.process(AbstractEntityJob.java:225)</trace>
+              <trace>org.xwiki.refactoring.internal.job.DeleteJob.lambda$process$0(DeleteJob.java:71)</trace>
+              <trace>org.xwiki.refactoring.internal.batch.DefaultBatchOperationExecutor.execute(DefaultBatchOperationExecutor.java:76)</trace>
+              <trace>org.xwiki.refactoring.internal.batch.DefaultBatchOperationExecutor.execute(DefaultBatchOperationExecutor.java:54)</trace>
+              <trace>org.xwiki.refactoring.internal.job.DeleteJob.process(DeleteJob.java:71)</trace>
+              <trace>org.xwiki.refactoring.internal.job.AbstractEntityJobWithChecks.runInternal(AbstractEntityJobWithChecks.java:64)</trace>
+              <trace>org.xwiki.job.AbstractJob.runInContext(AbstractJob.java:236)</trace>
+              <trace>org.xwiki.job.AbstractJob.run(AbstractJob.java:213)</trace>
+              <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+              <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+              <trace>java.lang.Thread.run(Thread.java:748)</trace>
+            </stackTrace>
+          </cause>
+          <stackTrace>
+            <trace>com.xpn.xwiki.store.XWikiHibernateBaseStore.execute(XWikiHibernateBaseStore.java:927)</trace>
+            <trace>com.xpn.xwiki.store.XWikiHibernateBaseStore.executeWrite(XWikiHibernateBaseStore.java:1036)</trace>
+            <trace>com.xpn.xwiki.store.XWikiHibernateRecycleBinStore.saveToRecycleBin(XWikiHibernateRecycleBinStore.java:259)</trace>
+            <trace>com.xpn.xwiki.XWiki.deleteDocument(XWiki.java:4380)</trace>
+            <trace>com.xpn.xwiki.XWiki.deleteDocument(XWiki.java:4335)</trace>
+            <trace>com.xpn.xwiki.XWiki.lambda$deleteAllDocuments$0(XWiki.java:6302)</trace>
+            <trace>org.xwiki.refactoring.internal.batch.DefaultBatchOperationExecutor.execute(DefaultBatchOperationExecutor.java:76)</trace>
+            <trace>org.xwiki.refactoring.internal.batch.DefaultBatchOperationExecutor.execute(DefaultBatchOperationExecutor.java:54)</trace>
+            <trace>com.xpn.xwiki.XWiki.deleteAllDocuments(XWiki.java:6294)</trace>
+            <trace>com.xpn.xwiki.XWiki.deleteAllDocuments(XWiki.java:6287)</trace>
+            <trace>org.xwiki.refactoring.internal.DefaultModelBridge.delete(DefaultModelBridge.java:190)</trace>
+            <trace>org.xwiki.refactoring.internal.job.DeleteJob.maybeDelete(DeleteJob.java:123)</trace>
+            <trace>org.xwiki.refactoring.internal.job.DeleteJob.process(DeleteJob.java:96)</trace>
+            <trace>org.xwiki.refactoring.internal.job.DeleteJob.process(DeleteJob.java:81)</trace>
+            <trace>org.xwiki.refactoring.internal.job.AbstractEntityJob.process(AbstractEntityJob.java:225)</trace>
+            <trace>org.xwiki.refactoring.internal.job.DeleteJob.lambda$process$0(DeleteJob.java:71)</trace>
+            <trace>org.xwiki.refactoring.internal.batch.DefaultBatchOperationExecutor.execute(DefaultBatchOperationExecutor.java:76)</trace>
+            <trace>org.xwiki.refactoring.internal.batch.DefaultBatchOperationExecutor.execute(DefaultBatchOperationExecutor.java:54)</trace>
+            <trace>org.xwiki.refactoring.internal.job.DeleteJob.process(DeleteJob.java:71)</trace>
+            <trace>org.xwiki.refactoring.internal.job.AbstractEntityJobWithChecks.runInternal(AbstractEntityJobWithChecks.java:64)</trace>
+            <trace>org.xwiki.job.AbstractJob.runInContext(AbstractJob.java:236)</trace>
+            <trace>org.xwiki.job.AbstractJob.run(AbstractJob.java:213)</trace>
+            <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+            <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+            <trace>java.lang.Thread.run(Thread.java:748)</trace>
+          </stackTrace>
+        </throwable>
+      </org.xwiki.logging.event.LogEvent>
+      <org.xwiki.logging.event.EndLogEvent>
+        <marker class="org.xwiki.logging.marker.EndTranslationMarker">
+          <name>job.log.endWithId</name>
+          <references class="linked-hash-set">
+            <org.slf4j.helpers.BasicMarker>
+              <name>xwiki.end</name>
+              <referenceList class="java.util.concurrent.CopyOnWriteArrayList" serialization="custom">
+                <java.util.concurrent.CopyOnWriteArrayList>
+                  <default/>
+                  <int>0</int>
+                </java.util.concurrent.CopyOnWriteArrayList>
+              </referenceList>
+            </org.slf4j.helpers.BasicMarker>
+          </references>
+          <translationKey>job.log.endWithId</translationKey>
+        </marker>
+        <message>Finished job of type [{}] with identifier [{}]</message>
+        <argumentArray>
+          <string>refactoring/delete</string>
+          <list reference="../../../org.xwiki.logging.event.BeginLogEvent/argumentArray/list"/>
+        </argumentArray>
+        <level>INFO</level>
+        <timeStamp>1559642603223</timeStamp>
+      </org.xwiki.logging.event.EndLogEvent>
+      <null/>
+    </java.util.concurrent.ConcurrentLinkedQueue>
+  </logs>
+  <jobType>refactoring/delete</jobType>
+  <state>FINISHED</state>
+  <request class="org.xwiki.refactoring.job.EntityRequest">
+    <id reference="../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.BeginLogEvent/argumentArray/list"/>
+    <properties>
+      <entry>
+        <string>job.type</string>
+        <string>refactoring/delete</string>
+      </entry>
+      <entry>
+        <string>checkAuthorRights</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.LogEvent[3]/argumentArray/org.xwiki.model.reference.DocumentReference/parent/parent/parent"/>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>entityReferences</string>
+        <java.util.Arrays_-ArrayList>
+          <a class="org.xwiki.model.reference.EntityReference-array">
+            <org.xwiki.model.reference.DocumentReference>
+              <name>climberTranslations</name>
+              <parent class="org.xwiki.model.reference.SpaceReference" reference="../../../../../../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.LogEvent[3]/argumentArray/org.xwiki.model.reference.DocumentReference/parent"/>
+              <type>DOCUMENT</type>
+              <parameters class="tree-map">
+                <entry>
+                  <string>locale</string>
+                  <locale reference="../../../../../../../../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.LogEvent[3]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                </entry>
+              </parameters>
+              <localDocumentReference>
+                <name>climberTranslations</name>
+                <parent>
+                  <name>Code</name>
+                  <parent>
+                    <name>climber</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../../../../../../logs/java.util.concurrent.ConcurrentLinkedQueue/org.xwiki.logging.event.LogEvent[3]/argumentArray/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+              </localDocumentReference>
+            </org.xwiki.model.reference.DocumentReference>
+          </a>
+        </java.util.Arrays_-ArrayList>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <startDate>2019-06-04 10:03:23.53 UTC</startDate>
+  <endDate>2019-06-04 10:03:23.223 UTC</endDate>
+  <isolated>true</isolated>
+  <canceled>false</canceled>
+  <cancelable>true</cancelable>
+  <serialized>true</serialized>
+  <quesionEnd>-1</quesionEnd>
+</org.xwiki.refactoring.job.EntityJobStatus>

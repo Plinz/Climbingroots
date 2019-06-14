@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.uima:uimaj-core</id>
+<version>3.0.1</version>
+<type>jar</type>
+<name>Apache UIMA Base: uimaj-core</name>
+<summary>The core implementation of the UIMA Java Framework</summary>
+<website>http://uima.apache.org</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/uima/uv3/uimaj-v3/tags/uimaj-3.0.1/uimaj-core</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/uima/uv3/uimaj-v3/tags/uimaj-3.0.1/uimaj-core</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/uima/uv3/uimaj-v3/tags/uimaj-3.0.1/uimaj-core</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>Jira</system>
+<url>https://issues.apache.org/jira/browse/UIMA</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.25</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.bitbucket.mstrobel:procyon-compilertools</id>
+<version>0.5.32</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.bitbucket.mstrobel:procyon-core</id>
+<version>0.5.32</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>junit:junit</id>
+<version>4.12</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-jdk14</id>
+<version>1.7.25</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.25</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.uima</maven.groupid>
+<maven.artifactid>uimaj-core</maven.artifactid>
+</properties>
+</extension>

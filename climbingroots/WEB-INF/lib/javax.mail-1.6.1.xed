@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.sun.mail:javax.mail</id>
+<version>1.6.1</version>
+<type>jar</type>
+<name>JavaMail API</name>
+<summary>JavaMail API</summary>
+<website>http://javaee.github.io/javamail/javax.mail</website>
+<extensionfeatures>
+<feature>
+<feature>javax.mail:mail</feature>
+<version>1.6.1</version>
+</feature>
+<feature>
+<feature>javax.mail:mailapi</feature>
+<version>1.6.1</version>
+</feature>
+</extensionfeatures>
+<features>
+<feature>javax.mail:mail</feature>
+<feature>javax.mail:mailapi</feature>
+</features>
+<authors>
+<author>
+<name>Bill Shannon</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>CDDL/GPLv2+CE</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/javaee/javamail/javax.mail</url>
+<connection>
+<system>git</system>
+<path>https://github.com/javaee/javamail.git/javax.mail</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:javaee/javamail.git/javax.mail</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>GitHub</system>
+<url>https://github.com/javaee/javamail/issues</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>javax.activation:activation</id>
+<version>1.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>javax.activation:activation</id>
+<version>1.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.sun.mail:javax.mail</id>
+<version>1.6.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.sun.mail:dsn</id>
+<version>1.6.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.sun.mail:gimap</id>
+<version>1.6.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.sun.mail:mbox</id>
+<version>1.6.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.sun.mail:taglib</id>
+<version>1.6.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>javax.servlet:servlet-api</id>
+<version>2.5</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>javax.servlet.jsp:jsp-api</id>
+<version>2.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>com.sun.mail</maven.groupid>
+<maven.artifactid>javax.mail</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>info.ganglia.gmetric4j:gmetric4j</id>
+<version>1.0.7</version>
+<type>jar</type>
+<name>gmetric4j</name>
+<summary>JVM instrumentation to Ganglia</summary>
+<website>http://github.com/ganglia/gmetric4j</website>
+<authors>
+<author>
+<name>Jasper Humphrey</name>
+</author>
+<author>
+<name>Daniel Pocock</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>scm:git:git@github.com:ganglia/gmetric4j.git</url>
+<connection>
+<system>git</system>
+<path>git@github.com:ganglia/gmetric4j.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:ganglia/gmetric4j.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.acplt:oncrpc</id>
+<version>1.0.7</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>info.ganglia.gmetric4j</maven.groupid>
+<maven.artifactid>gmetric4j</maven.artifactid>
+</properties>
+</extension>

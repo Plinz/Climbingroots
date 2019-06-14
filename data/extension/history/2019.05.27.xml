@@ -1,0 +1,757 @@
+<org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>installplan</jobType>
+  <request class="org.xwiki.extension.job.InstallRequest">
+    <id>
+      <string>extension</string>
+      <string>plan</string>
+      <string>mstaicu:parent-children-livetable-macro</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>mstaicu:parent-children-livetable-macro</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" serialization="custom">
+              <org.xwiki.extension.version.internal.DefaultVersion>
+                <string>1.2</string>
+              </org.xwiki.extension.version.internal.DefaultVersion>
+            </version>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rewriter</string>
+        <org.xwiki.extension.script.ScriptExtensionRewriter>
+          <installOnRootNamespace/>
+        </org.xwiki.extension.script.ScriptExtensionRewriter>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m/>
+  </answers>
+  <startDate>2019-05-27 09:54:37.754 UTC</startDate>
+  <endDate>2019-05-27 09:54:39.944 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>install</jobType>
+  <request class="org.xwiki.extension.job.InstallRequest">
+    <id>
+      <string>extension</string>
+      <string>action</string>
+      <string>mstaicu:parent-children-livetable-macro</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>mstaicu:parent-children-livetable-macro</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" serialization="custom">
+              <org.xwiki.extension.version.internal.DefaultVersion>
+                <string>1.2</string>
+              </org.xwiki.extension.version.internal.DefaultVersion>
+            </version>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rewriter</string>
+        <org.xwiki.extension.script.ScriptExtensionRewriter>
+          <installOnRootNamespace/>
+        </org.xwiki.extension.script.ScriptExtensionRewriter>
+      </entry>
+      <entry>
+        <string>extension.properties</string>
+        <map>
+          <entry>
+            <string>user.reference</string>
+            <string>xwiki:XWiki.AntoineDuquennoy</string>
+          </entry>
+        </map>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m/>
+  </answers>
+  <startDate>2019-05-27 09:54:43.241 UTC</startDate>
+  <endDate>2019-05-27 09:54:43.870 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>uninstallplan</jobType>
+  <request class="org.xwiki.extension.job.UninstallRequest">
+    <id>
+      <string>extension</string>
+      <string>plan</string>
+      <string>mstaicu:parent-children-livetable-macro</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>mstaicu:parent-children-livetable-macro</id>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m/>
+  </answers>
+  <startDate>2019-05-27 10:10:05.928 UTC</startDate>
+  <endDate>2019-05-27 10:10:05.929 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>uninstall</jobType>
+  <request class="org.xwiki.extension.job.UninstallRequest">
+    <id>
+      <string>extension</string>
+      <string>action</string>
+      <string>mstaicu:parent-children-livetable-macro</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>mstaicu:parent-children-livetable-macro</id>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m>
+      <entry>
+        <string>org.xwiki.extension.xar.question.CleanPagesQuestion</string>
+        <org.xwiki.extension.xar.internal.question.CleanPagesQuestionRecorder>
+          <answers>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>SpaceParentsChildrenMacro</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Main</name>
+                  <parent class="org.xwiki.model.reference.WikiReference">
+                    <name>xwiki</name>
+                    <type>WIKI</type>
+                  </parent>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale></locale>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>SpaceParentsChildrenMacro</name>
+                  <parent>
+                    <name>Main</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>SpaceParentsChildrenLiveTableResultsMacros</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>XWiki</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale></locale>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>SpaceParentsChildrenLiveTableResultsMacros</name>
+                  <parent>
+                    <name>XWiki</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>SpaceParentsChildrenService</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>XWiki</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale></locale>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>SpaceParentsChildrenService</name>
+                  <parent>
+                    <name>XWiki</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+          </answers>
+        </org.xwiki.extension.xar.internal.question.CleanPagesQuestionRecorder>
+      </entry>
+    </m>
+  </answers>
+  <startDate>2019-05-27 10:10:07.128 UTC</startDate>
+  <endDate>2019-05-27 10:10:08.583 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>installplan</jobType>
+  <request class="org.xwiki.extension.job.InstallRequest">
+    <id>
+      <string>extension</string>
+      <string>plan</string>
+      <string>org.xwiki.platform:xwiki-platform-distribution-flavor-mainwiki</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>org.xwiki.platform:xwiki-platform-distribution-flavor-mainwiki</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" serialization="custom">
+              <org.xwiki.extension.version.internal.DefaultVersion>
+                <string>11.4</string>
+              </org.xwiki.extension.version.internal.DefaultVersion>
+            </version>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rewriter</string>
+        <org.xwiki.extension.script.ScriptExtensionRewriter>
+          <installOnRootNamespace>
+            <string>webjar</string>
+            <string>jar</string>
+          </installOnRootNamespace>
+        </org.xwiki.extension.script.ScriptExtensionRewriter>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>superadmin</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>distribution</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m/>
+  </answers>
+  <startDate>2019-05-27 19:12:38.426 UTC</startDate>
+  <endDate>2019-05-27 19:12:49.209 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>install</jobType>
+  <request class="org.xwiki.extension.job.InstallRequest">
+    <id>
+      <string>extension</string>
+      <string>action</string>
+      <string>org.xwiki.platform:xwiki-platform-distribution-flavor-mainwiki</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>org.xwiki.platform:xwiki-platform-distribution-flavor-mainwiki</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" serialization="custom">
+              <org.xwiki.extension.version.internal.DefaultVersion>
+                <string>11.4</string>
+              </org.xwiki.extension.version.internal.DefaultVersion>
+            </version>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rewriter</string>
+        <org.xwiki.extension.script.ScriptExtensionRewriter>
+          <installOnRootNamespace>
+            <string>webjar</string>
+            <string>jar</string>
+          </installOnRootNamespace>
+        </org.xwiki.extension.script.ScriptExtensionRewriter>
+      </entry>
+      <entry>
+        <string>extension.properties</string>
+        <map>
+          <entry>
+            <string>user.reference</string>
+            <string>xwiki:XWiki.AntoineDuquennoy</string>
+          </entry>
+        </map>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>superadmin</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>distribution</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m/>
+  </answers>
+  <startDate>2019-05-27 19:12:54.676 UTC</startDate>
+  <endDate>2019-05-27 19:13:24.502 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>searchflavors</jobType>
+  <request class="org.xwiki.platform.flavor.job.FlavorSearchRequest">
+    <id>
+      <string>flavor</string>
+      <string>search</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list/>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>superadmin</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m/>
+  </answers>
+  <startDate>2019-05-27 19:14:23.744 UTC</startDate>
+  <endDate>2019-05-27 19:14:25.543 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord>

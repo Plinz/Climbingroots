@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.sonatype.plexus:plexus-sec-dispatcher</id>
+<version>1.4</version>
+<type>jar</type>
+<name>Plexus Security Dispatcher Component</name>
+<website>http://spice.sonatype.org/plexus-sec-dispatcher</website>
+<licenses>
+<license>
+<name>Apache Public License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.sonatype.org/spice/tags/plexus-sec-dispatcher-1.4</url>
+<connection>
+<system>svn</system>
+<path>http://svn.sonatype.org/spice/tags/plexus-sec-dispatcher-1.4</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.sonatype.org/spice/tags/plexus-sec-dispatcher-1.4</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>https://issues.sonatype.org/browse/SPICE</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.codehaus.plexus:plexus-utils</id>
+<version>1.5.5</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.sonatype.plexus:plexus-cipher</id>
+<version>1.4</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.codehaus.plexus:plexus-container-default</id>
+<version>1.0-beta-3.0.5</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-component-annotations</id>
+<version>1.0-beta-3.0.5</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-utils</id>
+<version>1.5.5</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.mortbay.jetty:jetty</id>
+<version>6.1.12</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.mortbay.jetty:jetty-client</id>
+<version>6.1.12</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.mortbay.jetty:jetty-util</id>
+<version>6.1.12</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.5</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.sonatype.plexus</maven.groupid>
+<maven.artifactid>plexus-sec-dispatcher</maven.artifactid>
+</properties>
+</extension>

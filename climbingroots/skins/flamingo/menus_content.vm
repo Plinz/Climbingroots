@@ -1,0 +1,413 @@
+##
+## Globals
+##
+#set ($canView = !$doc.isNew() && $xwiki.hasAccessLevel('view'))
+## Note: For Copy we would need to check that the user has edit permissions
+## (since there's no create permission) for the *target* location. Since the
+## user selects the target location in the Copy UI, we need to display the
+## copy menu action. Checking if the user (or guest) doesn't have edit
+## permissions on the whole wiki (including subwiki) is costly. Thus FTM we
+## only check for view permissions.
+#set ($canCopy = $canView)
+#set ($canDelete = !$doc.isNew() && $xwiki.hasAccessLevel('delete'))
+#set ($canShare = $canView && $xwiki.exists('XWiki.SharePage') && !$isGuest)
+## Add rel='nofollow' to prevent search crawler from navigating the links and indexing them in search results
+#set ($extraAttributes = 'rel="nofollow"')
+
+##
+## Display the main menus
+##
+#if ($hasCreateSpace && $displayContentMenu)
+  #template("menus_macros.vm")
+  ##
+  #set ($topStaticExtensions = [])
+  ##
+  ## EDIT menu
+  ##
+  #define ($editMenu)
+    #if ($displayEditMenu && $hasEdit && !$isReadOnly)
+      #displayEditMenu()
+    #end
+  #end
+  #set ($discard = $topStaticExtensions.add( { 'content': "$!editMenu", 'order': 10000}))
+  ##
+  ## CREATE menu
+  ##
+  #define ($createMenu)
+    ## Display a create menu if the user has the right to create spaces in the current wiki (since the Create UI supports)
+    ## creating pages in other places in the hierarchy) or if the user has right to create pages in the current location.
+    ## This supports the following 2 use cases for non-admin users:
+    ## - I'm on a space where I don't have permissions to create pages but I have the right to create pages in the wiki.
+    ##   Example: I'm on my user profile which is located in the XWiki space (in which users don't have Edit rights by
+    ##   default). I can see the Create button. See https://jira.xwiki.org/browse/XWIKI-10999
+    ## - I don't have the right to create pages in the wiki but I have the right to create pages under a given hierarchy.
+    ##   Example: I'm allowed to create pages only in the Sandbox space and I'm there. I can see the Create button.
+    ##   See https://jira.xwiki.org/browse/XWIKI-13847
+    #if ($displayCreateMenu && ($hasCreateSpace || $hasCreatePage))
+      #displayCreateButton()
+    #end
+  #end
+  #set ($discard = $topStaticExtensions.add( { 'content': "$!createMenu", 'order': 20000}))
+  ##
+  ## MORE ACTIONS menu
+  ##
+  #define ($actionsMenu)
+    ## Note: Both the admin actions and the more actions menus are now merged into one.
+    #if ($displayAdminMenu || $displayMoreActionsMenu)  
+      #displayOptionsMenu()
+      #if ($canView)
+        #template("export_modal.vm")
+        #exportModal()
+      #end
+    #end
+  #end
+  #set ($discard = $topStaticExtensions.add( { 'content': "$!actionsMenu", 'order': 40000}))
+  ##
+  ## Display all the extensions points, including the static ones
+  ##
+  #define ($menuContent)
+    #displaySecureUIX('org.xwiki.plaftorm.menu.content', $topStaticExtensions)
+  #end
+  ##
+  ## Display the menu
+  ##
+  <div id="contentmenu" class="pull-right actionmenu">
+    $menuContent
+
+    #if($keyboardShortcutsEnabled)
+      #keyboardShortcuts()
+    #end
+  </div>
+#end
+
+#**
+ * Display a menu if it has some content.
+ *
+ * @param $id the id of the menu
+ * @param $icon the icon of the menu
+ * @param $content the content of the menu
+ * @param $titleKey translation key of the link title to use
+ * @param $titleAsLabel if the link title should also be used as link label
+ * @param $actionUrl the link of the top menu entry. If not provided, the top menu entry will act as an activator for the dropdown
+ * @param $extraAttribute (optional) additional A element attributes to add (such as ref="nofollow" for example)
+ *
+ * @since 7.3M2
+ *#
+#macro(displayMenu $id $icon $menuContent $titleKey $titleAsLabel $actionUrl $extraAttribute)
+  <div class="btn-group" id="$id">
+    <a class="btn btn-default#if ("$!actionUrl" == '') dropdown-toggle#end" title="$services.localization.render($titleKey)"##
+    #if ("$!actionUrl" != '')
+      href="$actionUrl"
+    #else
+      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+    #end
+    role="button"#if ("$!extraAttribute" != '') ${extraAttribute}#end>
+      $services.icon.renderHTML($icon)
+      #if ($titleAsLabel)
+        <span class="btn-label">$services.localization.render($titleKey)</span>
+      #end
+    </a>
+    #if ($stringtool.isNotBlank("$!menuContent"))
+      #if ("$!actionUrl" != '')
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="caret"></span>
+          <span class="sr-only">$services.localization.render('core.menu.toggleDropdown')</span>
+        </button>
+      #end
+      <ul class="dropdown-menu #if ("$!actionUrl" == '')dropdown-menu-right#end">
+        $menuContent
+      </ul>
+    #end
+  </div>
+#end
+
+#**
+ * Display UI extensions if the author of the UIX has the ADMIN right on the current wiki
+ *
+ * @param $name the name of the UI extension to display
+ * @param $staticExtensions (optional) an array of static extensions to display along with the regular uix.
+ *         e.g. [ { 'content': 'someHTMLcontent', 'order': 20000, 'separator': true } ]
+ * @param $count out parameter containing the number of entries displayed in the menu
+ * @since 7.3M1
+ *
+ * TODO: replace this macro to stop having "static extensions" but a mechanism to have real UI Extensions in templates.
+ *#
+#macro(displaySecureUIX $name $staticExtensions $count)
+  #set ($count = 0)
+  ## Add the static UIX to the list of UIX to display
+  #set ($extensions = [])
+  #set ($discard = $extensions.addAll($staticExtensions))
+  ## Add the dynamic UIX to the list of of UIX to display
+  #foreach($uix in $services.uix.getExtensions($name))
+    #if ($services.security.authorization.hasAccess('admin', $uix.authorReference, $services.wiki.currentWikiDescriptor.reference))
+      #set ($separator = ("$!uix.getParameters().separator" == 'true'))
+      #set ($order = $mathtool.toInteger($uix.getParameters().order))
+      #if ("$!order" == '')
+        ## Fallback for incomplete/invalid extension orders to avoid breaking the display.
+        #set ($order = 0)
+      #end
+      #set ($uixMap = { 'content'  : $services.rendering.render($uix.execute(), 'html/5.0'),
+                        'order'    : $order,
+                        'separator': $separator})
+      #set ($discard = $extensions.add($uixMap))
+    #end
+  #end
+  ## Display them, sorted by order
+  #set ($canHaveMenuSeparator = false)
+  #foreach($uix in $sorttool.sort($extensions, 'order'))
+    ## Maybe display a menu separator
+    #if ("$!uix.separator" == 'true' && $canHaveMenuSeparator)
+      #submenuseparator()
+      #set ($canHaveMenuSeparator = false)
+    #end
+    #set ($content = $uix.content.toString())
+    $content
+    #if ($stringtool.isNotBlank($content))
+      #set ($canHaveMenuSeparator = true)
+      #set ($count = $count + 1)
+    #end
+  #end
+  #setVariable("$count", $count)
+#end
+
+#macro (submenuheader $titleKey)
+  <li class="dropdown-header">$services.localization.render($titleKey)</li>
+#end
+
+#**
+ * Display the create button
+ *#
+#macro(displayCreateButton)
+  #displayMenu('tmCreate', 'add', '', 'core.menu.create', true, $doc.getURL('create'), $extraAttributes)
+#end
+
+#**
+ * Display the edit menu
+ *#
+#macro(displayEditMenu)
+  #set ($defaultEditURL = $doc.getURL($doc.getDefaultEditMode(), $!languageparams))
+  #set ($staticExtensions = [])
+  #if ($isAdvancedUser)
+    ##
+    ## WYSIWYG
+    ##
+    ## Check if the WYSIWYG supports the current document's syntax and if so add a menu entry to edit the current
+    ## document with the WYSIWYG editor.
+    #define ($editWYSIWYG)
+      #if ($services.wysiwyg.isSyntaxSupported($tdoc.syntax.toIdString()))
+        #submenuitem($doc.getURL('edit', "$!{languageparams}#if ($languageparams != '')&amp;#{end}editor=wysiwyg") $services.localization.render('core.menu.edit.wysiwyg') 'tmEditWysiwyg', '', 'pencil', $extraAttributes)
+      #end
+    #end
+    #set ($discard = $staticExtensions.add( { 'content': $editWYSIWYG, 'order': 20000, 'separator': true}))
+    ##
+    ## WIKI EDITOR
+    ##
+    #define ($wikiEditor)
+      #submenuitem($doc.getURL('edit', "$!{languageparams}#if ($languageparams != '')&amp;#{end}editor=wiki") $services.localization.render('core.menu.edit.wiki') 'tmEditWiki', '', 'wrench', $extraAttributes)
+    #end
+    #set ($discard = $staticExtensions.add( { 'content': $wikiEditor, 'order': 30000}))
+    ##
+    ## INLINE EDITOR
+    ##
+    #define ($inlineEditor)
+      #submenuitem($doc.getURL('edit', "$!{languageparams}#if ($languageparams != '')&amp;#{end}editor=inline") $services.localization.render('core.menu.edit.inline') 'tmEditInline', '', 'list', $extraAttributes)
+    #end
+    #set ($discard = $staticExtensions.add( { 'content': $inlineEditor, 'order': 40000}))
+    ##
+    ## RIGHTS
+    ##
+    ## The 'rights' editor is already present in the page administration. So we display it here only if we are not in 
+    ## a terminal document or if the user has not the admin right on the space (because right now the page 
+    ## administration is still combined with the space administration).
+    ## TODO: create a proprer 'page administration' and stop adding a right editor in this menu
+    #define ($rightsEditor)
+      #if ($doc.documentReference.name != 'WebHome' || !$hasSpaceAdmin || !$isAdminAppInstalled)
+        #submenuitem($doc.getURL('edit', 'editor=rights') $services.localization.render('core.menu.edit.rights') 'tmEditRights', '', 'lock', $extraAttributes)
+      #end
+    #end
+    #set ($discard = $staticExtensions.add( { 'content': $rightsEditor, 'order': 50000, 'separator': true}))
+    ##
+    ## OBJECTS EDITOR
+    ##
+    #set ($discard = $staticExtensions.add( { 'content': "#submenuitem($doc.getURL('edit', 'editor=object') $services.localization.render('core.menu.edit.object') 'tmEditObject', '', 'drive', $extraAttributes)", 'order': 60000}))
+    ##
+    ## CLASS EDITOR
+    ##
+    #set ($discard = $staticExtensions.add( { 'content': "#submenuitem($doc.getURL('edit', 'editor=class') $services.localization.render('core.menu.edit.class') 'tmEditClass', '', 'drive', $extraAttributes)", 'order': 70000}))
+  #end
+  ##
+  ## Display all the extensions points, including the static ones
+  ##
+  #define ($menuContent)
+    #displaySecureUIX('org.xwiki.plaftorm.editactions', $staticExtensions)
+  #end
+  #displayMenu('tmEdit', 'pencil', $menuContent, 'core.menu.edit', true, $defaultEditURL, $extraAttributes)
+#end
+
+#**
+ * Display admin actions
+ *#
+#macro(displayAdminActions)
+  #set ($staticExtensions = [])
+  ##
+  ## COPY
+  ##
+  #if ($canCopy)
+    #define ($copy)
+      #submenuitem($xwiki.getURL($doc.documentReference, 'view', 'xpage=copy') $services.localization.render('core.menu.copy') 'tmActionCopy', '' 'copy', $extraAttributes)
+    #end
+    #set ($discard = $staticExtensions.add( { 'content': $copy, 'order': 20000}))
+  #end
+  ##
+  ## DELETE / RENAME
+  ##
+  #if ($canDelete)
+    #define ($rename)
+      #submenuitem($xwiki.getURL($doc.documentReference, 'view', 'xpage=rename&amp;step=1') $services.localization.render('core.menu.rename') 'tmActionRename', '' 'move', $extraAttributes)
+    #end
+    #set ($discard = $staticExtensions.add( { 'content': $rename, 'order': 30000}))
+    #define ($delete)
+      #submenuitem($xwiki.getURL($doc.documentReference, 'delete', $!languageparams) $services.localization.render('core.menu.delete') 'tmActionDelete', '', 'remove', $extraAttributes)
+    #end
+    #set ($discard = $staticExtensions.add( { 'content': $delete, 'order': 40000}))
+  #end
+  ##
+  ## Display all the extensions points, including the static ones
+  ##
+  #displaySecureUIX('org.xwiki.plaftorm.adminactions', $staticExtensions)
+#end
+
+#**
+ * Display "more actions" entries
+ *#
+#macro(displayMoreActions)
+  #set ($staticExtensions = [])
+  ##
+  ## EXPORT / PRINT / SOURCE / SHARE
+  ##
+  #if ($canView)
+    ##
+    ## EXPORT
+    ##
+    #define ($export)
+      #submenuitem('' $services.localization.render('core.menu.export') 'tmExport', '', 'download', 'data-toggle="modal" data-target="#exportModal"')
+    #end
+    #set ($discard = $staticExtensions.add( { 'content': $export, 'order': 80000}))
+    ##
+    ## PRINT
+    ##
+    #define ($print)
+      #submenuitem($doc.getURL('view', "xpage=print&amp;$!escapetool.html($request.getQueryString())") $services.localization.render('core.menu.preview') 'tmPrintPreview', '', 'print', $extraAttributes)
+    #end
+    #set ($discard = $staticExtensions.add( { 'content': $print, 'order': 90000}))
+    ##
+    ## VIEW SOURCE
+    ##
+    #define ($viewSource)
+      #if ("$!request.rev" != '')
+        #set ($revisionParameter = "&rev=$request.rev")
+      #end
+      #submenuitem($doc.getURL('view', "viewer=code$!{revisionParameter}") $services.localization.render('core.menu.view.source') 'tmViewSource', '', 'search', $extraAttributes)
+    #end
+    #set ($discard = $staticExtensions.add( { 'content': $viewSource, 'order': 100000}))
+    ##
+    ## SHARE BY EMAIL
+    ##
+    #if ($canShare)
+      #define ($share)
+        #submenuitem($xwiki.getURL($doc.documentReference, 'view', 'viewer=share') $services.localization.render('core.menu.share') 'tmActionShare', '', 'envelope', $extraAttributes)
+        #userPicker_import()
+      #end
+      #set ($discard = $staticExtensions.add( { 'content': $share, 'order': 110000}))
+      $xwiki.jsx.use('XWiki.SharePage')
+      $xwiki.ssx.use('XWiki.SharePage')
+    #end
+  #end
+  ##
+  ## Display all the extensions points, including the static ones
+  ##
+  #displaySecureUIX('org.xwiki.plaftorm.moreoptions', $staticExtensions)
+#end
+
+#**
+ * Display options menu
+ *#
+#macro(displayOptionsMenu)
+  ##
+  ## Display all the extensions points, including the static ones
+  ##
+  #define ($menuContent)
+    #set ($needsSeparator = false)
+    ## Admin actions UIXP
+    #if ($displayAdminMenu)
+      #set ($adminActions = "#displayAdminActions()")
+      #if ($stringtool.isNotBlank("$!adminActions"))
+        #submenuheader('core.menu.actions.main')
+        $adminActions
+        #set ($needsSeparator = true)
+      #end
+    #end
+    ## More actions UIXP
+    #if ($displayMoreActionsMenu)
+      #set ($moreActions = "#displayMoreActions()")
+      #if ($stringtool.isNotBlank("$!moreActions"))
+        #if ($needsSeparator)
+          #submenuseparator()
+        #end
+        #submenuheader('core.menu.actions.others')
+        $moreActions
+        #set ($needsSeparator = true)
+      #end
+      ## ----------------------------
+      ## Display the shortcuts
+      ## ----------------------------
+      #if($xwiki.hasAccessLevel('view') && $displayShortcuts)
+        #set ($viewersContent = "#template('shortcuts.vm')")
+        ## Only show the Viewers section if it contains something to display.
+        #if ($stringtool.isNotBlank("$!viewersContent"))
+          ## Only display a separator if at least one menu entry has been displayed before
+          #if ($needsSeparator)
+            #submenuseparator()
+          #end
+          #submenuheader('core.menu.actions.viewers')
+          $viewersContent
+          #set ($needsSeparator = true)
+        #end
+      #end
+    #end
+  #end
+  ##
+  ## Display the menu if it has some content
+  ##
+  #displayMenu('tmMoreActions', 'more-vertical', $menuContent, 'core.menu.actions.label')
+#end
+
+#**
+ * Add keyboard shortcuts
+ *#
+#macro(keyboardShortcuts)
+  <script type="text/javascript">
+  //<![CDATA[
+    #if ($hasEdit && !$isReadOnly)
+      shortcut.add("$services.localization.render('core.shortcuts.view.edit')",function() { location.href=$('tmEdit').down('a').href; }, { 'disable_in_input':true });
+      #if($isAdvancedUser)
+        shortcut.add("$services.localization.render('core.shortcuts.view.wiki')",function() { location.href=$('tmEditWiki').href; }, { 'disable_in_input':true });
+        shortcut.add("$services.localization.render('core.shortcuts.view.wysiwyg')",function() { location.href=$('tmEditWysiwyg').href; }, { 'disable_in_input':true });
+        shortcut.add("$services.localization.render('core.shortcuts.view.inline')",function() { location.href=$('tmEditInline').href; }, { 'disable_in_input':true });
+        shortcut.add("$services.localization.render('core.shortcuts.view.rights')",function() { var editRights = $('tmEditRights'); location.href= editRights ? editRights.href : "$xwiki.getURL($spacePreferencesDocumentReference, 'admin', 'category=1')";}, { 'disable_in_input':true });
+        shortcut.add("$services.localization.render('core.shortcuts.view.objects')",function() { location.href=$('tmEditObject').href; }, { 'disable_in_input':true });
+        #if($hasAdmin)
+          shortcut.add("$services.localization.render('core.shortcuts.view.class')",function() { location.href=$('tmEditClass').href; }, { 'disable_in_input':true });
+        #end
+      #end
+    #end
+    #if ($canDelete && $displayAdminMenu)
+      shortcut.add("$services.localization.render('core.shortcuts.view.delete')",function() { location.href=$('tmActionDelete').href; }, { 'disable_in_input':true });
+      shortcut.add("$services.localization.render('core.shortcuts.view.rename')",function() { location.href=$('tmActionRename').href; }, { 'disable_in_input':true });
+    #end
+    #if ($canView && $displayMoreActionsMenu)
+      shortcut.add("$services.localization.render('core.shortcuts.view.code')", function() { location.href = $('tmViewSource').href; }, { 'disable_in_input': true });
+    #end
+  //]]>
+  </script>
+#end

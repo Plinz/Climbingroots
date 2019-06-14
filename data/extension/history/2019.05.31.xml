@@ -1,0 +1,1872 @@
+<org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>installplan</jobType>
+  <request class="org.xwiki.extension.job.InstallRequest">
+    <id>
+      <string>extension</string>
+      <string>plan</string>
+      <string>org.xwiki.contrib:application-faq-ui</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>org.xwiki.contrib:application-faq-ui</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" serialization="custom">
+              <org.xwiki.extension.version.internal.DefaultVersion>
+                <string>8.2</string>
+              </org.xwiki.extension.version.internal.DefaultVersion>
+            </version>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rewriter</string>
+        <org.xwiki.extension.script.ScriptExtensionRewriter>
+          <installOnRootNamespace/>
+        </org.xwiki.extension.script.ScriptExtensionRewriter>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m/>
+  </answers>
+  <startDate>2019-05-31 07:55:42.394 UTC</startDate>
+  <endDate>2019-05-31 07:55:42.652 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>install</jobType>
+  <request class="org.xwiki.extension.job.InstallRequest">
+    <id>
+      <string>extension</string>
+      <string>action</string>
+      <string>org.xwiki.contrib:application-faq-ui</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>org.xwiki.contrib:application-faq-ui</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" serialization="custom">
+              <org.xwiki.extension.version.internal.DefaultVersion>
+                <string>8.2</string>
+              </org.xwiki.extension.version.internal.DefaultVersion>
+            </version>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rewriter</string>
+        <org.xwiki.extension.script.ScriptExtensionRewriter>
+          <installOnRootNamespace/>
+        </org.xwiki.extension.script.ScriptExtensionRewriter>
+      </entry>
+      <entry>
+        <string>extension.properties</string>
+        <map>
+          <entry>
+            <string>user.reference</string>
+            <string>xwiki:XWiki.AntoineDuquennoy</string>
+          </entry>
+        </map>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m/>
+  </answers>
+  <startDate>2019-05-31 07:55:44.557 UTC</startDate>
+  <endDate>2019-05-31 07:55:46.704 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>uninstallplan</jobType>
+  <request class="org.xwiki.extension.job.UninstallRequest">
+    <id>
+      <string>extension</string>
+      <string>plan</string>
+      <string>org.xwiki.contrib:application-faq-ui</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>org.xwiki.contrib:application-faq-ui</id>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m/>
+  </answers>
+  <startDate>2019-05-31 08:06:21.757 UTC</startDate>
+  <endDate>2019-05-31 08:06:21.759 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>uninstall</jobType>
+  <request class="org.xwiki.extension.job.UninstallRequest">
+    <id>
+      <string>extension</string>
+      <string>action</string>
+      <string>org.xwiki.contrib:application-faq-ui</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>org.xwiki.contrib:application-faq-ui</id>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m>
+      <entry>
+        <string>org.xwiki.extension.xar.question.CleanPagesQuestion</string>
+        <org.xwiki.extension.xar.internal.question.CleanPagesQuestionRecorder>
+          <answers>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>FAQTemplate</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQCode</name>
+                  <parent class="org.xwiki.model.reference.WikiReference">
+                    <name>xwiki</name>
+                    <type>WIKI</type>
+                  </parent>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale></locale>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>FAQTemplate</name>
+                  <parent>
+                    <name>FAQCode</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>FAQClass</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQCode</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>FAQClass</name>
+                  <parent>
+                    <name>FAQCode</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>Translations</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQCode</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>Translations</name>
+                  <parent>
+                    <name>FAQCode</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>SkinExtension</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQCode</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>SkinExtension</name>
+                  <parent>
+                    <name>FAQCode</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>FAQSearch</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQCode</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>FAQSearch</name>
+                  <parent>
+                    <name>FAQCode</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>FAQMacro</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQCode</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>FAQMacro</name>
+                  <parent>
+                    <name>FAQCode</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>WebHome</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQ</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>WebHome</name>
+                  <parent>
+                    <name>FAQ</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>FAQJSON</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQCode</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>FAQJSON</name>
+                  <parent>
+                    <name>FAQCode</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>FAQSearch</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQ</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>FAQSearch</name>
+                  <parent>
+                    <name>FAQ</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>WebPreferences</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQCode</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>WebPreferences</name>
+                  <parent>
+                    <name>FAQCode</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>false</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>ApplicationsPanelEntry</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQCode</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>ApplicationsPanelEntry</name>
+                  <parent>
+                    <name>FAQCode</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>WebHome</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQCode</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>WebHome</name>
+                  <parent>
+                    <name>FAQCode</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>FAQHomeSheet</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQCode</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>FAQHomeSheet</name>
+                  <parent>
+                    <name>FAQCode</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>FAQHomeClass</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQCode</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>FAQHomeClass</name>
+                  <parent>
+                    <name>FAQCode</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>Translations</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQCode</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale>fr</locale>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>Translations</name>
+                  <parent>
+                    <name>FAQCode</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>FAQSheet</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>FAQCode</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>FAQSheet</name>
+                  <parent>
+                    <name>FAQCode</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+          </answers>
+        </org.xwiki.extension.xar.internal.question.CleanPagesQuestionRecorder>
+      </entry>
+    </m>
+  </answers>
+  <startDate>2019-05-31 08:06:23.690 UTC</startDate>
+  <endDate>2019-05-31 08:06:37.30 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>installplan</jobType>
+  <request class="org.xwiki.extension.job.InstallRequest">
+    <id>
+      <string>extension</string>
+      <string>plan</string>
+      <string>com.xwiki.ideas:application-ideas</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>com.xwiki.ideas:application-ideas</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" serialization="custom">
+              <org.xwiki.extension.version.internal.DefaultVersion>
+                <string>1.11.8</string>
+              </org.xwiki.extension.version.internal.DefaultVersion>
+            </version>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rewriter</string>
+        <org.xwiki.extension.script.ScriptExtensionRewriter>
+          <installOnRootNamespace/>
+        </org.xwiki.extension.script.ScriptExtensionRewriter>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m/>
+  </answers>
+  <startDate>2019-05-31 08:06:43.731 UTC</startDate>
+  <endDate>2019-05-31 08:06:49.85 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>install</jobType>
+  <request class="org.xwiki.extension.job.InstallRequest">
+    <id>
+      <string>extension</string>
+      <string>action</string>
+      <string>com.xwiki.ideas:application-ideas</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>com.xwiki.ideas:application-ideas</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" serialization="custom">
+              <org.xwiki.extension.version.internal.DefaultVersion>
+                <string>1.11.8</string>
+              </org.xwiki.extension.version.internal.DefaultVersion>
+            </version>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rewriter</string>
+        <org.xwiki.extension.script.ScriptExtensionRewriter>
+          <installOnRootNamespace/>
+        </org.xwiki.extension.script.ScriptExtensionRewriter>
+      </entry>
+      <entry>
+        <string>extension.properties</string>
+        <map>
+          <entry>
+            <string>user.reference</string>
+            <string>xwiki:XWiki.AntoineDuquennoy</string>
+          </entry>
+        </map>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m/>
+  </answers>
+  <startDate>2019-05-31 08:06:51.891 UTC</startDate>
+  <endDate>2019-05-31 08:06:59.825 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>uninstallplan</jobType>
+  <request class="org.xwiki.extension.job.UninstallRequest">
+    <id>
+      <string>extension</string>
+      <string>plan</string>
+      <string>com.xwiki.ideas:application-ideas</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>com.xwiki.ideas:application-ideas</id>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m/>
+  </answers>
+  <startDate>2019-05-31 08:07:45.545 UTC</startDate>
+  <endDate>2019-05-31 08:07:45.546 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>uninstall</jobType>
+  <request class="org.xwiki.extension.job.UninstallRequest">
+    <id>
+      <string>extension</string>
+      <string>action</string>
+      <string>com.xwiki.ideas:application-ideas</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>com.xwiki.ideas:application-ideas</id>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m>
+      <entry>
+        <string>org.xwiki.extension.xar.question.CleanPagesQuestion</string>
+        <org.xwiki.extension.xar.internal.question.CleanPagesQuestionRecorder>
+          <answers>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>WebHome</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Ideas</name>
+                  <parent class="org.xwiki.model.reference.WikiReference">
+                    <name>xwiki</name>
+                    <type>WIKI</type>
+                  </parent>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale></locale>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>WebHome</name>
+                  <parent>
+                    <name>Ideas</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>IdeaTemplateProvider</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Ideas</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>IdeaTemplateProvider</name>
+                  <parent>
+                    <name>Ideas</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>FixIdeas</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Ideas</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>FixIdeas</name>
+                  <parent>
+                    <name>Ideas</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>IdeasTemplate</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Ideas</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>IdeasTemplate</name>
+                  <parent>
+                    <name>Ideas</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>IdeasTranslations</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Ideas</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale>fr</locale>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>IdeasTranslations</name>
+                  <parent>
+                    <name>Ideas</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>IdeasTranslations</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Ideas</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>IdeasTranslations</name>
+                  <parent>
+                    <name>Ideas</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>IdeasVoteService</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Ideas</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>IdeasVoteService</name>
+                  <parent>
+                    <name>Ideas</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>IdeasTranslations</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Ideas</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale>sk</locale>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>IdeasTranslations</name>
+                  <parent>
+                    <name>Ideas</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>RecentIdeasMacro</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Ideas</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>RecentIdeasMacro</name>
+                  <parent>
+                    <name>Ideas</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>IdeasClass</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Ideas</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>IdeasClass</name>
+                  <parent>
+                    <name>Ideas</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>IdeasSheet</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Ideas</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>IdeasSheet</name>
+                  <parent>
+                    <name>Ideas</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+            <entry>
+              <org.xwiki.model.reference.DocumentReference>
+                <name>IdeasHomeSheet</name>
+                <parent class="org.xwiki.model.reference.SpaceReference">
+                  <name>Ideas</name>
+                  <parent class="org.xwiki.model.reference.WikiReference" reference="../../../../entry/org.xwiki.model.reference.DocumentReference/parent/parent"/>
+                  <type>SPACE</type>
+                </parent>
+                <type>DOCUMENT</type>
+                <parameters class="tree-map">
+                  <entry>
+                    <string>locale</string>
+                    <locale reference="../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                  </entry>
+                </parameters>
+                <localDocumentReference>
+                  <name>IdeasHomeSheet</name>
+                  <parent>
+                    <name>Ideas</name>
+                    <type>SPACE</type>
+                  </parent>
+                  <type>DOCUMENT</type>
+                  <parameters class="tree-map">
+                    <entry>
+                      <string>locale</string>
+                      <locale reference="../../../../../../entry/org.xwiki.model.reference.DocumentReference/parameters/entry/locale"/>
+                    </entry>
+                  </parameters>
+                </localDocumentReference>
+              </org.xwiki.model.reference.DocumentReference>
+              <boolean>true</boolean>
+            </entry>
+          </answers>
+        </org.xwiki.extension.xar.internal.question.CleanPagesQuestionRecorder>
+      </entry>
+    </m>
+  </answers>
+  <startDate>2019-05-31 08:07:47.80 UTC</startDate>
+  <endDate>2019-05-31 08:07:54.126 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>installplan</jobType>
+  <request class="org.xwiki.extension.job.InstallRequest">
+    <id>
+      <string>extension</string>
+      <string>plan</string>
+      <string>org.xwiki.contrib:application-ideas</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>org.xwiki.contrib:application-ideas</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" serialization="custom">
+              <org.xwiki.extension.version.internal.DefaultVersion>
+                <string>1.8.5</string>
+              </org.xwiki.extension.version.internal.DefaultVersion>
+            </version>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rewriter</string>
+        <org.xwiki.extension.script.ScriptExtensionRewriter>
+          <installOnRootNamespace/>
+        </org.xwiki.extension.script.ScriptExtensionRewriter>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m/>
+  </answers>
+  <startDate>2019-05-31 08:07:59.969 UTC</startDate>
+  <endDate>2019-05-31 08:08:00.649 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord><org.xwiki.extension.job.history.ExtensionJobHistoryRecord>
+  <jobType>install</jobType>
+  <request class="org.xwiki.extension.job.InstallRequest">
+    <id>
+      <string>extension</string>
+      <string>action</string>
+      <string>org.xwiki.contrib:application-ideas</string>
+      <string>wiki:xwiki</string>
+    </id>
+    <properties>
+      <entry>
+        <string>extensions</string>
+        <list>
+          <org.xwiki.extension.ExtensionId>
+            <id>org.xwiki.contrib:application-ideas</id>
+            <version class="org.xwiki.extension.version.internal.DefaultVersion" serialization="custom">
+              <org.xwiki.extension.version.internal.DefaultVersion>
+                <string>1.8.5</string>
+              </org.xwiki.extension.version.internal.DefaultVersion>
+            </version>
+          </org.xwiki.extension.ExtensionId>
+        </list>
+      </entry>
+      <entry>
+        <string>extensions.excluded</string>
+        <set/>
+      </entry>
+      <entry>
+        <string>rewriter</string>
+        <org.xwiki.extension.script.ScriptExtensionRewriter>
+          <installOnRootNamespace/>
+        </org.xwiki.extension.script.ScriptExtensionRewriter>
+      </entry>
+      <entry>
+        <string>extension.properties</string>
+        <map>
+          <entry>
+            <string>user.reference</string>
+            <string>xwiki:XWiki.AntoineDuquennoy</string>
+          </entry>
+        </map>
+      </entry>
+      <entry>
+        <string>rootModificationsAllowed</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>caller.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>interactive</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>checkrights</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>context.action</string>
+        <string>get</string>
+      </entry>
+      <entry>
+        <string>user.reference</string>
+        <org.xwiki.model.reference.DocumentReference>
+          <name>AntoineDuquennoy</name>
+          <parent class="org.xwiki.model.reference.SpaceReference">
+            <name>XWiki</name>
+            <parent class="org.xwiki.model.reference.WikiReference">
+              <name>xwiki</name>
+              <type>WIKI</type>
+            </parent>
+            <type>SPACE</type>
+          </parent>
+          <type>DOCUMENT</type>
+        </org.xwiki.model.reference.DocumentReference>
+      </entry>
+      <entry>
+        <string>context.wiki</string>
+        <string>xwiki</string>
+      </entry>
+      <entry>
+        <string>namespaces</string>
+        <list>
+          <string>wiki:xwiki</string>
+        </list>
+      </entry>
+    </properties>
+    <verbose>true</verbose>
+  </request>
+  <answers class="java.util.Collections$UnmodifiableMap">
+    <m/>
+  </answers>
+  <startDate>2019-05-31 08:08:02.969 UTC</startDate>
+  <endDate>2019-05-31 08:08:04.28 UTC</endDate>
+</org.xwiki.extension.job.history.ExtensionJobHistoryRecord>

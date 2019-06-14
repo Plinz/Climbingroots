@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.codehaus.plexus:plexus-component-annotations</id>
+<version>2.0.0</version>
+<type>jar</type>
+<name>Plexus :: Component Annotations</name>
+<summary>Plexus Component "Java 5" Annotations, to describe plexus components properties in java sources with
+    standard annotations instead of javadoc annotations.</summary>
+<website>http://codehaus-plexus.github.io/plexus-containers/plexus-component-annotations/</website>
+<authors>
+<author>
+<name>Jason van Zyl</name>
+</author>
+<author>
+<name>Pete Kazmier</name>
+</author>
+<author>
+<name>James Taylor</name>
+</author>
+<author>
+<name>Dan Diephouse</name>
+</author>
+<author>
+<name>Kasper Nielsen</name>
+</author>
+<author>
+<name>Ben Walding</name>
+</author>
+<author>
+<name>Mark Wilkinson</name>
+</author>
+<author>
+<name>Michal Maczka</name>
+</author>
+<author>
+<name>Emmanuel Venisse</name>
+</author>
+<author>
+<name>Trygve Laugstøl</name>
+</author>
+<author>
+<name>Kenney Westerhof</name>
+</author>
+<author>
+<name>Carlos Sanchez</name>
+</author>
+<author>
+<name>Brett Porter</name>
+</author>
+<author>
+<name>John Casey</name>
+</author>
+<author>
+<name>Andrew Williams</name>
+</author>
+<author>
+<name>Rahul Thakur</name>
+</author>
+<author>
+<name>Joakim Erdfelt</name>
+</author>
+<author>
+<name>Olivier Lamy</name>
+</author>
+<author>
+<name>Hervé Boutemy</name>
+</author>
+<author>
+<name>Oleg Gusakov</name>
+</author>
+<author>
+<name>Vincent Siveton</name>
+</author>
+<author>
+<name>Kristian Rosenvold</name>
+</author>
+<author>
+<name>Andreas Gudian</name>
+</author>
+<author>
+<name>Karl Heinz Marbaise</name>
+</author>
+<author>
+<name>Michael Osipov</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/codehaus-plexus/plexus-containers/plexus-component-annotations</url>
+<connection>
+<system>git</system>
+<path>https://github.com/codehaus-plexus/plexus-containers.git/plexus-component-annotations</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>ssh://git@github.com/codehaus-plexus/plexus-containers.git/plexus-component-annotations</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>github</system>
+<url>http://github.com/codehaus-plexus/plexus-containers/issues</url>
+</issuemanagement>
+<manageddependencies>
+<dependency>
+<id>org.codehaus.plexus:plexus-container-default</id>
+<version>2.0.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-component-annotations</id>
+<version>2.0.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-component-metadata</id>
+<version>2.0.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-classworlds</id>
+<version>2.6.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.codehaus.plexus:plexus-utils</id>
+<version>3.1.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.xbean:xbean-reflect</id>
+<version>3.7</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.thoughtworks.qdox:qdox</id>
+<version>2.0-M10</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.jdom:jdom2</id>
+<version>2.0.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.maven:maven-plugin-api</id>
+<version>3.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.maven:maven-model</id>
+<version>3.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.maven:maven-core</id>
+<version>3.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.google.collections:google-collections</id>
+<version>1.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.11</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>provided</maven.dependency.scope>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.codehaus.plexus</maven.groupid>
+<maven.artifactid>plexus-component-annotations</maven.artifactid>
+</properties>
+</extension>

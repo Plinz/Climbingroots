@@ -1,0 +1,141 @@
+##
+## Top Menu
+##
+#if ($isInServletMode)## Visible only in a page
+  #template("menus_macros.vm")
+
+  ## Top Menu
+  #xwikitopmenustart()
+
+    ## Left menu
+    #xwikitopmenuleftstart()
+      #displaySimpleSecureUIX('org.xwiki.platform.topmenu.left')
+    #xwikitopmenuleftend()
+    ## Right menu
+    #xwikitopmenurightstart()
+      #if ($xcontext.user == 'XWiki.XWikiGuest')
+        #displayLogInAndRegister()
+      #else
+        #if ($hasGlobalAdmin)
+          #displayDrawerActivator()
+        #else
+          #displayLogOut()
+        #end
+      #end
+      #displaySimpleSecureUIX('org.xwiki.platform.topmenu.right')
+      #displayLanguage()
+    #xwikitopmenurightend()
+
+  ## End of Top Menu
+  #xwikitopmenuend()
+
+  #template("drawer.vm")
+#end
+#**
+ * Display the drawer activator with an humberger-style icon.
+ *#
+#macro(displayDrawerActivator)
+  <li>
+    <a class="icon-navbar drawer-toggle" id="tmDrawerActivator" title="$services.localization.render('core.menu.drawer')"><span class="sr-only">$services.localization.render('core.menu.toggleNavigation')</span>$services.icon.renderHTML('menu')</a>
+  </li>
+#end
+#**
+ * Display the Login and register.
+ *#
+#macro(displayLogInAndRegister)
+  <li>
+    <a href="$xwiki.getURL('XWiki.XWikiLogin', 'login', "xredirect=$escapetool.url($xwiki.relativeRequestURL)")" id="tmLogin" rel="nofollow">$services.icon.renderHTML('log-in') $escapetool.xml($services.localization.render('login'))</a>
+  </li>
+  #if ($xwiki.hasAccessLevel('register', 'XWiki.XWikiPreferences'))
+    <li>
+      <a href="$xwiki.getURL('XWiki.XWikiRegister', 'register', "xredirect=$escapetool.url($xwiki.relativeRequestURL)")" id="tmRegister" rel="nofollow">$services.icon.renderHTML('log-in') $escapetool.xml($services.localization.render('register'))</a>
+    </li>
+  #end
+#end
+
+#macro(displayLogOut)
+  <li>
+    <a href="$xwiki.getURL('XWiki.XWikiLogout', 'logout', "xredirect=$escapetool.url($xwiki.relativeRequestURL)")" id="tmLogout" rel="nofollow">$services.icon.renderHTML('log-out') $escapetool.xml($services.localization.render('climbingroots.translate.logout'))</a>
+  </li>
+#end
+##################################
+##        LANGUAGE MENU
+##################################
+#macro (displayLanguage)
+	#if ($displayLanguageChoice && $xwiki.isMultiLingual())
+	  #set($currentLanguage = "$!{tdoc.realLocale}")
+	  #set($originalLanguage = "$!{doc.realLocale}")
+	  #set ($availtrans = $doc.translationList)
+	  #set ($discard = $availtrans.add($originalLanguage))
+	  #set ($wikiSettingsLanguages = $!xwiki.getXWikiPreference('languages').trim().split('\s*[,| ]\s*'))
+	  #set ($hasLanguagesSet = $wikiSettingsLanguages.size() > 1 || "$!wikiSettingsLanguages.get(0)" != '')
+	  #set ($additionallangs = [])
+	  #foreach($lang in $wikiSettingsLanguages)
+		#if($currentLanguage != $lang && $availtrans.contains($lang))
+		  #set ($discard = $additionallangs.add($lang))
+		#end
+	  #end
+	  ## Get the query string as a map to preserve the values except the language (see: https://jira.xwiki.org/browse/XWIKI-11314)
+	  #set($queryStringMap = {})
+	  #set($discard = $queryStringMap.putAll($request.parameterMap))
+	  #set($discard = $queryStringMap.put('language', $currentLanguage))
+	  #menuLanguageTopItemStart($currentLanguage, $services.localization.render('languages'), 'tmLanguages')
+	  <li><a href="$!doc.getURL('view', $escapetool.url($queryStringMap))" title="#displayLanguagePrettyName($currentLanguage)"><span class="flag-icon flag-icon-$currentLanguage"></span>#displayLanguagePrettyName($currentLanguage)$services.icon.renderHTML('tick')</a></li>
+          #foreach($lang in $additionallangs)
+		#set($discard = $queryStringMap.put('language', $lang))
+		#menuLanguageItem($!doc.getURL('view', $escapetool.url($queryStringMap)), $lang, "#displayLanguagePrettyName($lang)")
+	  #end
+	  #menuLanguageTopItemStop()
+	#end
+#end
+##########################################
+## Display the pretty name of a language
+##########################################
+#macro(displayLanguagePrettyName $language)
+  #if ($language != '')
+    #set($languageLocale = $services.localization.toLocale($language))$escapetool.xml($stringtool.capitalize($languageLocale.getDisplayName($languageLocale)))
+  #else
+    $services.localization.render('defaultlanguage')
+  #end
+#end
+
+#macro(menuLanguageTopItemStart $currentLanguage $text $id)
+  ##xwikitopmenuentrystart('', $text, $id, '', $icon, '')
+
+  #set($sep = '__SEPARATOR__')
+  #set($linkName = $text)
+  #set($linkTitle = $text)
+  #if ($text.contains($sep))
+    #set($linkWords = $text.split($sep, 2))
+    #set($linkName = $linkWords.get(1))
+    #set($linkTitle = "${linkWords.get(0)}: ${linkWords.get(1)}")
+  #end
+  <li class="dropdown text-left" #if(!$stringtool.isBlank($id))id="$id"#end>
+    ## The menu label. On large screens (tablet and desktop) the label is a link that triggers the default menu action
+    ## (e.g. navigation) and the menu is opened using a separated caret. On extra small screens (phones) the label opens
+    ## the menu and the default menu action is the first item in the menu.
+    <a class="dropdown-toggle" data-toggle="dropdown" title="$linkTitle">
+      ## This caret is displayed only on extra small screens to indicate that the label toggles the menu.
+      <span class="flag-icon flag-icon-$currentLanguage"></span> $linkName <b class="caret"></b>
+    ## Don't leave any space between the anchors because they have display:inline-block on large screens.
+    </a>
+    <ul class="dropdown-menu">
+#end
+
+#macro(menuLanguageTopItemStop)
+  #xwikitopmenuentryend()
+#end
+
+#macro(menuLanguageItem $url $lang $text)
+  #set($sep = '__SEPARATOR__')
+  #set($linkName = $text)
+  #set($linkTitle = $text)
+  #if ($text.contains($sep))
+    #set($linkWords = $text.split($sep, 2))
+    #set($linkName = $linkWords.get(1))
+    #set($linkTitle = "${linkWords.get(0)}: ${linkWords.get(1)}")
+  #end
+  <li><a href="$url" title="#displayLanguagePrettyName($lang)"><span class="flag-icon flag-icon-$lang"></span>#displayLanguagePrettyName($lang)</a></li>
+  ##<li><a href="$url" title="$linkTitle"><span class="flag-icon flag-icon-$lang></span> $linkName</a></li>
+#end
+

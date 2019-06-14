@@ -1,0 +1,1 @@
+require.config({paths:{"bootstrap-select":"$services.webjars.url('bootstrap-select', 'js/bootstrap-select.js')"},shim:{"bootstrap-select":["jquery","bootstrap"]}});require(["jquery","bootstrap-select"],function(a){a(".xwiki-livetable select.xwiki-livetable-multilist").each(function(c,b){a(b).selectpicker({width:"100%",container:"body",noneSelectedText:"",})})});

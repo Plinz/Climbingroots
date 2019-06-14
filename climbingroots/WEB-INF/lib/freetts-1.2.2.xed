@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>net.sf.sociaal:freetts</id>
+<version>1.2.2</version>
+<type>jar</type>
+<name>freetts</name>
+<summary>Text to Speech library</summary>
+<website>http://jmonkeyengine.org/</website>
+<authors>
+<author>
+<name>jME3 Community</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>http://jmonkeyengine.org/</url>
+<connection>
+<system>http</system>
+<path>//jmonkeyengine.org/</path>
+</connection>
+</scm>
+<properties>
+<maven.groupid>net.sf.sociaal</maven.groupid>
+<maven.artifactid>freetts</maven.artifactid>
+</properties>
+</extension>

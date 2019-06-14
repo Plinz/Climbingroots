@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>commons-validator:commons-validator</id>
+<version>1.6</version>
+<type>jar</type>
+<name>Apache Commons Validator</name>
+<summary>Apache Commons Validator provides the building blocks for both client side validation and server side data validation.
+    It may be used standalone or with a framework like Struts.</summary>
+<website>http://commons.apache.org/proper/commons-validator/</website>
+<authors>
+<author>
+<name>Don Brown</name>
+</author>
+<author>
+<name>Martin Cooper</name>
+</author>
+<author>
+<name>David Graham</name>
+</author>
+<author>
+<name>Ted Husted</name>
+</author>
+<author>
+<name>Rob Leland</name>
+</author>
+<author>
+<name>Craig McClanahan</name>
+</author>
+<author>
+<name>James Mitchell</name>
+</author>
+<author>
+<name>Niall Pemberton</name>
+</author>
+<author>
+<name>James Turner</name>
+</author>
+<author>
+<name>David Winterfeldt</name>
+</author>
+<author>
+<name>Henri Yandell</name>
+</author>
+<author>
+<name>Ben Speakmon</name>
+</author>
+<author>
+<name>Nick Burch</name>
+</author>
+<author>
+<name>SimoneTripodi</name>
+</author>
+<author>
+<name>Benedikt Ritter</name>
+</author>
+<author>
+<name>Gary Gregory</name>
+<url>http://www.garygregory.com</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/validator/tags/VALIDATOR_1_6/</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/validator/tags/VALIDATOR_1_6/</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/validator/tags/VALIDATOR_1_6/</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/VALIDATOR</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>commons-beanutils:commons-beanutils</id>
+<version>1.9.2</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>commons-digester:commons-digester</id>
+<version>1.8.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.2</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>commons-collections:commons-collections</id>
+<version>3.2.2</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>commons-validator</maven.groupid>
+<maven.artifactid>commons-validator</maven.artifactid>
+</properties>
+</extension>

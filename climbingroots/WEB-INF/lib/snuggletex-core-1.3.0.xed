@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>de.rototor.snuggletex:snuggletex-core</id>
+<version>1.3.0</version>
+<type>jar</type>
+<name>SnuggleTeX Core</name>
+<summary>Java 9 Maintaince Fork of SnuggleText.
+
+		SnuggleTeX is a free and open-source Java library for converting LaTeX to XML
+		(usually XHTML + MathML).</summary>
+<website>http://snuggletex.sourceforge.net/snuggletex-core</website>
+<authors>
+<author>
+<name>David McKain</name>
+<url>http://www.ph.ed.ac.uk/people/david-mckain</url>
+</author>
+<author>
+<name>Emmeran Seehuber</name>
+<url>https://www.rototor.de</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Modified BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/rototor/snuggletex/snuggletex-core</url>
+<connection>
+<system>git</system>
+<path>https://github.com/rototor/snuggletex.git/snuggletex-core</path>
+</connection>
+</scm>
+<properties>
+<maven.groupid>de.rototor.snuggletex</maven.groupid>
+<maven.artifactid>snuggletex-core</maven.artifactid>
+</properties>
+</extension>

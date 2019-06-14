@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars.bower:open-sans</id>
+<version>1.1.0</version>
+<type>jar</type>
+<name>open-sans</name>
+<summary>WebJar for open-sans</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>webjars</name>
+<url>http://webjars.org</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>git://github.com/sheabunge/open-sans.git</url>
+<connection>
+<system>git</system>
+<path>//github.com/bungeshea/open-sans.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>//github.com/bungeshea/open-sans.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.webjars.bower</maven.groupid>
+<maven.artifactid>open-sans</maven.artifactid>
+</properties>
+</extension>

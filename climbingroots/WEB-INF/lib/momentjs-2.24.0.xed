@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:momentjs</id>
+<version>2.24.0</version>
+<type>jar</type>
+<name>Moment.js</name>
+<summary>WebJar for Moment.js</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>James Ward</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/momentjs</url>
+<connection>
+<system>git</system>
+<path>https://github.com/webjars/momentjs.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/momentjs.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>momentjs</maven.artifactid>
+</properties>
+</extension>

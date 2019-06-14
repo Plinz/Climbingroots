@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.apache.solr:solr-solrj</id>
+<version>7.7.1</version>
+<type>jar</type>
+<name>Apache Solr Solrj</name>
+<summary>Apache Solr Solrj</summary>
+<website>http://lucene.apache.org/solr-parent/solr-solrj</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=solr/solrj</url>
+<connection>
+<system>git</system>
+<path>http://git-wip-us.apache.org/repos/asf/lucene-solr.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://git-wip-us.apache.org/repos/asf/lucene-solr.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>https://issues.apache.org/jira/browse/SOLR</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>commons-io:commons-io</id>
+<version>2.5</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-math3</id>
+<version>3.6.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpclient</id>
+<version>4.5.6</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpcore</id>
+<version>4.4.10</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpmime</id>
+<version>4.5.6</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.zookeeper:zookeeper</id>
+<version>3.4.13</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.woodstox:stax2-api</id>
+<version>3.1.4</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.codehaus.woodstox:woodstox-core-asl</id>
+<version>4.4.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.noggit:noggit</id>
+<version>0.8</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:jcl-over-slf4j</id>
+<version>1.7.24</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.24</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.apache.lucene:lucene-analyzers-common</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-analyzers-icu</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-analyzers-kuromoji</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-analyzers-morfologik</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-analyzers-nori</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-analyzers-opennlp</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-analyzers-phonetic</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-analyzers-smartcn</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-analyzers-stempel</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-backward-codecs</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-benchmark</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-classification</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-codecs</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-core</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-demo</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-expressions</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-facet</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-grouping</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-highlighter</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-join</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-memory</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-misc</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-queries</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-queryparser</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-replicator</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-sandbox</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-spatial</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-spatial-extras</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-spatial3d</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-suggest</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.lucene:lucene-test-framework</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.solr:solr-analysis-extras</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.solr:solr-analytics</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.solr:solr-cell</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.solr:solr-clustering</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.solr:solr-core</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.solr:solr-dataimporthandler</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.solr:solr-dataimporthandler-extras</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.solr:solr-langid</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.solr:solr-ltr</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>null:solr-prometheus-exporter</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.solr:solr-solrj</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.solr:solr-test-framework</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.solr:solr-velocity</id>
+<version>7.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>antlr:antlr</id>
+<version>2.7.7</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.adobe.xmp:xmpcore</id>
+<version>5.1.3</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.carrotsearch.randomizedtesting:junit4-ant</id>
+<version>2.7.2</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.carrotsearch.randomizedtesting:randomizedtesting-runner</id>
+<version>2.7.2</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.carrotsearch:hppc</id>
+<version>0.8.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.cybozu.labs:langdetect</id>
+<version>1.1-20120112</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.drewnoakes:metadata-extractor</id>
+<version>2.11.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.epam:parso</id>
+<version>2.0.9</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.core:jackson-annotations</id>
+<version>2.9.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.core:jackson-core</id>
+<version>2.9.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.core:jackson-databind</id>
+<version>2.9.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.fasterxml.jackson.dataformat:jackson-dataformat-smile</id>
+<version>2.9.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.github.ben-manes.caffeine:caffeine</id>
+<version>2.4.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.github.virtuald:curvesapi</id>
+<version>1.04</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.google.guava:guava</id>
+<version>14.0.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.google.protobuf:protobuf-java</id>
+<version>3.1.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.googlecode.juniversalchardet:juniversalchardet</id>
+<version>1.0.3</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.googlecode.mp4parser:isoparser</id>
+<version>1.1.22</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.healthmarketscience.jackcess:jackcess</id>
+<version>2.1.12</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.healthmarketscience.jackcess:jackcess-encrypt</id>
+<version>2.1.4</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.ibm.icu:icu4j</id>
+<version>62.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.lmax:disruptor</id>
+<version>3.4.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.pff:java-libpst</id>
+<version>0.8.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.rometools:rome</id>
+<version>1.5.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.rometools:rome-utils</id>
+<version>1.5.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.sun.jersey:jersey-core</id>
+<version>1.9</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.sun.jersey:jersey-server</id>
+<version>1.9</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.sun.mail:gimap</id>
+<version>1.5.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.sun.mail:javax.mail</id>
+<version>1.5.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.tdunning:t-digest</id>
+<version>3.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.vaadin.external.google:android-json</id>
+<version>0.0.20131108.vaadin1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>commons-cli:commons-cli</id>
+<version>1.2</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>commons-codec:commons-codec</id>
+<version>1.11</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>commons-collections:commons-collections</id>
+<version>3.2.2</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>commons-configuration:commons-configuration</id>
+<version>1.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>commons-fileupload:commons-fileupload</id>
+<version>1.3.3</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>commons-io:commons-io</id>
+<version>2.5</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>commons-lang:commons-lang</id>
+<version>2.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.1.3</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>de.l3s.boilerpipe:boilerpipe</id>
+<version>1.1.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>dom4j:dom4j</id>
+<version>1.6.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>info.ganglia.gmetric4j:gmetric4j</id>
+<version>1.0.7</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>io.dropwizard.metrics:metrics-core</id>
+<version>3.2.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>io.dropwizard.metrics:metrics-ganglia</id>
+<version>3.2.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>io.dropwizard.metrics:metrics-graphite</id>
+<version>3.2.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>io.dropwizard.metrics:metrics-jetty9</id>
+<version>3.2.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>io.dropwizard.metrics:metrics-jvm</id>
+<version>3.2.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>io.netty:netty-all</id>
+<version>4.0.36.Final</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>io.prometheus:simpleclient</id>
+<version>0.2.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>io.prometheus:simpleclient_common</id>
+<version>0.2.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>io.prometheus:simpleclient_httpserver</id>
+<version>0.2.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>io.sgr:s2-geometry-library-java</id>
+<version>1.0.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>javax.activation:activation</id>
+<version>1.1.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>javax.servlet:javax.servlet-api</id>
+<version>3.1.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>joda-time:joda-time</id>
+<version>2.2</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>junit:junit</id>
+<version>4.12</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>net.arnx:jsonic</id>
+<version>1.2.7</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>net.bytebuddy:byte-buddy</id>
+<version>1.9.3</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>net.hydromatic:eigenbase-properties</id>
+<version>1.1.5</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>net.sf.ehcache:ehcache-core</id>
+<version>2.4.4</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>net.sourceforge.argparse4j:argparse4j</id>
+<version>0.8.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>net.sourceforge.nekohtml:nekohtml</id>
+<version>1.9.17</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>net.thisptr:jackson-jq</id>
+<version>0.0.8</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.antlr:antlr4-runtime</id>
+<version>4.5.1-1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.ant:ant</id>
+<version>1.8.2</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.calcite.avatica:avatica-core</id>
+<version>1.10.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.calcite:calcite-core</id>
+<version>1.13.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.calcite:calcite-linq4j</id>
+<version>1.13.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-collections4</id>
+<version>4.2</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-compress</id>
+<version>1.18</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-exec</id>
+<version>1.3</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-lang3</id>
+<version>3.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.commons:commons-math3</id>
+<version>3.6.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.curator:curator-client</id>
+<version>2.8.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.curator:curator-framework</id>
+<version>2.8.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.curator:curator-recipes</id>
+<version>2.8.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.derby:derby</id>
+<version>10.9.1.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.api:api-all</id>
+<version>1.0.0-M20</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.jdbm:apacheds-jdbm1</id>
+<version>2.0.0-M2</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-core</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-core-api</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-core-avl</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-core-shared</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-i18n</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptor-kerberos</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptors-admin</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptors-authn</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptors-authz</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptors-changelog</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptors-collective</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptors-event</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptors-exception</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptors-journal</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptors-normalization</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptors-operational</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptors-referral</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptors-schema</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptors-subtree</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-interceptors-trigger</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-jdbm-partition</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-kerberos-codec</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-ldif-partition</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-mavibot-partition</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-protocol-kerberos</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-protocol-ldap</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-protocol-shared</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.directory.server:apacheds-xdbm-partition</id>
+<version>2.0.0-M15</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.hadoop:hadoop-annotations</id>
+<version>2.7.4</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.hadoop:hadoop-auth</id>
+<version>2.7.4</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.hadoop:hadoop-common</id>
+<version>2.7.4</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.hadoop:hadoop-common:tests</id>
+<version>2.7.4</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.hadoop:hadoop-hdfs</id>
+<version>2.7.4</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.hadoop:hadoop-hdfs:tests</id>
+<version>2.7.4</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.hadoop:hadoop-minikdc</id>
+<version>2.7.4</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.htrace:htrace-core</id>
+<version>3.2.0-incubating</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpclient</id>
+<version>4.5.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpcore</id>
+<version>4.4.10</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.httpcomponents:httpmime</id>
+<version>4.5.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.ivy:ivy</id>
+<version>2.4.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.james:apache-mime4j-core</id>
+<version>0.8.2</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.james:apache-mime4j-dom</id>
+<version>0.8.2</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.logging.log4j:log4j-1.2-api</id>
+<version>2.11.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.logging.log4j:log4j-api</id>
+<version>2.11.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.logging.log4j:log4j-core</id>
+<version>2.11.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.logging.log4j:log4j-slf4j-impl</id>
+<version>2.11.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.mina:mina-core</id>
+<version>2.0.0-M5</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.opennlp:opennlp-tools</id>
+<version>1.9.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.pdfbox:fontbox</id>
+<version>2.0.12</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.pdfbox:jempbox</id>
+<version>1.8.16</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.pdfbox:pdfbox</id>
+<version>2.0.12</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.pdfbox:pdfbox-tools</id>
+<version>2.0.12</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.poi:poi</id>
+<version>4.0.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.poi:poi-ooxml</id>
+<version>4.0.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.poi:poi-ooxml-schemas</id>
+<version>4.0.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.poi:poi-scratchpad</id>
+<version>4.0.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.tika:tika-core</id>
+<version>1.19.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.tika:tika-java7</id>
+<version>1.19.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.tika:tika-parsers</id>
+<version>1.19.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.tika:tika-xmp</id>
+<version>1.19.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.velocity:velocity</id>
+<version>1.7</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.velocity:velocity-tools</id>
+<version>2.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.xmlbeans:xmlbeans</id>
+<version>3.0.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.apache.zookeeper:zookeeper</id>
+<version>3.4.13</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.asciidoctor:asciidoctor-ant</id>
+<version>1.6.0-alpha.5</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.aspectj:aspectjrt</id>
+<version>1.8.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.bouncycastle:bcmail-jdk15on</id>
+<version>1.60</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.bouncycastle:bcpkix-jdk15on</id>
+<version>1.60</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.bouncycastle:bcprov-jdk15on</id>
+<version>1.60</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.brotli:dec</id>
+<version>0.1.2</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.carrot2.attributes:attributes-binder</id>
+<version>1.3.3</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.carrot2.shaded:carrot2-guava</id>
+<version>18.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.carrot2:carrot2-mini</id>
+<version>3.16.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.carrot2:morfologik-fsa</id>
+<version>2.1.5</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.carrot2:morfologik-polish</id>
+<version>2.1.5</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.carrot2:morfologik-stemming</id>
+<version>2.1.5</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.ccil.cowan.tagsoup:tagsoup</id>
+<version>1.2.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.codehaus.jackson:jackson-core-asl</id>
+<version>1.9.13</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.codehaus.jackson:jackson-mapper-asl</id>
+<version>1.9.13</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.codehaus.janino:commons-compiler</id>
+<version>2.7.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.codehaus.janino:janino</id>
+<version>2.7.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.codehaus.woodstox:stax2-api</id>
+<version>3.1.4</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.codehaus.woodstox:woodstox-core-asl</id>
+<version>4.4.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.eclipse.jetty:jetty-continuation</id>
+<version>9.4.14.v20181114</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.eclipse.jetty:jetty-deploy</id>
+<version>9.4.14.v20181114</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.eclipse.jetty:jetty-http</id>
+<version>9.4.14.v20181114</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.eclipse.jetty:jetty-io</id>
+<version>9.4.14.v20181114</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.eclipse.jetty:jetty-jmx</id>
+<version>9.4.14.v20181114</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.eclipse.jetty:jetty-rewrite</id>
+<version>9.4.14.v20181114</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.eclipse.jetty:jetty-security</id>
+<version>9.4.14.v20181114</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.eclipse.jetty:jetty-server</id>
+<version>9.4.14.v20181114</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.eclipse.jetty:jetty-servlet</id>
+<version>9.4.14.v20181114</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.eclipse.jetty:jetty-servlets</id>
+<version>9.4.14.v20181114</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.eclipse.jetty:jetty-util</id>
+<version>9.4.14.v20181114</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.eclipse.jetty:jetty-webapp</id>
+<version>9.4.14.v20181114</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.eclipse.jetty:jetty-xml</id>
+<version>9.4.14.v20181114</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.gagravarr:vorbis-java-core</id>
+<version>0.8</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.gagravarr:vorbis-java-tika</id>
+<version>0.8</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.hamcrest:hamcrest-core</id>
+<version>1.3</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.hsqldb:hsqldb</id>
+<version>2.4.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.jdom:jdom2</id>
+<version>2.0.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.jsoup:jsoup</id>
+<version>1.11.3</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.locationtech.jts:jts-core</id>
+<version>1.15.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.locationtech.spatial4j:spatial4j</id>
+<version>0.7</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.locationtech.spatial4j:spatial4j:tests</id>
+<version>0.7</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.mockito:mockito-core</id>
+<version>2.23.4</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.mortbay.jetty:jetty</id>
+<version>6.1.26</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.mortbay.jetty:jetty-sslengine</id>
+<version>6.1.26</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.mortbay.jetty:jetty-util</id>
+<version>6.1.26</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.noggit:noggit</id>
+<version>0.8</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.objenesis:objenesis</id>
+<version>2.6</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm</id>
+<version>5.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-commons</id>
+<version>5.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.restlet.jee:org.restlet</id>
+<version>2.3.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.restlet.jee:org.restlet.ext.servlet</id>
+<version>2.3.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.rrd4j:rrd4j</id>
+<version>3.2</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.simpleframework:simple-xml</id>
+<version>2.7.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.slf4j:jcl-over-slf4j</id>
+<version>1.7.24</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.slf4j:jul-to-slf4j</id>
+<version>1.7.24</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.24</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-simple</id>
+<version>1.7.24</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.tallison:jmatio</id>
+<version>1.5</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.tukaani:xz</id>
+<version>1.8</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>ua.net.nlp:morfologik-ukrainian-search</id>
+<version>3.9.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>xerces:xercesImpl</id>
+<version>2.9.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.apache.solr</maven.groupid>
+<maven.artifactid>solr-solrj</maven.artifactid>
+</properties>
+</extension>

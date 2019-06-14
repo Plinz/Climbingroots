@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.zaxxer:HikariCP-java7</id>
+<version>2.4.13</version>
+<type>jar</type>
+<name>HikariCP</name>
+<summary>Ultimate JDBC Connection Pool</summary>
+<website>https://github.com/brettwooldridge/HikariCP</website>
+<authors>
+<author>
+<name>Brett Wooldridge</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>git@github.com:brettwooldridge/HikariCP.git</url>
+<connection>
+<system>git</system>
+<path>git@github.com:brettwooldridge/HikariCP.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:brettwooldridge/HikariCP.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.21</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.javassist:javassist</id>
+<version>3.20.0-GA</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.zaxxer</maven.groupid>
+<maven.artifactid>HikariCP-java7</maven.artifactid>
+</properties>
+</extension>

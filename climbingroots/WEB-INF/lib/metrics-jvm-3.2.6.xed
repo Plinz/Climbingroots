@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>io.dropwizard.metrics:metrics-jvm</id>
+<version>3.2.6</version>
+<type>jar</type>
+<name>JVM Integration for Metrics</name>
+<summary>A set of classes which allow you to monitor critical aspects of your Java Virtual Machine
+        using Metrics.</summary>
+<website>http://metrics.dropwizard.io/metrics-jvm/</website>
+<authors>
+<author>
+<name>Coda Hale</name>
+</author>
+<author>
+<name>Ryan Tenney</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/dropwizard/metrics/metrics-jvm/</url>
+<connection>
+<system>git</system>
+<path>git://github.com/dropwizard/metrics.git/metrics-jvm</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:dropwizard/metrics.git/metrics-jvm</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>github</system>
+<url>http://github.com/dropwizard/metrics/issues#issue/</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>io.dropwizard.metrics:metrics-core</id>
+<version>3.2.6</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.22</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<manageddependencies>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.22</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>io.dropwizard.metrics</maven.groupid>
+<maven.artifactid>metrics-jvm</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.jai-imageio:jai-imageio-core</id>
+<version>1.4.0</version>
+<type>jar</type>
+<name>Java Advanced Imaging Image I/O Tools API core (standalone)</name>
+<summary>Java Advanced Imaging Image I/O Tools API core, but without the classes 
+    involved with javax.media.jai dependencies, JPEG2000 or 
+    codecLibJIIO, meaning that this library can be distributed under the 
+    modified BSD license and should be GPL compatible.</summary>
+<website>https://github.com/jai-imageio/jai-imageio-core</website>
+<authors>
+<author>
+<name>Stian Soiland-Reyes</name>
+<url>http://orcid.org/0000-0001-9842-9718</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD 3-clause License w/nuclear disclaimer</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/jai-imageio/jai-imageio-core/</url>
+<connection>
+<system>git</system>
+<path>git://github.com/jai-imageio/jai-imageio-core.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:jai-imageio/jai-imageio-core.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>GitHub</system>
+<url>https://github.com/jai-imageio/jai-imageio-core/issues</url>
+</issuemanagement>
+<properties>
+<maven.groupid>com.github.jai-imageio</maven.groupid>
+<maven.artifactid>jai-imageio-core</maven.artifactid>
+</properties>
+</extension>

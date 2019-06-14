@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.openjson:openjson</id>
+<version>1.0.10</version>
+<type>jar</type>
+<name>Open JSON</name>
+<summary>A clean-room Apache-licensed implementation of simple JSON processing</summary>
+<website>https://github.com/openjson/openjson</website>
+<authors>
+<author>
+<name>openjson team</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/openjson/openjson</url>
+<connection>
+<system>git</system>
+<path>https://github.com/openjson/openjson.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/openjson/openjson.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>com.github.openjson</maven.groupid>
+<maven.artifactid>openjson</maven.artifactid>
+</properties>
+</extension>

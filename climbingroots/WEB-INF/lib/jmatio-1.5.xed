@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.tallison:jmatio</id>
+<version>1.5</version>
+<type>jar</type>
+<name>JMatIO</name>
+<summary>Matlab's MAT-file I/O API in JAVA. Supports Matlab 5 MAT-flie format reading and writing. Written in pure JAVA.</summary>
+<website>https://github.com/tballison/jmatio</website>
+<authors>
+<author>
+<name>Wojciech Gradkowski</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/tballison/jmatio/trunk</url>
+<connection>
+<system>svn</system>
+<path>https://github.com/tballison/jmatio/trunk</path>
+</connection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.25</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.tallison</maven.groupid>
+<maven.artifactid>jmatio</maven.artifactid>
+</properties>
+</extension>

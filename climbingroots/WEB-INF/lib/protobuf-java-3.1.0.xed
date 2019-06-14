@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.google.protobuf:protobuf-java</id>
+<version>3.1.0</version>
+<type>jar</type>
+<name>Protocol Buffers [Core]</name>
+<summary>Core Protocol Buffers library. Protocol Buffers are a way of encoding structured data in an
+    efficient yet extensible format.</summary>
+<website>https://developers.google.com/protocol-buffers/protobuf-java/</website>
+<licenses>
+<license>
+<name>Revised BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/google/protobuf/protobuf-java</url>
+<connection>
+<system>git</system>
+<path>https://github.com/google/protobuf.git/protobuf-java</path>
+</connection>
+</scm>
+<manageddependencies>
+<dependency>
+<id>junit:junit</id>
+<version>4.12</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.easymock:easymock</id>
+<version>2.2</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.easymock:easymockclassextension</id>
+<version>2.2.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>com.google.guava:guava</id>
+<version>18.0</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>com.google.protobuf</maven.groupid>
+<maven.artifactid>protobuf-java</maven.artifactid>
+</properties>
+</extension>

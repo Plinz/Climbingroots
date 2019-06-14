@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>jaxen:jaxen</id>
+<version>1.2.0</version>
+<type>jar</type>
+<name>jaxen</name>
+<summary>Jaxen is a universal XPath engine for Java.</summary>
+<website>http://www.cafeconleche.org/jaxen</website>
+<authors>
+<author>
+<name>Bob McWhirter</name>
+</author>
+<author>
+<name>James Strachan</name>
+</author>
+<author>
+<name>David Megginson</name>
+</author>
+<author>
+<name>Erwin Bolwidt</name>
+</author>
+<author>
+<name>Mark A. Belonga</name>
+</author>
+<author>
+<name>Christian Nentwich</name>
+</author>
+<author>
+<name>Alexander Day Chaffee</name>
+</author>
+<author>
+<name>Jan Dvorak</name>
+</author>
+<author>
+<name>Attila Szegedi</name>
+</author>
+<author>
+<name>Peter Royal</name>
+<url>http://fotap.org/~osi</url>
+</author>
+<author>
+<name>Scott Sanders</name>
+<url>http://dotnot.org/blog</url>
+</author>
+<author>
+<name>Brian Ewins</name>
+</author>
+<author>
+<name>Elliotte Rusty Harold</name>
+<url>http://www.elharo.com/</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/jaxen-xpath/jaxen</url>
+<connection>
+<system>git</system>
+<path>git://github.com/jaxen-xpath/jaxen.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:jaxen-xpath/jaxen.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<url>https://github.com/jaxen-xpath/jaxen/issues</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>dom4j:dom4j</id>
+<version>1.6.1</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>jdom:jdom</id>
+<version>1.0</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>xom:xom</id>
+<version>1.0</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>jaxen</maven.groupid>
+<maven.artifactid>jaxen</maven.artifactid>
+</properties>
+</extension>

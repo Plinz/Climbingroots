@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.codehaus.plexus:plexus-interpolation</id>
+<version>1.25</version>
+<type>jar</type>
+<name>Plexus Interpolation API</name>
+<summary>The Plexus project provides a full software stack for creating and executing software projects.</summary>
+<website>http://codehaus-plexus.github.io/plexus-interpolation/</website>
+<authors>
+<author>
+<name>Jason van Zyl</name>
+</author>
+<author>
+<name>Pete Kazmier</name>
+</author>
+<author>
+<name>James Taylor</name>
+</author>
+<author>
+<name>Dan Diephouse</name>
+</author>
+<author>
+<name>Kasper Nielsen</name>
+</author>
+<author>
+<name>Ben Walding</name>
+</author>
+<author>
+<name>Mark Wilkinson</name>
+</author>
+<author>
+<name>Michal Maczka</name>
+</author>
+<author>
+<name>Emmanuel Venisse</name>
+</author>
+<author>
+<name>Trygve Laugstøl</name>
+</author>
+<author>
+<name>Kenney Westerhof</name>
+</author>
+<author>
+<name>Carlos Sanchez</name>
+</author>
+<author>
+<name>Brett Porter</name>
+</author>
+<author>
+<name>John Casey</name>
+</author>
+<author>
+<name>Andrew Williams</name>
+</author>
+<author>
+<name>Rahul Thakur</name>
+</author>
+<author>
+<name>Joakim Erdfelt</name>
+</author>
+<author>
+<name>Olivier Lamy</name>
+</author>
+<author>
+<name>Hervé Boutemy</name>
+</author>
+<author>
+<name>Oleg Gusakov</name>
+</author>
+<author>
+<name>Vincent Siveton</name>
+</author>
+<author>
+<name>Kristian Rosenvold</name>
+</author>
+<author>
+<name>Andreas Gudian</name>
+</author>
+<author>
+<name>Karl Heinz Marbaise</name>
+</author>
+<author>
+<name>Michael Osipov</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/codehaus-plexus/plexus-interpolation/tree/plexus-interpolation-1.25/</url>
+<connection>
+<system>git</system>
+<path>git@github.com:codehaus-plexus/plexus-interpolation.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:codehaus-plexus/plexus-interpolation.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>https://github.com/codehaus-plexus/plexus-interpolation/issues</url>
+</issuemanagement>
+<manageddependencies>
+<dependency>
+<id>org.codehaus.plexus:plexus-component-annotations</id>
+<version>1.6</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>org.codehaus.plexus</maven.groupid>
+<maven.artifactid>plexus-interpolation</maven.artifactid>
+</properties>
+</extension>

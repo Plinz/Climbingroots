@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars:bootstrap-daterangepicker</id>
+<version>3.0.3</version>
+<type>jar</type>
+<name>Bootstrap Date Range Picker</name>
+<summary>A JavaScript component for choosing date ranges. Designed to work with the Bootstrap CSS framework.</summary>
+<website>https://webjars.org</website>
+<authors>
+<author>
+<name>Michael Grubb</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>http://github.com/webjars/bootstrap-daterangepicker</url>
+<connection>
+<system>git</system>
+<path>https://github.com/webjars/bootstrap-daterangepicker.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://github.com/webjars/bootstrap-daterangepicker.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.webjars:bootstrap</id>
+<version>[3.0.0,)</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.webjars:momentjs</id>
+<version>[2.9.0,)</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.webjars</maven.groupid>
+<maven.artifactid>bootstrap-daterangepicker</maven.artifactid>
+</properties>
+</extension>

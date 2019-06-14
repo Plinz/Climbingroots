@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.yaml:snakeyaml</id>
+<version>1.24</version>
+<type>jar</type>
+<name>SnakeYAML</name>
+<summary>YAML 1.1 parser and emitter for Java</summary>
+<website>http://www.snakeyaml.org</website>
+<authors>
+<author>
+<name>Andrey Somov</name>
+</author>
+<author>
+<name>Alexander Maslov</name>
+</author>
+<author>
+<name>Jordan Angold</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://bitbucket.org/asomov/snakeyaml/src</url>
+<connection>
+<system>hg</system>
+<path>http://bitbucket.org/asomov/snakeyaml</path>
+</connection>
+<developerconnection>
+<system>hg</system>
+<path>ssh://hg@bitbucket.org/asomov/snakeyaml</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>Bitbucket</system>
+<url>https://bitbucket.org/asomov/snakeyaml/issues</url>
+</issuemanagement>
+<properties>
+<maven.groupid>org.yaml</maven.groupid>
+<maven.artifactid>snakeyaml</maven.artifactid>
+</properties>
+</extension>

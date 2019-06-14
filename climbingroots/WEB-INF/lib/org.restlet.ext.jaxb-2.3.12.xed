@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.restlet.jse:org.restlet.ext.jaxb</id>
+<version>2.3.12</version>
+<type>jar</type>
+<name>Restlet Extension - JAXB</name>
+<summary>Integration with Java XML Binding.</summary>
+<website>http://restlet.org/org.restlet.ext.jaxb</website>
+<licenses>
+<license>
+<name>Apache 2.0 license</name>
+</license>
+<license>
+<name>LGPL 3.0 license</name>
+</license>
+<license>
+<name>LGPL 2.1 license</name>
+</license>
+<license>
+<name>CDDL 1.0 license</name>
+</license>
+<license>
+<name>EPL 1.0 license</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/restlet/restlet-framework-java/org.restlet.ext.jaxb</url>
+</scm>
+<dependencies>
+<dependency>
+<id>com.sun.xml.bind:jaxb-impl</id>
+<version>2.1.12</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.restlet.jse:org.restlet</id>
+<version>2.3.12</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.restlet.jse</maven.groupid>
+<maven.artifactid>org.restlet.ext.jaxb</maven.artifactid>
+</properties>
+</extension>

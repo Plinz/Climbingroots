@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>net.hydromatic:eigenbase-properties</id>
+<version>1.1.5</version>
+<type>jar</type>
+<name>eigenbase-properties</name>
+<summary>Type-safe access to Java system properties</summary>
+<website>http://github.com/julianhyde/eigenbase-properties</website>
+<authors>
+<author>
+<name>Julian Hyde</name>
+<url>https://github.com/julianhyde</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>scm:git:git://github.com/julianhyde/eigenbase-properties.git</url>
+<connection>
+<system>git</system>
+<path>git://github.com/julianhyde/eigenbase-properties.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:julianhyde/eigenbase-properties.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>github</system>
+<url>https://github.com/julianhyde/eigenbase-properties/issues</url>
+</issuemanagement>
+<properties>
+<maven.groupid>net.hydromatic</maven.groupid>
+<maven.artifactid>eigenbase-properties</maven.artifactid>
+</properties>
+</extension>

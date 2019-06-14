@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.fasterxml.woodstox:woodstox-core</id>
+<version>5.2.0</version>
+<type>jar</type>
+<name>Woodstox</name>
+<summary>Woodstox is a high-performance XML processor that
+        implements Stax (JSR-173), SAX2 and Stax2 APIs</summary>
+<website>https://github.com/FasterXML/woodstox</website>
+<authors>
+<author>
+<name>Tatu Saloranta</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The Apache License, Version 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/FasterXML/woodstox</url>
+<connection>
+<system>git</system>
+<path>git@github.com:FasterXML/woodstox.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:FasterXML/woodstox.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<url>https://github.com/FasterXML/woodstox/issues</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.codehaus.woodstox:stax2-api</id>
+<version>4.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.fasterxml.woodstox</maven.groupid>
+<maven.artifactid>woodstox-core</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.sun.xml.fastinfoset:FastInfoset</id>
+<version>1.2.16</version>
+<type>jar</type>
+<name>fastinfoset</name>
+<summary>Open Source implementation of the Fast Infoset Standard for Binary XML (http://www.itu.int/ITU-T/asn1/).</summary>
+<website>https://projects.eclipse.org/projects/ee4j.jaxb-impl/FastInfoset</website>
+<authors>
+<author>
+<name>Roman Grigoriadi</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+<license>
+<name>Eclipse Distribution License - v 1.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/eclipse-ee4j/jaxb-fi/FastInfoset</url>
+<connection>
+<system>git</system>
+<path>ssh://git@github.com/eclipse-ee4j/jaxb-fi.git/FastInfoset</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>ssh://git@github.com/eclipse-ee4j/jaxb-fi.git/FastInfoset</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>github</system>
+<url>https://github.com/eclipse-ee4j/jaxb-fi/issues</url>
+</issuemanagement>
+<manageddependencies>
+<dependency>
+<id>org.apache.maven:maven-plugin-tools-api</id>
+<version>2.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>org.glassfish.jaxb:xsom</id>
+<version>2.3.2</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+<dependency>
+<id>com.sun.xml.stream.buffer:streambuffer</id>
+<version>1.5.7</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>com.sun.xml.fastinfoset</maven.groupid>
+<maven.artifactid>FastInfoset</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><extension>
+<id>sidali:document-panels-application</id>
+<version>1.0</version>
+<type>xar</type>
+<name>Document panels application </name>
+<summary>This is a simple tool to create text panels for the current document</summary>
+<description>Document Panel Application allows creation of text panels for the current document. Users with edit rights on the curent document where is placed the panel will be able to modify its content. The panels will be displayed only if they contain informations or if users have edit permissions (admins will always see the panels).&#13;
+&#13;
+{{image reference=panel_app.png/}}&#13;
+&#13;
+</description>
+<website>http://extensions.xwiki.org/xwiki/bin/view/Extension/Document%20panels%20application</website>
+<authors>
+<author>
+<name>Djebloun Sidali</name>
+<url>https://www.xwiki.org/xwiki/bin/view/XWiki/Sidali</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>GNU Lesser General Public License 2.1</name>
+</license>
+</licenses>
+<scm>
+<url/>
+</scm>
+<properties>
+<installed.installed type="boolean">true</installed.installed>
+<installed.namespaces type="strinkeygmap">
+<wiki:xwiki type="strinkeygmap">
+<date type="date">1559896424673</date>
+<installed.namespaces.dependency type="boolean">false</installed.namespaces.dependency>
+<user.reference>xwiki:XWiki.AntoineDuquennoy</user.reference>
+</wiki:xwiki>
+</installed.namespaces>
+</properties>
+</extension>

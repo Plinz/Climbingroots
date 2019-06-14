@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.jnr:jnr-netdb</id>
+<version>1.1.6</version>
+<type>jar</type>
+<name>jnr-netdb</name>
+<summary>Lookup TCP and UDP services from java</summary>
+<website>http://github.com/jnr/jnr-netdb</website>
+<authors>
+<author>
+<name>Wayne Meissner</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>git@github.com:jnr/jnr-netdb.git</url>
+<connection>
+<system>git</system>
+<path>git@github.com:jnr/jnr-netdb.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:jnr/jnr-netdb.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>com.github.jnr:jnr-ffi</id>
+<version>2.1.0</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.github.jnr</maven.groupid>
+<maven.artifactid>jnr-netdb</maven.artifactid>
+</properties>
+</extension>

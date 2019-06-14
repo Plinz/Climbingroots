@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><extension>
+<id>mstaicu:parent-children-livetable-macro</id>
+<version>1.2</version>
+<type>xar</type>
+<name>Parent-Children Livetable macro</name>
+<category/>
+<summary>Display a livetable containing one level of parent-children granularity</summary>
+<description>Display a livetable containing one level of parent-children granularity, where parent is defined by a document in the given space that is not the space home page, has no parent or it's parent is the space home page.&#13;
+&#13;
+{{info}}&#13;
+Starting with XWiki 7.2, each non-terminal Page now supports displaying Children Pages through the ##children## view (available from the Action Menu or by adding ##?viewer=children## to the URL).&#13;
+{{/info}}&#13;
+&#13;
+== Usage ==&#13;
+&#13;
+=== Parameters ====&#13;
+&#13;
+|=Name|=Mandatory|=Description&#13;
+|space|no|Space name to display the livetable for. The default value is the current space.&#13;
+|order|no|The order to sort document titles by. The default value is asc.&#13;
+|rowCount|no|Set the number of livetable rows. Default value is 10. {{info}} Since 1.2.{{/info}}&#13;
+&#13;
+== Examples ==&#13;
+&#13;
+=== Simple usage ===&#13;
+&#13;
+{{code}}&#13;
+  {{parentschildrenlivetable space="XWiki" order="asc" rowCount="10"/}}&#13;
+{{/code}}&#13;
+&#13;
+The parent-child hierarchy is displayed only on the ordering by the document title. Otherwise, the hierarchy is dropped, i.e. a normal livetable is displayed.&#13;
+The parent is any document which has either an 'empty' parent or the WebHome page of the given space as a parent.&#13;
+&#13;
+Results in:&#13;
+&#13;
+{{image reference="parent-children-livetable-screenshot.png"/}}&#13;
+&#13;
+The rows with a background color are highlighted in regards to the fact that those are documents which have no title set.</description>
+<website>http://extensions.xwiki.org/xwiki/bin/view/Extension/Parent-Children%20Livetable%20macro</website>
+<authors>
+<author>
+<name>Raluca Stavro</name>
+<url>https://www.xwiki.org/xwiki/bin/view/XWiki/RalucaMorosan</url>
+</author>
+<author>
+<name>Mircea Staicu</name>
+<url>https://www.xwiki.org/xwiki/bin/view/XWiki/mstaicu</url>
+</author>
+<author>
+<name>Marius Dumitru Florea</name>
+<url>https://www.xwiki.org/xwiki/bin/view/XWiki/mflorea</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>GNU Lesser General Public License 2.1</name>
+</license>
+</licenses>
+<scm>
+<url/>
+<connection>
+<system>git</system>
+<path/>
+</connection>
+<developerconnection>
+<system>git</system>
+<path/>
+</developerconnection>
+</scm>
+<properties>
+<installed.installed type="boolean">false</installed.installed>
+</properties>
+</extension>

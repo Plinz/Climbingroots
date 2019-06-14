@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.webjars.bower:moment-jdateformatparser</id>
+<version>1.0.2</version>
+<type>jar</type>
+<name>moment-jdateformatparser</name>
+<summary>WebJar for moment-jdateformatparser</summary>
+<website>http://webjars.org</website>
+<authors>
+<author>
+<name>webjars</name>
+<url>http://webjars.org</url>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The MIT License</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/MadMG/moment-jdateformatparser</url>
+<connection>
+<system>https</system>
+<path>//github.com/MadMG/moment-jdateformatparser.git</path>
+</connection>
+<developerconnection>
+<system>https</system>
+<path>//github.com/MadMG/moment-jdateformatparser.git</path>
+</developerconnection>
+</scm>
+<properties>
+<maven.groupid>org.webjars.bower</maven.groupid>
+<maven.artifactid>moment-jdateformatparser</maven.artifactid>
+</properties>
+</extension>

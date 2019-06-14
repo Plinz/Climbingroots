@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>jakarta.activation:jakarta.activation-api</id>
+<version>1.2.1</version>
+<type>jar</type>
+<name>JavaBeans Activation Framework API jar</name>
+<summary>JavaBeans Activation Framework API jar</summary>
+<website>https://github.com/eclipse-ee4j/jaf/jakarta.activation-api</website>
+<extensionfeatures>
+<feature>
+<feature>com.sun.activation:javax.activation</feature>
+<version>1.2.1</version>
+</feature>
+</extensionfeatures>
+<features>
+<feature>com.sun.activation:javax.activation</feature>
+</features>
+<authors>
+<author>
+<name>Bill Shannon</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>EDL 1.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/eclipse-ee4j/jaf/jakarta.activation-api</url>
+<connection>
+<system>git</system>
+<path>ssh://git@github.com/eclipse/jaf.git/jakarta.activation-api</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>ssh://git@github.com/eclipse/jaf.git/jakarta.activation-api</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>github</system>
+<url>https://github.com/eclipse-ee4j/jaf/issues/</url>
+</issuemanagement>
+<manageddependencies>
+<dependency>
+<id>com.sun.activation:jakarta.activation</id>
+<version>1.2.1</version>
+<optional type="boolean">false</optional>
+<properties/>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>jakarta.activation</maven.groupid>
+<maven.artifactid>jakarta.activation-api</maven.artifactid>
+</properties>
+</extension>

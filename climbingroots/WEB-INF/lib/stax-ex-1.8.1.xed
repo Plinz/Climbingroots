@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.jvnet.staxex:stax-ex</id>
+<version>1.8.1</version>
+<type>jar</type>
+<name>Extended StAX API</name>
+<summary>Extensions to JSR-173 StAX API.</summary>
+<website>https://projects.eclipse.org/projects/ee4j/stax-ex</website>
+<authors>
+<author>
+<name>Roman Grigoriadi</name>
+</author>
+<author>
+<name>Zheng Jun Li</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Eclipse Distribution License - v 1.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/eclipse-ee4j/jaxb-stax-ex</url>
+<connection>
+<system>git</system>
+<path>ssh://git@github.com/eclipse-ee4j/jaxb-stax-ex.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>ssh://git@github.com/eclipse-ee4j/jaxb-stax-ex.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>IssueTracker</system>
+<url>https://github.com/eclipse-ee4j/jaxb-stax-ex/issues</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>jakarta.activation:jakarta.activation-api</id>
+<version>1.2.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>jakarta.xml.bind:jakarta.xml.bind-api</id>
+<version>2.3.2</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.jvnet.staxex</maven.groupid>
+<maven.artifactid>stax-ex</maven.artifactid>
+</properties>
+</extension>

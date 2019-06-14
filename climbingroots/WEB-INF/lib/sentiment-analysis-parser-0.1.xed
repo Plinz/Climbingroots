@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>edu.usc.ir:sentiment-analysis-parser</id>
+<version>0.1</version>
+<type>jar</type>
+<name>SentimentAnalysisParser</name>
+<summary>Combines Apache OpenNLP and Apache Tika and provides facilities for automatically deriving sentiment from text.</summary>
+<website>https://github.com/USCDataScience/SentimentAnalysisParser</website>
+<authors>
+<author>
+<name>Anastasija Mensikova</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>The Apache License, Version 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/USCDataScience/SentimentAnalysisParser.git</url>
+<connection>
+<system>git</system>
+<path>git://github.com/USCDataScience/SentimentAnalysisParser.git</path>
+</connection>
+</scm>
+<dependencies>
+<dependency>
+<id>org.apache.tika:tika-core</id>
+<version>1.13</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.tika:tika-parsers</id>
+<version>1.13</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.tika:tika-langdetect</id>
+<version>1.13</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.tika:tika-batch</id>
+<version>1.13</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.apache.opennlp:opennlp-tools</id>
+<version>1.6.0</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-log4j12</id>
+<version>1.7.21</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:jul-to-slf4j</id>
+<version>1.7.21</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:jcl-over-slf4j</id>
+<version>1.7.21</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>log4j:log4j</id>
+<version>1.2.17</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>edu.usc.ir</maven.groupid>
+<maven.artifactid>sentiment-analysis-parser</maven.artifactid>
+</properties>
+</extension>

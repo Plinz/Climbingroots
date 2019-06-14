@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.ow2.asm:asm-commons</id>
+<version>7.1</version>
+<type>jar</type>
+<name>asm-commons</name>
+<summary>Usefull class adapters based on ASM, a very small and fast Java bytecode manipulation framework</summary>
+<website>http://asm.ow2.org/</website>
+<authors>
+<author>
+<name>Eric Bruneton</name>
+</author>
+<author>
+<name>Eugene Kuleshov</name>
+</author>
+<author>
+<name>Remi Forax</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>https://gitlab.ow2.org/asm/asm/</url>
+<connection>
+<system>git</system>
+<path>https://gitlab.ow2.org/asm/asm/</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>https://gitlab.ow2.org/asm/asm/</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<url>https://gitlab.ow2.org/asm/asm/issues</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.ow2.asm:asm</id>
+<version>7.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-tree</id>
+<version>7.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-analysis</id>
+<version>7.1</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.ow2.asm</maven.groupid>
+<maven.artifactid>asm-commons</maven.artifactid>
+</properties>
+</extension>

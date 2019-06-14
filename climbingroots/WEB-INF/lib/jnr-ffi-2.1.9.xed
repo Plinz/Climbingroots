@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.github.jnr:jnr-ffi</id>
+<version>2.1.9</version>
+<type>jar</type>
+<name>jnr-ffi</name>
+<summary>A library for invoking native functions from java</summary>
+<website>http://github.com/jnr/jnr-ffi</website>
+<authors>
+<author>
+<name>Wayne Meissner</name>
+</author>
+<author>
+<name>Charles Oliver Nutter</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>git@github.com:jnr/jnr-ffi.git</url>
+<connection>
+<system>git</system>
+<path>git@github.com:jnr/jnr-ffi.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:jnr/jnr-ffi.git</path>
+</developerconnection>
+</scm>
+<dependencies>
+<dependency>
+<id>com.github.jnr:jffi</id>
+<version>1.2.17</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>com.github.jnr:jffi:native</id>
+<version>1.2.16</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm</id>
+<version>5.0.3</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-commons</id>
+<version>5.0.3</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-analysis</id>
+<version>5.0.3</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-tree</id>
+<version>5.0.3</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.ow2.asm:asm-util</id>
+<version>5.0.3</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>com.github.jnr:jnr-a64asm</id>
+<version>1.0.0</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>com.github.jnr:jnr-x86asm</id>
+<version>1.0.2</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>com.github.jnr</maven.groupid>
+<maven.artifactid>jnr-ffi</maven.artifactid>
+</properties>
+</extension>

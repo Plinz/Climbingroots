@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><extension>
+<id>org.tuckey:urlrewritefilter</id>
+<version>4.0.3</version>
+<type>jar</type>
+<name>UrlRewriteFilter</name>
+<summary>A Java Web Filter for any J2EE compliant web application server (such as Resin, Orion or Tomcat), which
+        allows you to rewrite URLs before they get to your code. It is a very powerful tool just like Apache's
+        mod_rewrite.</summary>
+<website>http://www.tuckey.org/urlrewrite/</website>
+<authors>
+<author>
+<name>Paul Tuckey</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>https://urlrewritefilter.googlecode.com/svn/trunk</url>
+<connection>
+<system>svn</system>
+<path>https://urlrewritefilter.googlecode.com/svn/trunk</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://urlrewritefilter.googlecode.com/svn/trunk</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<url>http://code.google.com/p/urlrewritefilter/issues/list</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>commons-httpclient:commons-httpclient</id>
+<version>3.1</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.5.2</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.tuckey</maven.groupid>
+<maven.artifactid>urlrewritefilter</maven.artifactid>
+<core.url type="url">file:/usr/lib/xwiki/WEB-INF/lib/urlrewritefilter-4.0.3.jar</core.url>
+<core.descriptorurl type="url">jar:file:/usr/lib/xwiki/WEB-INF/lib/urlrewritefilter-4.0.3.jar!/META-INF/maven/org.tuckey/urlrewritefilter/pom.xml</core.descriptorurl>
+</properties>
+</extension>

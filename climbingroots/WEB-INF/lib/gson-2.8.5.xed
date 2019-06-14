@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.google.code.gson:gson</id>
+<version>2.8.5</version>
+<type>jar</type>
+<name>Gson</name>
+<summary>Gson JSON library</summary>
+<website>https://github.com/google/gson/gson</website>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/google/gson/gson/</url>
+<connection>
+<system>git</system>
+<path>https://github.com/google/gson.git/gson</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:google/gson.git/gson</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>GitHub Issues</system>
+<url>https://github.com/google/gson/issues</url>
+</issuemanagement>
+<manageddependencies>
+<dependency>
+<id>junit:junit</id>
+<version>4.12</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>test</maven.dependency.scope>
+</properties>
+</dependency>
+</manageddependencies>
+<properties>
+<maven.groupid>com.google.code.gson</maven.groupid>
+<maven.artifactid>gson</maven.artifactid>
+</properties>
+</extension>

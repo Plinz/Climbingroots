@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="450"
+   height="185"
+   viewBox="0 0 450 185"
+   version="1.1"
+   id="svg2">
+  <title
+     id="title4">XWiki</title>
+  <defs
+     id="defs8" />
+  <g
+     id="Page-1"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="translate(52.297119,48.208191)">
+    <rect
+       height="185.07042"
+       width="450"
+       y="-48.27861"
+       x="-52.297119"
+       id="rect4151" />
+    <g
+       id="g4180"
+       transform="translate(18.422716,-7.5766631)">
+      <g
+         id="use11"
+         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,44.055086,11.528175)"
+         style="stroke:#ffffff;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:round">
+        <g
+           id="dash">
+          <path
+             d="M 0,11 11,0"
+             id="path9" />
+        </g>
+      </g>
+      <g
+         id="use13"
+         transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,92.13835,44.055086)"
+         style="stroke:#ffffff;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:round">
+        <g
+           id="g17">
+          <path
+             d="M 0,11 11,0"
+             id="path19" />
+        </g>
+      </g>
+      <g
+         id="use15"
+         transform="matrix(-0.70710678,0.70710678,-0.70710678,-0.70710678,59.611436,92.13835)"
+         style="stroke:#ffffff;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:round">
+        <g
+           id="g22">
+          <path
+             d="M 0,11 11,0"
+             id="path24" />
+        </g>
+      </g>
+      <g
+         id="use17"
+         transform="matrix(-0.70710678,-0.70710678,0.70710678,-0.70710678,11.528175,59.611436)"
+         style="stroke:#ffffff;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:round">
+        <g
+           id="g27">
+          <path
+             d="M 0,11 11,0"
+             id="path29" />
+        </g>
+      </g>
+      <path
+         d="M 16.833261,11.833261 86.83326,91.83326"
+         id="line19"
+         style="stroke:#ffffff;stroke-width:13;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="M 16.833261,91.83326 86.83326,11.833261"
+         id="line21"
+         style="stroke:#ffffff;stroke-width:13;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 110.83326,10.333261 15.95,82.939999 28.71,-82.939999 28.71,82.939999 15.95,-82.939999 m 17.545,0 0,82.939999 m 20.735,-82.939999 0,82.939999 m 47.85,-82.939999 -41.47,41.47 41.47,41.469999 m 17.545,-82.939999 0,82.939999"
+         id="path23"
+         style="stroke:#ffffff;stroke-width:9.56999969;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+  </g>
+</svg>

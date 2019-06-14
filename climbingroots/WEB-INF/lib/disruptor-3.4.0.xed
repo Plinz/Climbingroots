@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>com.lmax:disruptor</id>
+<version>3.4.0</version>
+<type>jar</type>
+<name>Disruptor Framework</name>
+<summary>Disruptor - Concurrent Programming Framework</summary>
+<website>http://lmax-exchange.github.com/disruptor</website>
+<authors>
+<author>
+<name>LMAX Disruptor Development Team</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>scm:git@github.com:LMAX-Exchange/disruptor.git</url>
+<connection>
+<system>git@github.com</system>
+<path>LMAX-Exchange/disruptor.git</path>
+</connection>
+</scm>
+<properties>
+<maven.groupid>com.lmax</maven.groupid>
+<maven.artifactid>disruptor</maven.artifactid>
+</properties>
+</extension>

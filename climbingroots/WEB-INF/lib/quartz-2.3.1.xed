@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>org.quartz-scheduler:quartz</id>
+<version>2.3.1</version>
+<type>jar</type>
+<name>quartz</name>
+<summary>Enterprise Job Scheduler</summary>
+<website>http://www.quartz-scheduler.org/quartz</website>
+<authors>
+<author>
+<name>James House</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/quartz-scheduler/quartz/quartz</url>
+<connection>
+<system>git</system>
+<path>git@github.com:quartz-scheduler/quartz.git/quartz</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:quartz-scheduler/quartz.git/quartz</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>Terracotta's JIRA</system>
+<url>https://github.com/quartz-scheduler/quartz/issues</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>com.mchange:c3p0</id>
+<version>0.9.5.3</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>com.mchange:mchange-commons-java</id>
+<version>0.2.15</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>com.zaxxer:HikariCP-java7</id>
+<version>2.4.13</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>org.slf4j:slf4j-api</id>
+<version>1.7.7</version>
+<optional type="boolean">false</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.quartz-scheduler</maven.groupid>
+<maven.artifactid>quartz</maven.artifactid>
+</properties>
+</extension>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>javax.measure:unit-api</id>
+<version>1.0</version>
+<type>jar</type>
+<name>Units of Measurement API</name>
+<summary>Units of Measurement Standard - This JSR specifies Java packages for modeling and working with measurement values, quantities and their corresponding units.</summary>
+<website>http://unitsofmeasurement.github.io/</website>
+<authors>
+<author>
+<name>Jean-Marie Dautelle</name>
+</author>
+<author>
+<name>Werner Keil</name>
+</author>
+<author>
+<name>Leonardo de Moura Rocha Lima</name>
+</author>
+<author>
+<name>Martin Desruisseaux</name>
+</author>
+<author>
+<name>Otávio Gonçalves de Santana</name>
+</author>
+<author>
+<name>Almas Shaikh</name>
+</author>
+<author>
+<name>Chris Senior</name>
+</author>
+<author>
+<name>Rajmahendra Hegde</name>
+</author>
+<author>
+<name>Karen Legrand</name>
+</author>
+<author>
+<name>Mohamed Mahmoud Taman</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>BSD License</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/unitsofmeasurement/unit-api</url>
+<connection>
+<system>git</system>
+<path>git@github.com:unitsofmeasurement/unit-api.git</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:unitsofmeasurement/unit-api.git</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>JIRA</system>
+<url>https://java.net/jira/browse/UNITSOFMEASUREMENT</url>
+</issuemanagement>
+<properties>
+<maven.groupid>javax.measure</maven.groupid>
+<maven.artifactid>unit-api</maven.artifactid>
+</properties>
+</extension>

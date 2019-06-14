@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension>
+<id>commons-chain:commons-chain</id>
+<version>1.2</version>
+<type>jar</type>
+<name>Commons Chain</name>
+<summary>An implementation of the GoF Chain of Responsibility pattern</summary>
+<website>http://commons.apache.org/chain/</website>
+<authors>
+<author>
+<name>Craig McClanahan</name>
+</author>
+<author>
+<name>Ted Husted</name>
+</author>
+<author>
+<name>Martin Cooper</name>
+</author>
+<author>
+<name>Don Brown</name>
+</author>
+<author>
+<name>James Mitchell</name>
+</author>
+<author>
+<name>Joe Germuska</name>
+</author>
+<author>
+<name>Niall Pemberton</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/chain/trunk/</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/chain/trunk/</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/chain/trunk/</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/CHAIN</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>commons-beanutils:commons-beanutils</id>
+<version>1.7.0</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>commons-digester:commons-digester</id>
+<version>1.8</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>commons-logging:commons-logging</id>
+<version>1.1.1</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>javax.servlet:servlet-api</id>
+<version>2.3</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>javax.portlet:portlet-api</id>
+<version>1.0</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+<dependency>
+<id>myfaces:myfaces-api</id>
+<version>1.1.0</version>
+<optional type="boolean">true</optional>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>commons-chain</maven.groupid>
+<maven.artifactid>commons-chain</maven.artifactid>
+</properties>
+</extension>
