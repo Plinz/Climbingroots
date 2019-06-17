@@ -5,6 +5,10 @@ xwiki.iconset.render.html = <img src="$xwiki.getSkinFile("icons/silk/${icon}.png
 xwiki.iconset.icon.url = $xwiki.getSkinFile("icons/silk/${icon}.png")
 
 ## XWiki Icon Set (see: http://design.xwiki.org/xwiki/bin/view/Proposal/XWiki+Icon+Set).
+signin = signin
+logout = logout
+country = country
+ideas = ideas
 route = route
 crag = crag
 climber = climber
@@ -87,7 +91,8 @@ female = female
 male = male
 film = film
 flag = flag_blue
-search = magnifier
+search = loupe
+##search = magnifier
 search-plus = zoom_in
 search-minus = zoom_out
 folder = folder
