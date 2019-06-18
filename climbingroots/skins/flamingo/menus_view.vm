@@ -48,7 +48,7 @@
   </li>
   #if ($xwiki.hasAccessLevel('register', 'XWiki.XWikiPreferences'))
     <li>
-      <a href="$xwiki.getURL('XWiki.XWikiRegister', 'register', "xredirect=$escapetool.url($xwiki.relativeRequestURL)")" id="tmRegister" rel="nofollow">$services.icon.renderHTML('signin') $escapetool.xml($services.localization.render('register'))</a>
+      <a href="$xwiki.getURL('XWiki.XWikiRegister', 'register', "xredirect=$escapetool.url($xwiki.relativeRequestURL)")" id="tmRegister" rel="nofollow">$services.icon.renderHTML('logout') $escapetool.xml($services.localization.render('register'))</a>
     </li>
   #end
 #end
