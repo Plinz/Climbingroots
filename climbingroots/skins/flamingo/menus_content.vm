@@ -17,7 +17,7 @@
 ##
 ## Display the main menus
 ##
-#if ($hasCreateSpace && $displayContentMenu)
+#if ($hasGlobalAdmin && $hasCreateSpace && $displayContentMenu)
   #template("menus_macros.vm")
   ##
   #set ($topStaticExtensions = [])
